@@ -1,0 +1,261 @@
+[
+  {
+    "file": "01-ov.webp",
+    "thumb": "01-ov.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Overview",
+    "role": "hero",
+    "title": "Faculty research at a glance",
+    "caption": "The overview I built for a faculty of 114 academics: headline figures with the counting rule beside them, and key findings written from the numbers.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.201,
+        "y": 0.208,
+        "text": "1,637 unique papers, each counted once"
+      },
+      {
+        "n": 2,
+        "x": 0.87,
+        "y": 0.208,
+        "text": "109 of 114 staff credited with a paper"
+      },
+      {
+        "n": 3,
+        "x": 0.265,
+        "y": 0.37,
+        "text": "Key findings change with the chosen period"
+      },
+      {
+        "n": 4,
+        "x": 0.085,
+        "y": 0.635,
+        "text": "The credit rule is stated on the page"
+      }
+    ]
+  },
+  {
+    "file": "02-top.webp",
+    "thumb": "02-top.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Report header",
+    "role": "strip",
+    "title": "Report header",
+    "caption": "The report opens with who is counted, the window and every data source.",
+    "markers": []
+  },
+  {
+    "file": "03-ov2.webp",
+    "thumb": "03-ov2.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Where it stands",
+    "role": "strip",
+    "title": "Output by year and quartile mix by cluster",
+    "caption": "Papers per year by document type, and the journal quartile mix for each of the four clusters.",
+    "markers": []
+  },
+  {
+    "file": "04-tr.webp",
+    "thumb": "04-tr.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Trends",
+    "role": "inline",
+    "near": "2025 has the most papers in the recent window",
+    "title": "Faculty papers per year",
+    "caption": "Unique papers each year with a three-year moving average; 2026 is projected from a partial year.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.826,
+        "y": 0.28,
+        "text": "2025: 179 papers, the highest year"
+      },
+      {
+        "n": 2,
+        "x": 0.89,
+        "y": 0.448,
+        "text": "2026 projected from a partial year"
+      },
+      {
+        "n": 3,
+        "x": 0.47,
+        "y": 0.42,
+        "text": "Three-year moving average"
+      },
+      {
+        "n": 4,
+        "x": 0.55,
+        "y": 0.645,
+        "text": "Year-on-year change in the table"
+      }
+    ]
+  },
+  {
+    "file": "05-bm.webp",
+    "thumb": "05-bm.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Benchmark",
+    "role": "strip",
+    "title": "Benchmark against other universities",
+    "caption": "The faculty next to 19 other Malaysian chemical engineering units, all counted the same way.",
+    "markers": []
+  },
+  {
+    "file": "06-ql.webp",
+    "thumb": "06-ql.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Publishers",
+    "role": "strip",
+    "title": "Where staff publish",
+    "caption": "Share of journal papers by publisher, and the journals used most.",
+    "markers": []
+  },
+  {
+    "file": "07-wm.webp",
+    "thumb": "07-wm.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Web of Science",
+    "role": "inline",
+    "near": "783 of 886 WoS records match the FKK Scopus set",
+    "title": "Web of Science coverage check",
+    "caption": "A second index used as a check: 886 Web of Science records, of which 783 match the Scopus set.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.18,
+        "y": 0.277,
+        "text": "886 Web of Science records"
+      },
+      {
+        "n": 2,
+        "x": 0.755,
+        "y": 0.181,
+        "text": "783 also found in the Scopus set"
+      },
+      {
+        "n": 3,
+        "x": 0.83,
+        "y": 0.277,
+        "text": "89 found only in Web of Science"
+      }
+    ]
+  },
+  {
+    "file": "08-xl-wos.webp",
+    "thumb": "08-xl-wos.thumb.webp",
+    "w": 1800,
+    "h": 715,
+    "frame": "sheet",
+    "label": "WoS sheet",
+    "role": "strip",
+    "title": "Web of Science sheet",
+    "caption": "Record-level Web of Science data: title, source, index, quartile and citations.",
+    "markers": []
+  },
+  {
+    "file": "09-sdg.webp",
+    "thumb": "09-sdg.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "SDGs",
+    "role": "inline",
+    "near": "Clean energy leads these five SDG themes",
+    "title": "Sustainable Development Goals",
+    "caption": "Papers mapped to the UN goals with Elsevier's search queries. Affordable and clean energy (goal 7) has the most.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.345,
+        "y": 0.705,
+        "text": "Goal 7, clean energy, is the longest spoke"
+      },
+      {
+        "n": 2,
+        "x": 0.85,
+        "y": 0.875,
+        "text": "196 clean-energy papers from 62 staff"
+      },
+      {
+        "n": 3,
+        "x": 0.62,
+        "y": 0.54,
+        "text": "Mapping only appears from 2020 onward"
+      }
+    ]
+  },
+  {
+    "file": "10-pz.webp",
+    "thumb": "10-pz.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Priorities",
+    "role": "strip",
+    "title": "Research priorities over time",
+    "caption": "Papers in clean energy, water and air by year, and by cluster.",
+    "markers": []
+  },
+  {
+    "file": "11-map.webp",
+    "thumb": "11-map.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Collaboration map",
+    "role": "strip",
+    "title": "Collaboration map",
+    "caption": "Partner countries by joint papers; Indonesia leads.",
+    "markers": []
+  },
+  {
+    "file": "12-net.webp",
+    "thumb": "12-net.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Co-author network",
+    "role": "strip",
+    "title": "Co-authorship network",
+    "caption": "Which staff publish together, coloured by cluster. Names are blurred here.",
+    "markers": []
+  },
+  {
+    "file": "13-xl-journals.webp",
+    "thumb": "13-xl-journals.thumb.webp",
+    "w": 1800,
+    "h": 697,
+    "frame": "sheet",
+    "label": "Journals sheet",
+    "role": "strip",
+    "title": "Journals sheet",
+    "caption": "Every source with its publisher, quartiles, CiteScore and Scopus coverage status.",
+    "markers": []
+  },
+  {
+    "file": "14-me.webp",
+    "thumb": "14-me.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Methods",
+    "role": "strip",
+    "title": "How the numbers were built",
+    "caption": "Every counting rule is written out, from the staff list to authorship roles and journal quality.",
+    "markers": []
+  }
+]

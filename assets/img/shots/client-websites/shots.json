@@ -1,0 +1,346 @@
+[
+  {
+    "file": "01-sperc-home.webp",
+    "thumb": "01-sperc-home.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io",
+    "role": "hero",
+    "near": "",
+    "title": "SPERC research centre home page",
+    "caption": "The front door of a public website for a university research centre. Visitors can switch between English and Malay and reach every section from the top bar.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.022,
+        "y": 0.32,
+        "text": "Centre name and department, set as a large headline"
+      },
+      {
+        "n": 2,
+        "x": 0.25,
+        "y": 0.048,
+        "text": "One menu for research, people, publications, impact and partners"
+      },
+      {
+        "n": 3,
+        "x": 0.885,
+        "y": 0.05,
+        "text": "English / Malay switch on every page"
+      },
+      {
+        "n": 4,
+        "x": 0.022,
+        "y": 0.818,
+        "text": "Two clear next steps for visitors"
+      }
+    ]
+  },
+  {
+    "file": "02-sperc-publication-dashboard.webp",
+    "thumb": "02-sperc-publication-dashboard.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/publications",
+    "role": "inline",
+    "near": "UPM SPERC",
+    "title": "Publication dashboard",
+    "caption": "Headline research figures and a yearly publication trend, built from a cleaned list of the centre's papers.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.03,
+        "y": 0.2,
+        "text": "Key figures, each with its time window stated"
+      },
+      {
+        "n": 2,
+        "x": 0.475,
+        "y": 0.535,
+        "text": "Papers per year, with the peak labelled"
+      }
+    ]
+  },
+  {
+    "file": "03-wanazlina-home.webp",
+    "thumb": "03-wanazlina-home.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wanazlina.github.io",
+    "role": "inline",
+    "near": "A personal academic website for a UPM professor",
+    "title": "Professor's personal website",
+    "caption": "A personal academic site for a UPM professor: who she is, what she works on, and links to her CV and research profiles.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.47,
+        "y": 0.256,
+        "text": "Name and current roles up front"
+      },
+      {
+        "n": 2,
+        "x": 0.775,
+        "y": 0.885,
+        "text": "Short biography with a downloadable CV"
+      }
+    ]
+  },
+  {
+    "file": "04-sperc-process-diagram.webp",
+    "thumb": "04-sperc-process-diagram.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/projects",
+    "role": "inline",
+    "near": "Interactive research diagrams",
+    "title": "Interactive research diagram",
+    "caption": "Visitors can switch between two routes that turn plant waste into fuels and products; the diagram highlights the chosen path.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.535,
+        "y": 0.37,
+        "text": "Heat-based conversion route"
+      },
+      {
+        "n": 2,
+        "x": 0.535,
+        "y": 0.685,
+        "text": "Biological conversion route"
+      },
+      {
+        "n": 3,
+        "x": 0.558,
+        "y": 0.213,
+        "text": "Buttons to show one route or both"
+      }
+    ]
+  },
+  {
+    "file": "05-sperc-publications-filtered.webp",
+    "thumb": "05-sperc-publications-filtered.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/publications",
+    "role": "strip",
+    "near": "",
+    "title": "Searchable publication list",
+    "caption": "The full paper list filtered to one research group and top-ranked journals, showing how visitors narrow 1,300+ papers in seconds.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.022,
+        "y": 0.405,
+        "text": "Filters by group, member, year and journal rank"
+      },
+      {
+        "n": 2,
+        "x": 0.42,
+        "y": 0.485,
+        "text": "Live count of matching papers"
+      }
+    ]
+  },
+  {
+    "file": "06-sperc-grants-filtered.webp",
+    "thumb": "06-sperc-grants-filtered.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/projects",
+    "role": "strip",
+    "near": "",
+    "title": "Research grants table",
+    "caption": "Every grant the centre's members hold, filtered here to active grants, with funder, leader, years and amount.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.3,
+        "y": 0.395,
+        "text": "Filtered to active grants"
+      },
+      {
+        "n": 2,
+        "x": 0.265,
+        "y": 0.535,
+        "text": "Count and total value update as you filter"
+      }
+    ]
+  },
+  {
+    "file": "07-sperc-impact.webp",
+    "thumb": "07-sperc-impact.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/impact",
+    "role": "strip",
+    "near": "",
+    "title": "Impact summary",
+    "caption": "The centre's track record at a glance: papers, citations, funding and graduates.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.14,
+        "y": 0.613,
+        "text": "Total grants"
+      },
+      {
+        "n": 2,
+        "x": 0.43,
+        "y": 0.54,
+        "text": "Total grant funding in ringgit"
+      }
+    ]
+  },
+  {
+    "file": "08-sperc-world-map.webp",
+    "thumb": "08-sperc-world-map.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/partners",
+    "role": "strip",
+    "near": "",
+    "title": "Co-author world map",
+    "caption": "Countries shaded by how many papers they share with the centre; tapping a pin lists the partner institutions.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.115,
+        "y": 0.385,
+        "text": "Darker shade means more shared papers"
+      }
+    ]
+  },
+  {
+    "file": "09-sperc-project-activity.webp",
+    "thumb": "09-sperc-project-activity.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/projects",
+    "role": "strip",
+    "near": "",
+    "title": "Project activity charts",
+    "caption": "Grants split by funder type, and a profile comparing what each research group produces.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.095,
+        "y": 0.456,
+        "text": "Grants by funder level"
+      },
+      {
+        "n": 2,
+        "x": 0.61,
+        "y": 0.535,
+        "text": "Each group's grants, papers, awards and patents"
+      }
+    ]
+  },
+  {
+    "file": "10-sperc-career-timeline.webp",
+    "thumb": "10-sperc-career-timeline.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/people/wanazlina",
+    "role": "strip",
+    "near": "",
+    "title": "Career timeline",
+    "caption": "A member profile page lists past and present roles in date order.",
+    "markers": []
+  },
+  {
+    "file": "11-sperc-home-malay.webp",
+    "thumb": "11-sperc-home-malay.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "sperc-upm.github.io/ms",
+    "role": "strip",
+    "near": "",
+    "title": "Same site in Malay",
+    "caption": "Every page has a Malay version; the switch keeps visitors on the same page.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.86,
+        "y": 0.048,
+        "text": "Malay selected"
+      }
+    ]
+  },
+  {
+    "file": "12-sperc-home-phone.webp",
+    "thumb": "12-sperc-home-phone.thumb.webp",
+    "w": 900,
+    "h": 1948,
+    "frame": "phone",
+    "label": "SPERC on a phone",
+    "role": "strip",
+    "near": "",
+    "title": "SPERC on a phone",
+    "caption": "The same home page on a phone: the menu folds away and the text resizes.",
+    "markers": []
+  },
+  {
+    "file": "13-wanazlina-publications.webp",
+    "thumb": "13-wanazlina-publications.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wanazlina.github.io/publications",
+    "role": "strip",
+    "near": "",
+    "title": "Professor's publication archive",
+    "caption": "Her full paper list, newest first, with search and filters and a copy-citation button.",
+    "markers": []
+  },
+  {
+    "file": "14-wanazlina-citations.webp",
+    "thumb": "14-wanazlina-citations.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wanazlina.github.io/impact",
+    "role": "strip",
+    "near": "",
+    "title": "Citations by year",
+    "caption": "Citations of her work each year, with the peak marked and the numbers also available as a table.",
+    "markers": []
+  },
+  {
+    "file": "15-wanazlina-recognition.webp",
+    "thumb": "15-wanazlina-recognition.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wanazlina.github.io/recognition",
+    "role": "strip",
+    "near": "",
+    "title": "Awards page",
+    "caption": "Honours and medals, each with the awarding body, year and a source visitors can check.",
+    "markers": []
+  },
+  {
+    "file": "16-wanazlina-home-phone.webp",
+    "thumb": "16-wanazlina-home-phone.thumb.webp",
+    "w": 900,
+    "h": 1948,
+    "frame": "phone",
+    "label": "Professor's site on a phone",
+    "role": "strip",
+    "near": "",
+    "title": "Professor's site on a phone",
+    "caption": "The personal site on a phone.",
+    "markers": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-faculty-360.webp",
+    "thumb": "01-faculty-360.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Slide 22 of 40",
+    "role": "hero",
+    "near": "",
+    "title": "The faculty at a glance",
+    "caption": "A slide from a quality audit briefing: the faculty's strengths arranged around one ring, so the panel sees the whole picture on one page.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.39,
+        "y": 0.383,
+        "text": "Central ring numbers each strength"
+      },
+      {
+        "n": 2,
+        "x": 0.535,
+        "y": 0.15,
+        "text": "Each card: one figure and one plain line"
+      },
+      {
+        "n": 3,
+        "x": 0.26,
+        "y": 0.555,
+        "text": "Cards sit beside their ring segment"
+      }
+    ]
+  },
+  {
+    "file": "02-cover.webp",
+    "thumb": "02-cover.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Slide 1 of 40",
+    "role": "strip",
+    "near": "",
+    "title": "Briefing deck cover",
+    "caption": "The cover slide of the audit briefing deck. Presenter name and photo blurred.",
+    "markers": []
+  }
+]

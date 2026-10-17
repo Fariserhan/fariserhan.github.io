@@ -1,0 +1,67 @@
+[
+  {
+    "file": "01-citation-strength.webp",
+    "thumb": "01-citation-strength.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Slide 4 of 20",
+    "role": "hero",
+    "near": "",
+    "title": "Where the centre is cited most",
+    "caption": "A slide from the strategic plan deck: research topics ranked by how often their papers are cited against the world average, so the plan builds on real strengths.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.53,
+        "y": 0.285,
+        "text": "Bars above the line: topics cited above the world average"
+      },
+      {
+        "n": 2,
+        "x": 0.425,
+        "y": 0.715,
+        "text": "Weaker topics, to be re-aimed or merged"
+      },
+      {
+        "n": 3,
+        "x": 0.64,
+        "y": 0.19,
+        "text": "Plain-English reading of the chart"
+      }
+    ]
+  },
+  {
+    "file": "02-four-thrusts.webp",
+    "thumb": "02-four-thrusts.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Slide 6 of 20",
+    "role": "strip",
+    "near": "",
+    "title": "Research thrusts",
+    "caption": "The plan groups the centre's work into a few research thrusts, each tied to the evidence behind it. Lead names are blurred.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.02,
+        "y": 0.24,
+        "text": "Each thrust gets its own colour and evidence line"
+      }
+    ]
+  },
+  {
+    "file": "03-report-cover.webp",
+    "thumb": "03-report-cover.thumb.webp",
+    "w": 1654,
+    "h": 2339,
+    "frame": "doc",
+    "label": "Page 1",
+    "role": "strip",
+    "near": "",
+    "title": "The written plan",
+    "caption": "Cover of the written plan that the deck summarises.",
+    "markers": []
+  }
+]

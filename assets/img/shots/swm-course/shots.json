@@ -1,0 +1,190 @@
+[
+  {
+    "file": "01-wte-calculator.webp",
+    "thumb": "01-wte-calculator.thumb.webp",
+    "w": 1800,
+    "h": 1640,
+    "frame": "browser",
+    "label": "Course web companion",
+    "role": "hero",
+    "near": "",
+    "title": "Waste-to-energy calculator",
+    "caption": "One of the calculators in the course web companion: students change the inputs and see the results and charts update.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.09,
+        "y": 0.078,
+        "text": "Menu of tools"
+      },
+      {
+        "n": 2,
+        "x": 0.292,
+        "y": 0.232,
+        "text": "Inputs students can change"
+      },
+      {
+        "n": 3,
+        "x": 0.293,
+        "y": 0.507,
+        "text": "Results in large tiles"
+      },
+      {
+        "n": 4,
+        "x": 0.293,
+        "y": 0.72,
+        "text": "Chart of the results"
+      }
+    ]
+  },
+  {
+    "file": "02-landfill-sizer.webp",
+    "thumb": "02-landfill-sizer.thumb.webp",
+    "w": 1800,
+    "h": 1250,
+    "frame": "browser",
+    "label": "Course web companion",
+    "role": "inline",
+    "near": "",
+    "title": "Landfill sizer",
+    "caption": "Works out how much space a landfill needs, with the answer shown in plain units.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.293,
+        "y": 0.66,
+        "text": "Answers in large tiles with units"
+      }
+    ]
+  },
+  {
+    "file": "03-self-check-quiz.webp",
+    "thumb": "03-self-check-quiz.thumb.webp",
+    "w": 1800,
+    "h": 1100,
+    "frame": "browser",
+    "label": "Course web companion",
+    "role": "inline",
+    "near": "",
+    "title": "Self-check quizzes",
+    "caption": "Self-check questions for each module, with instant feedback.",
+    "markers": []
+  },
+  {
+    "file": "04-opening-question.webp",
+    "thumb": "04-opening-question.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 1, slide 2 of 105",
+    "role": "strip",
+    "near": "",
+    "title": "Opening question",
+    "caption": "The first module opens with a real Malaysian question before the theory.",
+    "markers": []
+  },
+  {
+    "file": "05-waste-today.webp",
+    "thumb": "05-waste-today.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 1, slide 14 of 105",
+    "role": "inline",
+    "near": "",
+    "title": "Malaysia's waste today",
+    "caption": "Headline national figures shown as large numbers.",
+    "markers": []
+  },
+  {
+    "file": "06-household-waste.webp",
+    "thumb": "06-household-waste.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 1, slide 38 of 105",
+    "role": "strip",
+    "near": "",
+    "title": "What households throw away",
+    "caption": "Household waste broken down by type.",
+    "markers": []
+  },
+  {
+    "file": "07-heating-values.webp",
+    "thumb": "07-heating-values.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 3B, slide 9 of 73",
+    "role": "strip",
+    "near": "",
+    "title": "Not all waste burns the same",
+    "caption": "Heating values compared side by side.",
+    "markers": []
+  },
+  {
+    "file": "08-wte-plant.webp",
+    "thumb": "08-wte-plant.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 3B, slide 27 of 73",
+    "role": "strip",
+    "near": "",
+    "title": "Inside a waste-to-energy plant",
+    "caption": "A step-by-step flow through a waste-to-energy plant.",
+    "markers": []
+  },
+  {
+    "file": "09-digestion.webp",
+    "thumb": "09-digestion.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 3C, slide 36 of 77",
+    "role": "strip",
+    "near": "",
+    "title": "Turning food waste into biogas",
+    "caption": "The stages of anaerobic digestion as simple steps.",
+    "markers": []
+  },
+  {
+    "file": "10-liner.webp",
+    "thumb": "10-liner.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 4, slide 30 of 96",
+    "role": "strip",
+    "near": "",
+    "title": "Landfill liner layers",
+    "caption": "The layers of a landfill liner, with what each one does.",
+    "markers": []
+  },
+  {
+    "file": "11-lca.webp",
+    "thumb": "11-lca.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 5, slide 10 of 74",
+    "role": "strip",
+    "near": "",
+    "title": "Comparing options by carbon",
+    "caption": "Published life-cycle results comparing waste treatment options.",
+    "markers": []
+  },
+  {
+    "file": "12-circular.webp",
+    "thumb": "12-circular.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Module 5, slide 42 of 74",
+    "role": "strip",
+    "near": "",
+    "title": "Keeping materials in use",
+    "caption": "Ways to keep materials in use, ordered by how much value they keep.",
+    "markers": []
+  }
+]

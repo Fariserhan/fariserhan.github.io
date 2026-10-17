@@ -1,0 +1,358 @@
+[
+  {
+    "file": "01-town-home.webp",
+    "thumb": "01-town-home.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io",
+    "role": "hero",
+    "near": "",
+    "title": "WasteQuest pixel town",
+    "caption": "The home screen is a small town that gets cleaner as the player earns badges. Each building opens one part of the course.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.195,
+        "y": 0.315,
+        "text": "How clean the town is so far"
+      },
+      {
+        "n": 2,
+        "x": 0.645,
+        "y": 0.315,
+        "text": "Badges earned out of 31"
+      },
+      {
+        "n": 3,
+        "x": 0.195,
+        "y": 0.4,
+        "text": "Shortcuts to missions, shop and the class event"
+      },
+      {
+        "n": 4,
+        "x": 0.41,
+        "y": 0.635,
+        "text": "Each building is a course section; stars show progress"
+      },
+      {
+        "n": 5,
+        "x": 0.637,
+        "y": 0.035,
+        "text": "English / Malay switch"
+      }
+    ]
+  },
+  {
+    "file": "02-quiz.webp",
+    "thumb": "02-quiz.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Eco Quiz Blast",
+    "role": "inline",
+    "near": "",
+    "title": "Quiz in progress",
+    "caption": "A timed quiz with Malaysian waste facts. Faster correct answers score more points.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.11,
+        "y": 0.545,
+        "text": "Question based on Malaysian waste data"
+      },
+      {
+        "n": 2,
+        "x": 0.89,
+        "y": 0.545,
+        "text": "Countdown clock"
+      },
+      {
+        "n": 3,
+        "x": 0.11,
+        "y": 0.68,
+        "text": "Large answer buttons that work on phones and projectors"
+      }
+    ]
+  },
+  {
+    "file": "03-lab-video.webp",
+    "thumb": "03-lab-video.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Eco-Candles lab",
+    "role": "inline",
+    "near": "",
+    "title": "Lab with its own narrated video",
+    "caption": "Each hands-on lab has a short narrated video showing the steps, in English and Malay, played straight from the site.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.32,
+        "y": 0.197,
+        "text": "Narrated how-to video for this lab"
+      },
+      {
+        "n": 2,
+        "x": 0.665,
+        "y": 0.33,
+        "text": "Materials list shown in the video"
+      },
+      {
+        "n": 3,
+        "x": 0.665,
+        "y": 0.63,
+        "text": "On-screen captions"
+      }
+    ]
+  },
+  {
+    "file": "04-class-team-mode.webp",
+    "thumb": "04-class-team-mode.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Class Battle",
+    "role": "inline",
+    "near": "",
+    "title": "Team mode for classrooms",
+    "caption": "Teachers run a quiz for 2 to 4 teams on one projector, with no phones or internet needed.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.29,
+        "y": 0.553,
+        "text": "Name the teams"
+      },
+      {
+        "n": 2,
+        "x": 0.66,
+        "y": 0.452,
+        "text": "Pick level, topic and number of questions"
+      },
+      {
+        "n": 3,
+        "x": 0.488,
+        "y": 0.765,
+        "text": "Start the class quiz"
+      }
+    ]
+  },
+  {
+    "file": "05-labs-list.webp",
+    "thumb": "05-labs-list.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Maker Lab",
+    "role": "strip",
+    "near": "",
+    "title": "Hands-on labs",
+    "caption": "15 labs that turn real waste into useful products, filterable by age, time and whether heat is needed.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.11,
+        "y": 0.197,
+        "text": "Filter by age, time and heat"
+      },
+      {
+        "n": 2,
+        "x": 0.445,
+        "y": 0.268,
+        "text": "Tick shows a lab already made"
+      }
+    ]
+  },
+  {
+    "file": "06-lab-page.webp",
+    "thumb": "06-lab-page.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Eco-Candles lab",
+    "role": "strip",
+    "near": "",
+    "title": "A lab page",
+    "caption": "Each lab shows age, time, difficulty and safety notes before the steps begin.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.11,
+        "y": 0.83,
+        "text": "Safety and adult supervision note"
+      }
+    ]
+  },
+  {
+    "file": "07-badges.webp",
+    "thumb": "07-badges.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · My Badges",
+    "role": "strip",
+    "near": "",
+    "title": "Badge wall",
+    "caption": "Badges for every game, simulation and lab. Grey ones are still to earn.",
+    "markers": []
+  },
+  {
+    "file": "08-certificates.webp",
+    "thumb": "08-certificates.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Certificates",
+    "role": "strip",
+    "near": "",
+    "title": "Three certificate tracks",
+    "caption": "Learners pass a final quiz to print a certificate at one of three levels.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.215,
+        "y": 0.6,
+        "text": "Entry level for children"
+      },
+      {
+        "n": 2,
+        "x": 0.715,
+        "y": 0.652,
+        "text": "Highest level for adults"
+      }
+    ]
+  },
+  {
+    "file": "09-ebook.webp",
+    "thumb": "09-ebook.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · eBook",
+    "role": "strip",
+    "near": "",
+    "title": "Flip-page eBook",
+    "caption": "The whole course as a page-turning eBook, with a reading level picker and a PDF download.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.59,
+        "y": 0.142,
+        "text": "Choose a reading level"
+      }
+    ]
+  },
+  {
+    "file": "10-teacher-hub.webp",
+    "thumb": "10-teacher-hub.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Teacher Hub",
+    "role": "strip",
+    "near": "",
+    "title": "Teacher Hub",
+    "caption": "Lesson plans, learning outcomes, safety rules, rubrics and downloads for teachers.",
+    "markers": []
+  },
+  {
+    "file": "11-games.webp",
+    "thumb": "11-games.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Recycling Plant",
+    "role": "strip",
+    "near": "",
+    "title": "Games and simulations",
+    "caption": "Sorting, matching and word games plus virtual labs such as a compost simulator.",
+    "markers": []
+  },
+  {
+    "file": "12-compost-sim.webp",
+    "thumb": "12-compost-sim.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Compost Master",
+    "role": "strip",
+    "near": "",
+    "title": "Compost simulator",
+    "caption": "Players build a compost bin and watch the balance of greens, browns and moisture.",
+    "markers": []
+  },
+  {
+    "file": "13-event-town.webp",
+    "thumb": "13-event-town.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Event Town",
+    "role": "strip",
+    "near": "",
+    "title": "Event Town setup",
+    "caption": "For school events: everyone's answers clean one shared town on the big screen.",
+    "markers": []
+  },
+  {
+    "file": "14-missions.webp",
+    "thumb": "14-missions.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io · Home Missions",
+    "role": "strip",
+    "near": "",
+    "title": "Home missions",
+    "caption": "Real tasks to do at home or school, like a week of sorting waste.",
+    "markers": []
+  },
+  {
+    "file": "15-town-malay.webp",
+    "thumb": "15-town-malay.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "wastequest.github.io",
+    "role": "strip",
+    "near": "",
+    "title": "The same town in Malay",
+    "caption": "Every screen is available in Malay as well as English.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.637,
+        "y": 0.034,
+        "text": "Malay selected"
+      }
+    ]
+  },
+  {
+    "file": "16-phone-home.webp",
+    "thumb": "16-phone-home.thumb.webp",
+    "w": 900,
+    "h": 1948,
+    "frame": "phone",
+    "label": "WasteQuest on a phone",
+    "role": "strip",
+    "near": "",
+    "title": "WasteQuest on a phone",
+    "caption": "Built for phones first, since most pupils play on one.",
+    "markers": []
+  },
+  {
+    "file": "17-phone-quiz.webp",
+    "thumb": "17-phone-quiz.thumb.webp",
+    "w": 900,
+    "h": 1948,
+    "frame": "phone",
+    "label": "Quiz on a phone",
+    "role": "strip",
+    "near": "",
+    "title": "Quiz on a phone",
+    "caption": "The quiz on a phone, with big tap-friendly answers.",
+    "markers": []
+  }
+]

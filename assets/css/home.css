@@ -1,0 +1,10 @@
+/* Home: newspaper photo slots for project screenshots + archive list toggle. */
+.story-photo { margin:0 0 14px; }
+.story-photo:has(img:not([src])) { display:none; }
+.story-photo img.exhibit-thumb { aspect-ratio:3/2; filter:grayscale(.15) contrast(1.02); }
+.lead-photo { float:right; width:42%; margin:6px 0 12px 24px; }
+.methods-photo { max-width:320px; }
+.lead-story .story-figure { clear:both; }
+.archive-list { margin-top:28px; border-top:1px solid var(--rule); }
+.archive-list>summary { cursor:pointer; padding:14px 0; font:600 13px/20px var(--sans); }
+@media (max-width:767px) { .lead-photo { float:none; width:auto; margin:0 0 14px; } }

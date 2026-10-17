@@ -1,0 +1,276 @@
+[
+  {
+    "file": "powerbi-01-real-income.webp",
+    "thumb": "powerbi-01-real-income.thumb.webp",
+    "w": 1800,
+    "h": 1013,
+    "frame": "laptop",
+    "label": "Power BI Desktop",
+    "role": "hero",
+    "title": "The same story, rebuilt as a Power BI report",
+    "caption": "An interactive report page built from the same official data. Pick a start year and every number and chart updates.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.147,
+        "y": 0.296,
+        "text": "Pick a start year: the whole page recalculates."
+      },
+      {
+        "n": 2,
+        "x": 0.4425,
+        "y": 0.3,
+        "text": "Headline cards: the leading state, its real growth and how many states beat inflation."
+      },
+      {
+        "n": 3,
+        "x": 0.442,
+        "y": 0.473,
+        "text": "Growth by state after taking out price rises, largest first."
+      },
+      {
+        "n": 4,
+        "x": 0.79,
+        "y": 0.5,
+        "text": "Fifty years of the national median: as published versus in 2010 prices."
+      }
+    ]
+  },
+  {
+    "file": "02-mean-median-sql.webp",
+    "thumb": "02-mean-median-sql.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "doc",
+    "label": "02_mean_median_gap.sql",
+    "role": "inline",
+    "near": "The average is not the middle.",
+    "title": "Average versus middle income",
+    "caption": "How far the average household income sits above the middle household in each state.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.42,
+        "y": 0.229,
+        "text": "Average divided by middle income"
+      },
+      {
+        "n": 2,
+        "x": 0.745,
+        "y": 0.545,
+        "text": "States ranked by the size of the gap"
+      },
+      {
+        "n": 3,
+        "x": 0.59,
+        "y": 0.475,
+        "text": "Gap as a share of the middle income"
+      }
+    ]
+  },
+  {
+    "file": "03-income-less-spending-sql.webp",
+    "thumb": "03-income-less-spending-sql.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "doc",
+    "label": "03_income_less_expenditure.sql",
+    "role": "inline",
+    "near": "What is left each month?",
+    "title": "Income minus spending",
+    "caption": "Average monthly income minus average monthly spending by state, with notes on what it does not mean.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.535,
+        "y": 0.126,
+        "text": "Written caveat: this is not savings"
+      },
+      {
+        "n": 2,
+        "x": 0.47,
+        "y": 0.465,
+        "text": "Monthly gap in ringgit"
+      },
+      {
+        "n": 3,
+        "x": 0.655,
+        "y": 0.465,
+        "text": "Spending as a share of income"
+      }
+    ]
+  },
+  {
+    "file": "04-poverty-change-sql.webp",
+    "thumb": "04-poverty-change-sql.thumb.webp",
+    "w": 1800,
+    "h": 1390,
+    "frame": "doc",
+    "label": "04_poverty_change.sql",
+    "role": "inline",
+    "near": "Poverty tells another part of the story.",
+    "title": "Poverty change",
+    "caption": "Change in poverty between surveys, refusing to compare across the 2019 change in definition.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.695,
+        "y": 0.182,
+        "text": "Look back to the previous survey"
+      },
+      {
+        "n": 2,
+        "x": 0.62,
+        "y": 0.47,
+        "text": "No change computed across the definition break"
+      },
+      {
+        "n": 3,
+        "x": 0.7,
+        "y": 0.63,
+        "text": "Each row says how comparable it is"
+      }
+    ]
+  },
+  {
+    "file": "powerbi-02-gaps.webp",
+    "thumb": "powerbi-02-gaps.thumb.webp",
+    "w": 1800,
+    "h": 1013,
+    "frame": "laptop",
+    "label": "Power BI Desktop",
+    "role": "strip",
+    "title": "Who earns what, and what is left",
+    "caption": "How far the average sits above the typical household in each state, next to income minus spending each month.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.443,
+        "y": 0.455,
+        "text": "Sabah: the average is a third above the middle."
+      },
+      {
+        "n": 2,
+        "x": 0.83,
+        "y": 0.455,
+        "text": "Selangor has the most left over each month."
+      }
+    ]
+  },
+  {
+    "file": "powerbi-03-prices-poverty.webp",
+    "thumb": "powerbi-03-prices-poverty.thumb.webp",
+    "w": 1800,
+    "h": 1013,
+    "frame": "laptop",
+    "label": "Power BI Desktop",
+    "role": "strip",
+    "title": "Prices and poverty",
+    "caption": "Which spending categories got dearer, and where poverty fell or rose by 2024.",
+    "markers": []
+  },
+  {
+    "file": "01-real-income-sql.webp",
+    "thumb": "01-real-income-sql.thumb.webp",
+    "w": 1800,
+    "h": 2014,
+    "frame": "doc",
+    "label": "01_real_income_growth.sql",
+    "role": "strip",
+    "title": "Real income growth query",
+    "caption": "The SQL that adjusts each state's median household income for price rises, with its real result rows below.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.385,
+        "y": 0.142,
+        "text": "Average the 12 monthly price indexes for each year"
+      },
+      {
+        "n": 2,
+        "x": 0.6,
+        "y": 0.618,
+        "text": "Rank states by growth after prices"
+      },
+      {
+        "n": 3,
+        "x": 0.03,
+        "y": 0.715,
+        "text": "Terengganu leads 2016 to 2024"
+      },
+      {
+        "n": 4,
+        "x": 0.945,
+        "y": 0.697,
+        "text": "Growth after removing price rises"
+      }
+    ]
+  },
+  {
+    "file": "05-price-categories-sql.webp",
+    "thumb": "05-price-categories-sql.thumb.webp",
+    "w": 1800,
+    "h": 1449,
+    "frame": "doc",
+    "label": "05_price_categories.sql",
+    "role": "strip",
+    "title": "Price rises by category",
+    "caption": "Which spending categories rose most in price, for each state.",
+    "markers": []
+  },
+  {
+    "file": "06-national-long-view-sql.webp",
+    "thumb": "06-national-long-view-sql.thumb.webp",
+    "w": 1800,
+    "h": 1129,
+    "frame": "doc",
+    "label": "06_national_long_view.sql",
+    "role": "strip",
+    "title": "National long view",
+    "caption": "The national middle income since 1970, before and after removing price rises.",
+    "markers": []
+  },
+  {
+    "file": "07-findings-notes.webp",
+    "thumb": "07-findings-notes.thumb.webp",
+    "w": 1800,
+    "h": 1625,
+    "frame": "doc",
+    "label": "Verified findings",
+    "role": "strip",
+    "title": "Checked findings",
+    "caption": "One-line findings written automatically from the query results, followed by the limitations.",
+    "markers": []
+  },
+  {
+    "file": "powerbi-04-model.webp",
+    "thumb": "powerbi-04-model.thumb.webp",
+    "w": 1800,
+    "h": 596,
+    "frame": "laptop",
+    "label": "Power BI Desktop",
+    "role": "strip",
+    "title": "The data behind the report",
+    "caption": "Six clean tables, one per question, each loaded straight from the published statistics.",
+    "markers": []
+  },
+  {
+    "file": "powerbi-05-dax-measure.webp",
+    "thumb": "powerbi-05-dax-measure.thumb.webp",
+    "w": 1800,
+    "h": 1013,
+    "frame": "laptop",
+    "label": "Power BI Desktop",
+    "role": "strip",
+    "title": "A calculation written by hand",
+    "caption": "One of fifteen calculations written for the report: it finds the state with the highest real growth for whatever years are picked.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.35,
+        "y": 0.128,
+        "text": "The formula that picks the leading state."
+      }
+    ]
+  }
+]

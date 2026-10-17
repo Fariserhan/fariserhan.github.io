@@ -1,0 +1,8 @@
+/* WasteQuest: shared type from edition.css; the lesson-flow route is drawn here. */
+.plate-small{display:none}.wide-figure svg{margin-block:18px}.wide-figure .direct-label{font-size:15px}.wide-figure .axis-label{font-size:13px}.compact-head{flex-wrap:wrap}.compact-head .theme-toggle{margin-left:auto}.article-head>div{min-width:0}.section-nav{justify-content:flex-start}.chart-svg{overflow:hidden}
+.article-body h3{margin-top:32px}
+@media(max-width:600px){.plate-wide{display:none}.plate-small{display:block}.compact-head .meta{order:3;flex-basis:100%}.section-nav{gap:8px 16px}.wide-figure .direct-label{font-size:14px}.wide-figure .pencil-note{font-size:14px!important}}
+@media print{.plate-small{display:none}.plate-wide{display:block}}
+.flow-figure .chart-svg{background:var(--inset);border:1px solid var(--rule)}.flow-wire{stroke-width:3}.flow-node{fill:var(--paper);stroke:var(--teal);stroke-width:2}.chart-svg .flow-num{font:italic 24px var(--display);fill:var(--teal)}
+.is-visible .flow-step{animation:impression 320ms var(--ease) both;animation-delay:calc(var(--i)*130ms)}
+@media(prefers-reduced-motion:reduce){.is-visible .flow-step{animation:none}}

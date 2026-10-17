@@ -1,0 +1,73 @@
+[
+  {
+    "file": "01-partner-globe.webp",
+    "thumb": "01-partner-globe.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "video",
+    "label": "03:25",
+    "role": "hero",
+    "near": "",
+    "title": "Partners around the world",
+    "caption": "A still from the faculty video: a 3D globe shows partner universities around the world, with English subtitles.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.27,
+        "y": 0.075,
+        "text": "Section title and headline number"
+      },
+      {
+        "n": 2,
+        "x": 0.29,
+        "y": 0.25,
+        "text": "3D globe with partner links"
+      },
+      {
+        "n": 3,
+        "x": 0.76,
+        "y": 0.92,
+        "text": "Burned-in English subtitles"
+      }
+    ]
+  },
+  {
+    "file": "02-vision.webp",
+    "thumb": "02-vision.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "video",
+    "label": "04:49",
+    "role": "strip",
+    "near": "",
+    "title": "Closing vision",
+    "caption": "The film closes by tying the faculty story to the university's 2030 goal.",
+    "markers": []
+  },
+  {
+    "file": "03-campus-model.webp",
+    "thumb": "03-campus-model.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "video",
+    "label": "00:42",
+    "role": "strip",
+    "near": "",
+    "title": "3D campus model",
+    "caption": "From the first version: a 3D model sequence opens the film.",
+    "markers": []
+  },
+  {
+    "file": "04-campuses.webp",
+    "thumb": "04-campuses.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "video",
+    "label": "01:43",
+    "role": "strip",
+    "near": "",
+    "title": "Campuses on a map",
+    "caption": "A map shows where the faculty's campuses are.",
+    "markers": []
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "file": "01-overview.webp",
+    "thumb": "01-overview.thumb.webp",
+    "w": 1800,
+    "h": 1300,
+    "frame": "browser",
+    "label": "Job tracker · Overview",
+    "role": "hero",
+    "title": "The overview page",
+    "caption": "The home page of my job-search tracker, shown with made-up sample data. It reads application emails and turns them into a plain-English summary and six headline numbers.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.08,
+        "y": 0.027,
+        "text": "Six pages: overview, pipeline, analytics, follow-ups, data, settings"
+      },
+      {
+        "n": 2,
+        "x": 0.085,
+        "y": 0.19,
+        "text": "What changed since the last email sync"
+      },
+      {
+        "n": 3,
+        "x": 0.08,
+        "y": 0.515,
+        "text": "Headline written from the numbers, compared with typical rates"
+      },
+      {
+        "n": 4,
+        "x": 0.335,
+        "y": 0.822,
+        "text": "Each figure carries its likely range, not just one number"
+      },
+      {
+        "n": 5,
+        "x": 0.64,
+        "y": 0.135,
+        "text": "Clearly labelled as made-up demo data"
+      }
+    ]
+  },
+  {
+    "file": "02-where-applications-go.webp",
+    "thumb": "02-where-applications-go.thumb.webp",
+    "w": 1800,
+    "h": 867,
+    "frame": "browser",
+    "label": "Job tracker · Overview",
+    "role": "inline",
+    "near": "A funnel that remembers the interview",
+    "title": "Where applications go",
+    "caption": "A flow chart of every application from sent to its final outcome, beside a comparison with published hiring rates.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.43,
+        "y": 0.33,
+        "text": "Interviews count even if a rejection came later"
+      },
+      {
+        "n": 2,
+        "x": 0.64,
+        "y": 0.69,
+        "text": "Most applications simply went silent"
+      },
+      {
+        "n": 3,
+        "x": 0.73,
+        "y": 0.27,
+        "text": "Compared with published rates per 100 applications"
+      }
+    ]
+  },
+  {
+    "file": "03-channels.webp",
+    "thumb": "03-channels.thumb.webp",
+    "w": 1800,
+    "h": 750,
+    "frame": "browser",
+    "label": "Job tracker · Overview",
+    "role": "inline",
+    "near": "A high rate can hide a very small sample",
+    "title": "Which job sites work",
+    "caption": "Reply rate for each job site, with grey bars showing how uncertain each rate is.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.1,
+        "y": 0.325,
+        "text": "One referral: 100% reply rate, but a very wide range"
+      },
+      {
+        "n": 2,
+        "x": 0.1,
+        "y": 0.818,
+        "text": "LinkedIn: many applications, low and certain rate"
+      },
+      {
+        "n": 3,
+        "x": 0.635,
+        "y": 0.21,
+        "text": "Plain-English note on what can be trusted"
+      }
+    ]
+  },
+  {
+    "file": "04-reply-timing.webp",
+    "thumb": "04-reply-timing.thumb.webp",
+    "w": 1800,
+    "h": 1050,
+    "frame": "browser",
+    "label": "Job tracker · Overview",
+    "role": "strip",
+    "title": "How long employers take",
+    "caption": "The share of applications still waiting for a reply, day by day, and when replies usually came.",
+    "markers": []
+  },
+  {
+    "file": "05-pipeline-board.webp",
+    "thumb": "05-pipeline-board.thumb.webp",
+    "w": 1800,
+    "h": 1962,
+    "frame": "browser",
+    "label": "Job tracker · Pipeline",
+    "role": "strip",
+    "title": "Pipeline board",
+    "caption": "Open applications as cards by stage, so it is clear which ones are waiting and for how long.",
+    "markers": []
+  },
+  {
+    "file": "06-analytics.webp",
+    "thumb": "06-analytics.thumb.webp",
+    "w": 1800,
+    "h": 1583,
+    "frame": "browser",
+    "label": "Job tracker · Analytics",
+    "role": "strip",
+    "title": "Analytics page",
+    "caption": "The same numbers cut by stage, channel, timing, role type and month.",
+    "markers": []
+  },
+  {
+    "file": "07-follow-ups.webp",
+    "thumb": "07-follow-ups.thumb.webp",
+    "w": 1800,
+    "h": 1867,
+    "frame": "browser",
+    "label": "Job tracker · Follow-ups",
+    "role": "strip",
+    "title": "Follow-up list",
+    "caption": "Applications that have gone quiet, sorted by what to send first, with a ready-made email for each.",
+    "markers": []
+  },
+  {
+    "file": "08-lineage.webp",
+    "thumb": "08-lineage.thumb.webp",
+    "w": 1800,
+    "h": 1000,
+    "frame": "browser",
+    "label": "Job tracker · Data & model",
+    "role": "inline",
+    "near": "Build a reliable reporting database",
+    "title": "How the data flows",
+    "caption": "The data pipeline drawn live from the project: raw email records become cleaned tables, then the tables every report uses.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.108,
+        "y": 0.651,
+        "text": "Raw application records from the email reader"
+      },
+      {
+        "n": 2,
+        "x": 0.293,
+        "y": 0.6,
+        "text": "Cleaned and standardised step"
+      },
+      {
+        "n": 3,
+        "x": 0.68,
+        "y": 0.392,
+        "text": "One main table every number is calculated from"
+      }
+    ]
+  },
+  {
+    "file": "09-star-schema-tests.webp",
+    "thumb": "09-star-schema-tests.thumb.webp",
+    "w": 1800,
+    "h": 1017,
+    "frame": "browser",
+    "label": "Job tracker · Data & model",
+    "role": "strip",
+    "title": "Data model and checks",
+    "caption": "The reporting tables and the automatic checks that run on every rebuild; all five pass.",
+    "markers": []
+  },
+  {
+    "file": "10-metric-sql.webp",
+    "thumb": "10-metric-sql.thumb.webp",
+    "w": 1800,
+    "h": 900,
+    "frame": "browser",
+    "label": "Job tracker · Data & model",
+    "role": "strip",
+    "title": "The SQL behind a number",
+    "caption": "Any metric can be opened to show the exact query that produced it, next to its result.",
+    "markers": []
+  },
+  {
+    "file": "11-settings.webp",
+    "thumb": "11-settings.thumb.webp",
+    "w": 1800,
+    "h": 1750,
+    "frame": "browser",
+    "label": "Job tracker · Settings",
+    "role": "strip",
+    "title": "Settings",
+    "caption": "Sync timing and the rules that decide when an application counts as ghosted or needs a follow-up.",
+    "markers": []
+  },
+  {
+    "file": "12-excel-dashboard.webp",
+    "thumb": "12-excel-dashboard.thumb.webp",
+    "w": 1800,
+    "h": 768,
+    "frame": "sheet",
+    "label": "Sheet: Dashboard",
+    "role": "strip",
+    "title": "Excel dashboard export",
+    "caption": "The same numbers exported to an Excel dashboard with live formulas and native charts.",
+    "markers": []
+  },
+  {
+    "file": "13-excel-platforms.webp",
+    "thumb": "13-excel-platforms.thumb.webp",
+    "w": 1800,
+    "h": 768,
+    "frame": "sheet",
+    "label": "Sheet: Platforms",
+    "role": "strip",
+    "title": "Excel: job sites",
+    "caption": "Reply rate by job site with its uncertainty range, as a table and a chart.",
+    "markers": []
+  },
+  {
+    "file": "14-excel-applications.webp",
+    "thumb": "14-excel-applications.thumb.webp",
+    "w": 1800,
+    "h": 768,
+    "frame": "sheet",
+    "label": "Sheet: Applications",
+    "role": "strip",
+    "title": "Excel: application list",
+    "caption": "Every sample application as a filterable Excel table.",
+    "markers": []
+  },
+  {
+    "file": "15-excel-reply-time.webp",
+    "thumb": "15-excel-reply-time.thumb.webp",
+    "w": 1800,
+    "h": 768,
+    "frame": "sheet",
+    "label": "Sheet: Reply time",
+    "role": "strip",
+    "title": "Excel: reply timing",
+    "caption": "How the share of applications with a reply grows with each day after applying.",
+    "markers": []
+  },
+  {
+    "file": "16-findings-report.webp",
+    "thumb": "16-findings-report.thumb.webp",
+    "w": 1800,
+    "h": 1875,
+    "frame": "doc",
+    "label": "Findings report",
+    "role": "strip",
+    "title": "Written findings report",
+    "caption": "An automatically written report that explains the results in plain sentences and tables.",
+    "markers": []
+  },
+  {
+    "file": "17-dbt-model.webp",
+    "thumb": "17-dbt-model.thumb.webp",
+    "w": 1800,
+    "h": 1250,
+    "frame": "doc",
+    "label": "fct_applications.sql",
+    "role": "strip",
+    "title": "The main data model in SQL",
+    "caption": "The SQL that builds the one table every number in the app comes from.",
+    "markers": []
+  }
+]

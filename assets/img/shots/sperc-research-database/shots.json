@@ -1,0 +1,255 @@
+[
+  {
+    "file": "01-groups.webp",
+    "thumb": "01-groups.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Groups compared",
+    "role": "hero",
+    "title": "Four research groups side by side",
+    "caption": "The dashboard I built puts each research group next to the centre-wide average, per person, so groups of different sizes compare fairly.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.258,
+        "y": 0.304,
+        "text": "Dashed line marks the centre-wide average"
+      },
+      {
+        "n": 2,
+        "x": 0.23,
+        "y": 0.141,
+        "text": "Papers a year per person, by group"
+      },
+      {
+        "n": 3,
+        "x": 0.79,
+        "y": 0.141,
+        "text": "PhD graduates per person, by group"
+      },
+      {
+        "n": 4,
+        "x": 0.53,
+        "y": 0.379,
+        "text": "Share of papers in top-quartile journals"
+      }
+    ]
+  },
+  {
+    "file": "02-top.webp",
+    "thumb": "02-top.thumb.webp",
+    "w": 1800,
+    "h": 358,
+    "frame": "browser",
+    "label": "Dashboard header",
+    "role": "strip",
+    "title": "Dashboard header",
+    "caption": "The top of the research dashboard: one page summarising the centre for its leadership.",
+    "markers": []
+  },
+  {
+    "file": "03-trend.webp",
+    "thumb": "03-trend.thumb.webp",
+    "w": 1800,
+    "h": 792,
+    "frame": "browser",
+    "label": "Output trend",
+    "role": "strip",
+    "title": "Papers per year by group",
+    "caption": "Yearly paper counts for each group, with the incomplete current year shown separately.",
+    "markers": []
+  },
+  {
+    "file": "04-bench.webp",
+    "thumb": "04-bench.thumb.webp",
+    "w": 1800,
+    "h": 875,
+    "frame": "browser",
+    "label": "Benchmark",
+    "role": "strip",
+    "title": "Benchmark view",
+    "caption": "How the centre compares with national reference figures on output and quality.",
+    "markers": []
+  },
+  {
+    "file": "05-career.webp",
+    "thumb": "05-career.thumb.webp",
+    "w": 1800,
+    "h": 1125,
+    "frame": "browser",
+    "label": "Career mix",
+    "role": "strip",
+    "title": "Staff profile by career stage",
+    "caption": "The centre's membership broken down by career stage, shown as group totals rather than individuals.",
+    "markers": []
+  },
+  {
+    "file": "06-xl-pubs.webp",
+    "thumb": "06-xl-pubs.thumb.webp",
+    "w": 1800,
+    "h": 459,
+    "frame": "sheet",
+    "label": "Publications sheet",
+    "role": "inline",
+    "near": "The largest sheet holds 3,312 publication rows",
+    "title": "The publications sheet",
+    "caption": "One row per publication with an ID, category, indexing source, year, title and venue. Author names are blurred here.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.08,
+        "y": 0.228,
+        "text": "A stable ID for every publication row"
+      },
+      {
+        "n": 2,
+        "x": 0.192,
+        "y": 0.228,
+        "text": "Where each record is indexed"
+      },
+      {
+        "n": 3,
+        "x": 0.311,
+        "y": 0.606,
+        "text": "Claims that could not be confirmed are flagged"
+      },
+      {
+        "n": 4,
+        "x": 0.48,
+        "y": 0.184,
+        "text": "Title and venue kept for checking"
+      }
+    ]
+  },
+  {
+    "file": "07-xl-myra.webp",
+    "thumb": "07-xl-myra.thumb.webp",
+    "w": 1800,
+    "h": 458,
+    "frame": "sheet",
+    "label": "Summary sheet",
+    "role": "strip",
+    "title": "Rating summary sheet",
+    "caption": "A summary sheet that rolls the record-level data up into the categories used for the university's research rating.",
+    "markers": []
+  },
+  {
+    "file": "08-plan-stands.webp",
+    "thumb": "08-plan-stands.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Strategy snapshot",
+    "role": "inline",
+    "near": "2026 is incomplete; the strategy snapshot totals 565 papers",
+    "title": "Where the centre stands",
+    "caption": "The headline slide I wrote for the strategy plan: 565 Scopus papers for 2020 to September 2026, with quality and reach measures beside it.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.061,
+        "y": 0.227,
+        "text": "565 papers over a window that ends in September 2026"
+      },
+      {
+        "n": 2,
+        "x": 0.683,
+        "y": 0.227,
+        "text": "Upper-quartile share against a 70% benchmark"
+      },
+      {
+        "n": 3,
+        "x": 0.022,
+        "y": 0.852,
+        "text": "The data caveat is stated on the slide"
+      }
+    ]
+  },
+  {
+    "file": "09-plan-cited.webp",
+    "thumb": "09-plan-cited.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Citations by theme",
+    "role": "inline",
+    "near": "Citations compared with similar research, by theme",
+    "title": "Citation impact by research theme",
+    "caption": "Field-weighted citation impact by theme: red bars are above the world average of 1.0, grey bars at or below it.",
+    "markers": [
+      {
+        "n": 1,
+        "x": 0.585,
+        "y": 0.21,
+        "text": "Biochar is the most cited theme"
+      },
+      {
+        "n": 2,
+        "x": 0.426,
+        "y": 0.17,
+        "text": "The world-average line at 1.0"
+      },
+      {
+        "n": 3,
+        "x": 0.33,
+        "y": 0.824,
+        "text": "Some themes are cited well below average"
+      },
+      {
+        "n": 4,
+        "x": 0.628,
+        "y": 0.56,
+        "text": "What the chart means for planning"
+      }
+    ]
+  },
+  {
+    "file": "10-deck-glance.webp",
+    "thumb": "10-deck-glance.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Review deck",
+    "role": "strip",
+    "title": "Review deck: at a glance",
+    "caption": "A summary slide from the performance review deck built from the same data.",
+    "markers": []
+  },
+  {
+    "file": "11-deck-quality.webp",
+    "thumb": "11-deck-quality.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Quality slide",
+    "role": "strip",
+    "title": "Review deck: journal quality",
+    "caption": "Journal quality across the groups, taken from the same records.",
+    "markers": []
+  },
+  {
+    "file": "12-deck-bench.webp",
+    "thumb": "12-deck-bench.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Benchmark slide",
+    "role": "strip",
+    "title": "Review deck: benchmark",
+    "caption": "The centre against national and regional reference points.",
+    "markers": []
+  },
+  {
+    "file": "13-deck-trend.webp",
+    "thumb": "13-deck-trend.thumb.webp",
+    "w": 1800,
+    "h": 1012,
+    "frame": "slide",
+    "label": "Trend slide",
+    "role": "strip",
+    "title": "Review deck: output over time",
+    "caption": "Output over time, with the partial current year marked.",
+    "markers": []
+  }
+]
