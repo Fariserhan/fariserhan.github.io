@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-17",
-  "workbook_source": "SPERC_Master_Database.xlsx",
+  "workbook_source": "SPERC research workbook",
   "row_basis": "Nonempty data rows excluding the header; all members and include flags; not unique centre outputs",
   "records": [
     {
@@ -30,7 +30,7 @@
     }
   ],
   "current_members": 20,
-  "strategy_source": "work/strategy/evidence.json (7 October 2026); current 20 members; unique Scopus EIDs; 2020–2026 to source cutoff",
+  "strategy_source": "SPERC strategy evidence pack (7 October 2026); current 20 members; unique Scopus EIDs; 2020–2026 to source cutoff",
   "strategy_papers": 565,
   "years": [
     {

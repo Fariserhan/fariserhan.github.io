@@ -66,15 +66,27 @@ addEventListener('pagereveal', hideTransientUI);
 const archive = document.querySelector('[data-archive]');
 if (archive) {
   const selected = { type:'all', client:'all' };
+  let expanded = false;
+  const expand = archive.querySelector('[data-archive-expand]');
+  function renderArchive() {
+    const matches = [...archive.querySelectorAll('tbody tr')].filter(row =>
+      (selected.type === 'all' || row.dataset.type.split('|').includes(selected.type)) &&
+      (selected.client === 'all' || row.dataset.client === selected.client));
+    archive.querySelectorAll('tbody tr').forEach(row => { row.hidden = true; });
+    const visible = expanded ? matches : matches.slice(0, 8);
+    visible.forEach(row => { row.hidden = false; });
+    archive.querySelector('[data-archive-count]').textContent = `${visible.length} of ${matches.length} listings shown`;
+    expand.hidden = matches.length <= 8;
+    expand.setAttribute('aria-expanded', String(expanded));
+    expand.textContent = expanded ? 'Show fewer assignments' : 'Show all assignments';
+  }
+  expand.addEventListener('click', () => { expanded = !expanded; renderArchive(); });
   archive.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
     selected[button.dataset.filter] = button.dataset.value;
     archive.querySelectorAll(`[data-filter="${button.dataset.filter}"]`).forEach(peer => peer.setAttribute('aria-pressed',String(peer === button)));
-    let shown=0;
-    archive.querySelectorAll('tbody tr').forEach(row => {
-      row.hidden = !(selected.type === 'all' || row.dataset.type.split('|').includes(selected.type)) || !(selected.client === 'all' || row.dataset.client === selected.client);
-      if (!row.hidden) shown++;
-    });
-    archive.querySelector('[data-archive-count]').textContent = `${shown} listings shown`;
+    expanded = false;
+    renderArchive();
   }));
+  renderArchive();
 }
 

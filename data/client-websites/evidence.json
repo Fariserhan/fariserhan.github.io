@@ -3,7 +3,7 @@
   "sites": [
     {
       "label": "UPM SPERC",
-      "source": "SPERC_Website/site/src/data/",
+      "source": "SPERC website record files",
       "counts": {
         "publications": 1357,
         "grants": 249,
@@ -22,7 +22,7 @@
     },
     {
       "label": "Personal academic website",
-      "source": "WanAzlina_Website/site/src/data/",
+      "source": "Academic website record files",
       "counts": {
         "publications": 239,
         "grants": 45,
@@ -46,8 +46,8 @@
     }
   ],
   "figure_sources": {
-    "biomass": "SPERC_Website/site/src/components/BiomassPathway.astro",
-    "gears": "WanAzlina_Website/site/src/components/GearFramework.astro"
+    "biomass": "SPERC website biomass diagram",
+    "gears": "Academic website research-framework diagram"
   },
   "scope_note": "Counts of source JSON array entries, not website visits or measures of research quality.",
   "schematics": {
