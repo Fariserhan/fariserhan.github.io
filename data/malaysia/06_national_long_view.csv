@@ -1,0 +1,23 @@
+﻿state,year,median_nominal_rm,annual_cpi,median_real_2010_rm,observation_type,geography,population_scope
+Malaysia,1970,166,23.5,706,Survey observation,Peninsular Malaysia,Earlier survey population
+Malaysia,1974,227,31.6,718,Survey observation,Peninsular Malaysia,Earlier survey population
+Malaysia,1976,308,34.0,906,Survey observation,Malaysia,Earlier survey population
+Malaysia,1979,429,38.5,1114,Survey observation,Malaysia,Earlier survey population
+Malaysia,1984,719,51.3,1402,Survey observation,Malaysia,Earlier survey population
+Malaysia,1987,738,52.2,1414,Survey observation,Malaysia,Earlier survey population
+Malaysia,1989,816,55.1,1481,Survey observation,Malaysia,Citizens only
+Malaysia,1992,1077,62.0,1737,Survey observation,Malaysia,Citizens only
+Malaysia,1995,1377,68.9,1999,Survey observation,Malaysia,Citizens only
+Malaysia,1997,1724,73.2,2355,Survey observation,Malaysia,Citizens only
+Malaysia,1999,1704,79.2,2152,Survey observation,Malaysia,Citizens only
+Malaysia,2002,2049,83.0,2469,Survey observation,Malaysia,Citizens only
+Malaysia,2004,2211,85.1,2598,Survey observation,Malaysia,Citizens only
+Malaysia,2007,2552,92.7,2753,Survey observation,Malaysia,Citizens only
+Malaysia,2009,2841,98.3,2890,Survey observation,Malaysia,Citizens only
+Malaysia,2012,3626,104.9,3457,Survey observation,Malaysia,Citizens only
+Malaysia,2014,4585,110.5,4149,Survey observation,Malaysia,Citizens only
+Malaysia,2016,5228,115.2,4538,Survey observation,Malaysia,Citizens only
+Malaysia,2019,5873,121.5,4834,Survey observation,Malaysia,Citizens only
+Malaysia,2020,5209,120.1,4337,Estimate based on 2019 survey,Malaysia,Citizens only
+Malaysia,2022,6338,127.2,4983,Survey observation,Malaysia,Citizens only
+Malaysia,2024,7017,132.8,5284,Survey observation,Malaysia,Citizens only

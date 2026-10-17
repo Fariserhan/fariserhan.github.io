@@ -1,0 +1,26 @@
+{
+  "title": "The published median rose from RM166 in 1970 to RM7,017 in 2024; in constant 2010 RM the endpoints are RM706 and RM5,284.",
+  "subtitle": "National median gross monthly household income; current-year RM and constant 2010 RM; available observations 1970–2024",
+  "source": "CC BY 4.0, DOSM; hh_income: https://open.dosm.gov.my/data-catalogue/hh_income (https://storage.dosm.gov.my/hies/hh_income.csv); cpi_annual: https://open.dosm.gov.my/data-catalogue/cpi_annual (https://storage.dosm.gov.my/cpi/cpi_2d_annual.csv)",
+  "sources": [
+    {
+      "id": "hh_income",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_income",
+      "csv_url": "https://storage.dosm.gov.my/hies/hh_income.csv"
+    },
+    {
+      "id": "cpi_annual",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/cpi_annual",
+      "csv_url": "https://storage.dosm.gov.my/cpi/cpi_2d_annual.csv"
+    }
+  ],
+  "notes": [
+    "1970 and 1974 cover Peninsular Malaysia only; citizens-only coverage starts in 1989.",
+    "2020 is an estimate based on the 2019 survey, not a fresh survey observation.",
+    "Use official annual overall CPI from 1960; no extrapolated CPI or invented income years.",
+    "For predict-then-reveal: use year on the x-axis, hide later actuals in the interface and reveal on request; no forecast is produced."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 22,
+  "headline": "The published median rose from RM166 in 1970 to RM7,017 in 2024; in constant 2010 RM the endpoints are RM706 and RM5,284. Coverage changes mean this is a descriptive historical series, not a like-for-like growth estimate."
+}

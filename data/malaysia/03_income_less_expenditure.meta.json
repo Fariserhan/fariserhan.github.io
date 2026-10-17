@@ -1,0 +1,20 @@
+{
+  "title": "Selangor had the largest 2024 mean income–expenditure gap: RM6,030 per month (RM13,296 minus RM7,266).",
+  "subtitle": "Mean gross monthly income minus mean monthly consumption expenditure; current-year RM; 2022 and 2024",
+  "source": "CC BY 4.0, DOSM; hies_state: https://open.dosm.gov.my/data-catalogue/hies_state (https://storage.dosm.gov.my/hies/hies_state.csv)",
+  "sources": [
+    {
+      "id": "hies_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hies_state",
+      "csv_url": "https://storage.dosm.gov.my/hies/hies_state.csv"
+    }
+  ],
+  "notes": [
+    "Mean-to-mean comparison only; no median household surplus is calculated.",
+    "This aggregate gap is not household savings or disposable income; income is gross and expenditure is consumption.",
+    "Expenditure levels reflect household size, composition, preferences and resources, not just prices."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 32,
+  "headline": "Selangor had the largest 2024 mean income–expenditure gap: RM6,030 per month (RM13,296 minus RM7,266). This is a mean-to-mean aggregate comparison, not savings or the median household's budget."
+}

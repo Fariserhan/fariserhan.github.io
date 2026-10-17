@@ -1,0 +1,30 @@
+{
+  "title": "Nationally, Food & Beverages rose most in 2019–2024 at 16.5%, compared with transport at 6.7% and housing/utilities/fuels at 6.4%.",
+  "subtitle": "CPI division price changes (%), annual-average 2019–2024; Malaysia and 16 states; original index 2010 = 100",
+  "source": "CC BY 4.0, DOSM; cpi_state: https://open.dosm.gov.my/data-catalogue/cpi_state (https://storage.dosm.gov.my/cpi/cpi_2d_state.csv); cpi_headline: https://open.dosm.gov.my/data-catalogue/cpi_headline (https://storage.dosm.gov.my/cpi/cpi_2d.csv); mcoicop: https://open.dosm.gov.my/data-catalogue/mcoicop (https://storage.dosm.gov.my/dictionaries/mcoicop.csv)",
+  "sources": [
+    {
+      "id": "cpi_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/cpi_state",
+      "csv_url": "https://storage.dosm.gov.my/cpi/cpi_2d_state.csv"
+    },
+    {
+      "id": "cpi_headline",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/cpi_headline",
+      "csv_url": "https://storage.dosm.gov.my/cpi/cpi_2d.csv"
+    },
+    {
+      "id": "mcoicop",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/mcoicop",
+      "csv_url": "https://storage.dosm.gov.my/dictionaries/mcoicop.csv"
+    }
+  ],
+  "notes": [
+    "Division names come from the official 2-digit MCOICOP lookup, not guessed labels.",
+    "National CPI is official national data, not an unweighted state average.",
+    "Category price growth is not its contribution to overall inflation; basket weights are not analysed."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 221,
+  "headline": "Nationally, Food & Beverages rose most in 2019–2024 at 16.5%, compared with transport at 6.7% and housing/utilities/fuels at 6.4%. These are annual-average category price changes, not inflation contributions."
+}

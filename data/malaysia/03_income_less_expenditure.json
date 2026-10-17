@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "title": "Selangor had the largest 2024 mean income–expenditure gap: RM6,030 per month (RM13,296 minus RM7,266).",
+    "subtitle": "Mean gross monthly income minus mean monthly consumption expenditure; current-year RM; 2022 and 2024",
+    "source": "CC BY 4.0, DOSM; hies_state: https://open.dosm.gov.my/data-catalogue/hies_state (https://storage.dosm.gov.my/hies/hies_state.csv)",
+    "sources": [
+      {
+        "id": "hies_state",
+        "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hies_state",
+        "csv_url": "https://storage.dosm.gov.my/hies/hies_state.csv"
+      }
+    ],
+    "notes": [
+      "Mean-to-mean comparison only; no median household surplus is calculated.",
+      "This aggregate gap is not household savings or disposable income; income is gross and expenditure is consumption.",
+      "Expenditure levels reflect household size, composition, preferences and resources, not just prices."
+    ],
+    "snapshot_date": "2026-10-17",
+    "row_count": 32,
+    "headline": "Selangor had the largest 2024 mean income–expenditure gap: RM6,030 per month (RM13,296 minus RM7,266). This is a mean-to-mean aggregate comparison, not savings or the median household's budget."
+  },
+  "data": [
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2022,
+      "mean_income_rm": 13325,
+      "mean_expenditure_rm": 7823,
+      "mean_income_less_expenditure_rm": 5502,
+      "expenditure_pct_of_mean_income": 58.709
+    },
+    {
+      "state": "Selangor",
+      "year": 2022,
+      "mean_income_rm": 12233,
+      "mean_expenditure_rm": 6770,
+      "mean_income_less_expenditure_rm": 5463,
+      "expenditure_pct_of_mean_income": 55.342
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2022,
+      "mean_income_rm": 13473,
+      "mean_expenditure_rm": 8897,
+      "mean_income_less_expenditure_rm": 4576,
+      "expenditure_pct_of_mean_income": 66.036
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2022,
+      "mean_income_rm": 8250,
+      "mean_expenditure_rm": 4176,
+      "mean_income_less_expenditure_rm": 4074,
+      "expenditure_pct_of_mean_income": 50.618
+    },
+    {
+      "state": "Johor",
+      "year": 2022,
+      "mean_income_rm": 8517,
+      "mean_expenditure_rm": 5342,
+      "mean_income_less_expenditure_rm": 3175,
+      "expenditure_pct_of_mean_income": 62.722
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2022,
+      "mean_income_rm": 8267,
+      "mean_expenditure_rm": 5322,
+      "mean_income_less_expenditure_rm": 2945,
+      "expenditure_pct_of_mean_income": 64.376
+    },
+    {
+      "state": "Sabah",
+      "year": 2022,
+      "mean_income_rm": 6171,
+      "mean_expenditure_rm": 3342,
+      "mean_income_less_expenditure_rm": 2829,
+      "expenditure_pct_of_mean_income": 54.157
+    },
+    {
+      "state": "Sarawak",
+      "year": 2022,
+      "mean_income_rm": 6457,
+      "mean_expenditure_rm": 3915,
+      "mean_income_less_expenditure_rm": 2542,
+      "expenditure_pct_of_mean_income": 60.632
+    },
+    {
+      "state": "Terengganu",
+      "year": 2022,
+      "mean_income_rm": 7248,
+      "mean_expenditure_rm": 4796,
+      "mean_income_less_expenditure_rm": 2452,
+      "expenditure_pct_of_mean_income": 66.17
+    },
+    {
+      "state": "Melaka",
+      "year": 2022,
+      "mean_income_rm": 8057,
+      "mean_expenditure_rm": 5707,
+      "mean_income_less_expenditure_rm": 2350,
+      "expenditure_pct_of_mean_income": 70.833
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2022,
+      "mean_income_rm": 6788,
+      "mean_expenditure_rm": 4678,
+      "mean_income_less_expenditure_rm": 2110,
+      "expenditure_pct_of_mean_income": 68.916
+    },
+    {
+      "state": "Perak",
+      "year": 2022,
+      "mean_income_rm": 5779,
+      "mean_expenditure_rm": 3903,
+      "mean_income_less_expenditure_rm": 1876,
+      "expenditure_pct_of_mean_income": 67.538
+    },
+    {
+      "state": "Perlis",
+      "year": 2022,
+      "mean_income_rm": 5664,
+      "mean_expenditure_rm": 3834,
+      "mean_income_less_expenditure_rm": 1830,
+      "expenditure_pct_of_mean_income": 67.691
+    },
+    {
+      "state": "Kedah",
+      "year": 2022,
+      "mean_income_rm": 5550,
+      "mean_expenditure_rm": 3765,
+      "mean_income_less_expenditure_rm": 1785,
+      "expenditure_pct_of_mean_income": 67.838
+    },
+    {
+      "state": "Pahang",
+      "year": 2022,
+      "mean_income_rm": 5777,
+      "mean_expenditure_rm": 4107,
+      "mean_income_less_expenditure_rm": 1670,
+      "expenditure_pct_of_mean_income": 71.092
+    },
+    {
+      "state": "Kelantan",
+      "year": 2022,
+      "mean_income_rm": 4885,
+      "mean_expenditure_rm": 3505,
+      "mean_income_less_expenditure_rm": 1380,
+      "expenditure_pct_of_mean_income": 71.75
+    },
+    {
+      "state": "Selangor",
+      "year": 2024,
+      "mean_income_rm": 13296,
+      "mean_expenditure_rm": 7266,
+      "mean_income_less_expenditure_rm": 6030,
+      "expenditure_pct_of_mean_income": 54.648
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2024,
+      "mean_income_rm": 13985,
+      "mean_expenditure_rm": 8178,
+      "mean_income_less_expenditure_rm": 5807,
+      "expenditure_pct_of_mean_income": 58.477
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2024,
+      "mean_income_rm": 13846,
+      "mean_expenditure_rm": 9186,
+      "mean_income_less_expenditure_rm": 4660,
+      "expenditure_pct_of_mean_income": 66.344
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2024,
+      "mean_income_rm": 8555,
+      "mean_expenditure_rm": 4497,
+      "mean_income_less_expenditure_rm": 4058,
+      "expenditure_pct_of_mean_income": 52.566
+    },
+    {
+      "state": "Johor",
+      "year": 2024,
+      "mean_income_rm": 9484,
+      "mean_expenditure_rm": 5927,
+      "mean_income_less_expenditure_rm": 3557,
+      "expenditure_pct_of_mean_income": 62.495
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2024,
+      "mean_income_rm": 9152,
+      "mean_expenditure_rm": 5850,
+      "mean_income_less_expenditure_rm": 3302,
+      "expenditure_pct_of_mean_income": 63.92
+    },
+    {
+      "state": "Sabah",
+      "year": 2024,
+      "mean_income_rm": 6498,
+      "mean_expenditure_rm": 3547,
+      "mean_income_less_expenditure_rm": 2951,
+      "expenditure_pct_of_mean_income": 54.586
+    },
+    {
+      "state": "Sarawak",
+      "year": 2024,
+      "mean_income_rm": 6947,
+      "mean_expenditure_rm": 4281,
+      "mean_income_less_expenditure_rm": 2666,
+      "expenditure_pct_of_mean_income": 61.624
+    },
+    {
+      "state": "Melaka",
+      "year": 2024,
+      "mean_income_rm": 8686,
+      "mean_expenditure_rm": 6212,
+      "mean_income_less_expenditure_rm": 2474,
+      "expenditure_pct_of_mean_income": 71.517
+    },
+    {
+      "state": "Terengganu",
+      "year": 2024,
+      "mean_income_rm": 7627,
+      "mean_expenditure_rm": 5219,
+      "mean_income_less_expenditure_rm": 2408,
+      "expenditure_pct_of_mean_income": 68.428
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2024,
+      "mean_income_rm": 7305,
+      "mean_expenditure_rm": 5115,
+      "mean_income_less_expenditure_rm": 2190,
+      "expenditure_pct_of_mean_income": 70.021
+    },
+    {
+      "state": "Perak",
+      "year": 2024,
+      "mean_income_rm": 6173,
+      "mean_expenditure_rm": 4232,
+      "mean_income_less_expenditure_rm": 1941,
+      "expenditure_pct_of_mean_income": 68.557
+    },
+    {
+      "state": "Perlis",
+      "year": 2024,
+      "mean_income_rm": 5996,
+      "mean_expenditure_rm": 4084,
+      "mean_income_less_expenditure_rm": 1912,
+      "expenditure_pct_of_mean_income": 68.112
+    },
+    {
+      "state": "Kedah",
+      "year": 2024,
+      "mean_income_rm": 5793,
+      "mean_expenditure_rm": 4028,
+      "mean_income_less_expenditure_rm": 1765,
+      "expenditure_pct_of_mean_income": 69.532
+    },
+    {
+      "state": "Pahang",
+      "year": 2024,
+      "mean_income_rm": 6066,
+      "mean_expenditure_rm": 4368,
+      "mean_income_less_expenditure_rm": 1698,
+      "expenditure_pct_of_mean_income": 72.008
+    },
+    {
+      "state": "Kelantan",
+      "year": 2024,
+      "mean_income_rm": 5265,
+      "mean_expenditure_rm": 3825,
+      "mean_income_less_expenditure_rm": 1440,
+      "expenditure_pct_of_mean_income": 72.65
+    }
+  ]
+}

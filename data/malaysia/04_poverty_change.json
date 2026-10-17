@@ -1,0 +1,2654 @@
+{
+  "meta": {
+    "title": "Sarawak recorded the largest 2022–2024 drop in reported absolute poverty: 10.8% to 8.4%, a 2.4 percentage-point decline.",
+    "subtitle": "Reported absolute household poverty (%); survey observations 1970–2024; changes in percentage points (pp); no price base",
+    "source": "CC BY 4.0, DOSM; hh_poverty_state: https://open.dosm.gov.my/data-catalogue/hh_poverty_state (https://storage.dosm.gov.my/hies/hh_poverty_state.csv)",
+    "sources": [
+      {
+        "id": "hh_poverty_state",
+        "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_poverty_state",
+        "csv_url": "https://storage.dosm.gov.my/hies/hh_poverty_state.csv"
+      }
+    ],
+    "notes": [
+      "2020 is an estimate and is excluded from survey-to-survey changes.",
+      "Early Labuan records without an absolute poverty rate are excluded before computing previous observations.",
+      "2016 in this raw file uses the old poverty definition; 2016–2019 change is deliberately null.",
+      "Historical definitions and survey coverage change; do not present the full series as one comparable trend.",
+      "Null previous values mean first observation; null change at 2019 means definition break."
+    ],
+    "snapshot_date": "2026-10-17",
+    "row_count": 292,
+    "headline": "Sarawak recorded the largest 2022–2024 drop in reported absolute poverty: 10.8% to 8.4%, a 2.4 percentage-point decline. No change crossing the poverty-definition break is reported."
+  },
+  "data": [
+    {
+      "state": "Johor",
+      "year": 1970,
+      "absolute_poverty_pct": 45.7,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Johor",
+      "year": 1976,
+      "absolute_poverty_pct": 29.0,
+      "previous_year": 1970,
+      "previous_poverty_pct": 45.7,
+      "change_pp": -16.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1979,
+      "absolute_poverty_pct": 18.2,
+      "previous_year": 1976,
+      "previous_poverty_pct": 29.0,
+      "change_pp": -10.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1984,
+      "absolute_poverty_pct": 12.2,
+      "previous_year": 1979,
+      "previous_poverty_pct": 18.2,
+      "change_pp": -6.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1987,
+      "absolute_poverty_pct": 11.1,
+      "previous_year": 1984,
+      "previous_poverty_pct": 12.2,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1989,
+      "absolute_poverty_pct": 10.1,
+      "previous_year": 1987,
+      "previous_poverty_pct": 11.1,
+      "change_pp": -1.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1992,
+      "absolute_poverty_pct": 5.6,
+      "previous_year": 1989,
+      "previous_poverty_pct": 10.1,
+      "change_pp": -4.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1995,
+      "absolute_poverty_pct": 3.1,
+      "previous_year": 1992,
+      "previous_poverty_pct": 5.6,
+      "change_pp": -2.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1997,
+      "absolute_poverty_pct": 1.6,
+      "previous_year": 1995,
+      "previous_poverty_pct": 3.1,
+      "change_pp": -1.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 1999,
+      "absolute_poverty_pct": 2.5,
+      "previous_year": 1997,
+      "previous_poverty_pct": 1.6,
+      "change_pp": 0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2002,
+      "absolute_poverty_pct": 1.8,
+      "previous_year": 1999,
+      "previous_poverty_pct": 2.5,
+      "change_pp": -0.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2004,
+      "absolute_poverty_pct": 2.0,
+      "previous_year": 2002,
+      "previous_poverty_pct": 1.8,
+      "change_pp": 0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2007,
+      "absolute_poverty_pct": 1.5,
+      "previous_year": 2004,
+      "previous_poverty_pct": 2.0,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2009,
+      "absolute_poverty_pct": 1.3,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.5,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2012,
+      "absolute_poverty_pct": 0.9,
+      "previous_year": 2009,
+      "previous_poverty_pct": 1.3,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2014,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.9,
+      "change_pp": -0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Johor",
+      "year": 2019,
+      "absolute_poverty_pct": 3.9,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Johor",
+      "year": 2022,
+      "absolute_poverty_pct": 4.6,
+      "previous_year": 2019,
+      "previous_poverty_pct": 3.9,
+      "change_pp": 0.7,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Johor",
+      "year": 2024,
+      "absolute_poverty_pct": 2.5,
+      "previous_year": 2022,
+      "previous_poverty_pct": 4.6,
+      "change_pp": -2.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Kedah",
+      "year": 1970,
+      "absolute_poverty_pct": 63.2,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Kedah",
+      "year": 1976,
+      "absolute_poverty_pct": 61.0,
+      "previous_year": 1970,
+      "previous_poverty_pct": 63.2,
+      "change_pp": -2.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1979,
+      "absolute_poverty_pct": 53.8,
+      "previous_year": 1976,
+      "previous_poverty_pct": 61.0,
+      "change_pp": -7.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1984,
+      "absolute_poverty_pct": 36.6,
+      "previous_year": 1979,
+      "previous_poverty_pct": 53.8,
+      "change_pp": -17.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1987,
+      "absolute_poverty_pct": 31.3,
+      "previous_year": 1984,
+      "previous_poverty_pct": 36.6,
+      "change_pp": -5.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1989,
+      "absolute_poverty_pct": 30.0,
+      "previous_year": 1987,
+      "previous_poverty_pct": 31.3,
+      "change_pp": -1.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1992,
+      "absolute_poverty_pct": 21.2,
+      "previous_year": 1989,
+      "previous_poverty_pct": 30.0,
+      "change_pp": -8.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1995,
+      "absolute_poverty_pct": 12.2,
+      "previous_year": 1992,
+      "previous_poverty_pct": 21.2,
+      "change_pp": -9.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1997,
+      "absolute_poverty_pct": 11.5,
+      "previous_year": 1995,
+      "previous_poverty_pct": 12.2,
+      "change_pp": -0.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 1999,
+      "absolute_poverty_pct": 13.5,
+      "previous_year": 1997,
+      "previous_poverty_pct": 11.5,
+      "change_pp": 2.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2002,
+      "absolute_poverty_pct": 10.7,
+      "previous_year": 1999,
+      "previous_poverty_pct": 13.5,
+      "change_pp": -2.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2004,
+      "absolute_poverty_pct": 7.0,
+      "previous_year": 2002,
+      "previous_poverty_pct": 10.7,
+      "change_pp": -3.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2007,
+      "absolute_poverty_pct": 3.1,
+      "previous_year": 2004,
+      "previous_poverty_pct": 7.0,
+      "change_pp": -3.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2009,
+      "absolute_poverty_pct": 5.3,
+      "previous_year": 2007,
+      "previous_poverty_pct": 3.1,
+      "change_pp": 2.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2012,
+      "absolute_poverty_pct": 1.7,
+      "previous_year": 2009,
+      "previous_poverty_pct": 5.3,
+      "change_pp": -3.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2014,
+      "absolute_poverty_pct": 0.3,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.7,
+      "change_pp": -1.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2016,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.3,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kedah",
+      "year": 2019,
+      "absolute_poverty_pct": 8.8,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.2,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Kedah",
+      "year": 2022,
+      "absolute_poverty_pct": 9.0,
+      "previous_year": 2019,
+      "previous_poverty_pct": 8.8,
+      "change_pp": 0.2,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Kedah",
+      "year": 2024,
+      "absolute_poverty_pct": 8.4,
+      "previous_year": 2022,
+      "previous_poverty_pct": 9.0,
+      "change_pp": -0.6,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1970,
+      "absolute_poverty_pct": 76.1,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1976,
+      "absolute_poverty_pct": 67.1,
+      "previous_year": 1970,
+      "previous_poverty_pct": 76.1,
+      "change_pp": -9.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1979,
+      "absolute_poverty_pct": 55.0,
+      "previous_year": 1976,
+      "previous_poverty_pct": 67.1,
+      "change_pp": -12.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1984,
+      "absolute_poverty_pct": 39.2,
+      "previous_year": 1979,
+      "previous_poverty_pct": 55.0,
+      "change_pp": -15.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1987,
+      "absolute_poverty_pct": 31.6,
+      "previous_year": 1984,
+      "previous_poverty_pct": 39.2,
+      "change_pp": -7.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1989,
+      "absolute_poverty_pct": 29.9,
+      "previous_year": 1987,
+      "previous_poverty_pct": 31.6,
+      "change_pp": -1.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1992,
+      "absolute_poverty_pct": 29.5,
+      "previous_year": 1989,
+      "previous_poverty_pct": 29.9,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1995,
+      "absolute_poverty_pct": 22.9,
+      "previous_year": 1992,
+      "previous_poverty_pct": 29.5,
+      "change_pp": -6.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1997,
+      "absolute_poverty_pct": 19.5,
+      "previous_year": 1995,
+      "previous_poverty_pct": 22.9,
+      "change_pp": -3.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 1999,
+      "absolute_poverty_pct": 18.7,
+      "previous_year": 1997,
+      "previous_poverty_pct": 19.5,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2002,
+      "absolute_poverty_pct": 12.4,
+      "previous_year": 1999,
+      "previous_poverty_pct": 18.7,
+      "change_pp": -6.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2004,
+      "absolute_poverty_pct": 10.6,
+      "previous_year": 2002,
+      "previous_poverty_pct": 12.4,
+      "change_pp": -1.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2007,
+      "absolute_poverty_pct": 7.2,
+      "previous_year": 2004,
+      "previous_poverty_pct": 10.6,
+      "change_pp": -3.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2009,
+      "absolute_poverty_pct": 4.8,
+      "previous_year": 2007,
+      "previous_poverty_pct": 7.2,
+      "change_pp": -2.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2012,
+      "absolute_poverty_pct": 2.7,
+      "previous_year": 2009,
+      "previous_poverty_pct": 4.8,
+      "change_pp": -2.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2014,
+      "absolute_poverty_pct": 0.9,
+      "previous_year": 2012,
+      "previous_poverty_pct": 2.7,
+      "change_pp": -1.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2016,
+      "absolute_poverty_pct": 0.4,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.9,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2019,
+      "absolute_poverty_pct": 12.4,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.4,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2022,
+      "absolute_poverty_pct": 13.2,
+      "previous_year": 2019,
+      "previous_poverty_pct": 12.4,
+      "change_pp": 0.8,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Kelantan",
+      "year": 2024,
+      "absolute_poverty_pct": 11.5,
+      "previous_year": 2022,
+      "previous_poverty_pct": 13.2,
+      "change_pp": -1.7,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Melaka",
+      "year": 1970,
+      "absolute_poverty_pct": 44.9,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Melaka",
+      "year": 1976,
+      "absolute_poverty_pct": 32.4,
+      "previous_year": 1970,
+      "previous_poverty_pct": 44.9,
+      "change_pp": -12.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1979,
+      "absolute_poverty_pct": 20.4,
+      "previous_year": 1976,
+      "previous_poverty_pct": 32.4,
+      "change_pp": -12.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1984,
+      "absolute_poverty_pct": 15.8,
+      "previous_year": 1979,
+      "previous_poverty_pct": 20.4,
+      "change_pp": -4.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1987,
+      "absolute_poverty_pct": 11.7,
+      "previous_year": 1984,
+      "previous_poverty_pct": 15.8,
+      "change_pp": -4.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1989,
+      "absolute_poverty_pct": 12.4,
+      "previous_year": 1987,
+      "previous_poverty_pct": 11.7,
+      "change_pp": 0.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1992,
+      "absolute_poverty_pct": 8.5,
+      "previous_year": 1989,
+      "previous_poverty_pct": 12.4,
+      "change_pp": -3.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1995,
+      "absolute_poverty_pct": 5.3,
+      "previous_year": 1992,
+      "previous_poverty_pct": 8.5,
+      "change_pp": -3.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1997,
+      "absolute_poverty_pct": 3.6,
+      "previous_year": 1995,
+      "previous_poverty_pct": 5.3,
+      "change_pp": -1.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 1999,
+      "absolute_poverty_pct": 5.7,
+      "previous_year": 1997,
+      "previous_poverty_pct": 3.6,
+      "change_pp": 2.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2002,
+      "absolute_poverty_pct": 2.7,
+      "previous_year": 1999,
+      "previous_poverty_pct": 5.7,
+      "change_pp": -3.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2004,
+      "absolute_poverty_pct": 1.8,
+      "previous_year": 2002,
+      "previous_poverty_pct": 2.7,
+      "change_pp": -0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2007,
+      "absolute_poverty_pct": 1.8,
+      "previous_year": 2004,
+      "previous_poverty_pct": 1.8,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2009,
+      "absolute_poverty_pct": 0.5,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.8,
+      "change_pp": -1.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2012,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2009,
+      "previous_poverty_pct": 0.5,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2014,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.1,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.1,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Melaka",
+      "year": 2019,
+      "absolute_poverty_pct": 3.9,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Melaka",
+      "year": 2022,
+      "absolute_poverty_pct": 4.2,
+      "previous_year": 2019,
+      "previous_poverty_pct": 3.9,
+      "change_pp": 0.3,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Melaka",
+      "year": 2024,
+      "absolute_poverty_pct": 3.0,
+      "previous_year": 2022,
+      "previous_poverty_pct": 4.2,
+      "change_pp": -1.2,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1970,
+      "absolute_poverty_pct": 44.8,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1976,
+      "absolute_poverty_pct": 33.0,
+      "previous_year": 1970,
+      "previous_poverty_pct": 44.8,
+      "change_pp": -11.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1979,
+      "absolute_poverty_pct": 26.3,
+      "previous_year": 1976,
+      "previous_poverty_pct": 33.0,
+      "change_pp": -6.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1984,
+      "absolute_poverty_pct": 13.0,
+      "previous_year": 1979,
+      "previous_poverty_pct": 26.3,
+      "change_pp": -13.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1987,
+      "absolute_poverty_pct": 21.5,
+      "previous_year": 1984,
+      "previous_poverty_pct": 13.0,
+      "change_pp": 8.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1989,
+      "absolute_poverty_pct": 9.5,
+      "previous_year": 1987,
+      "previous_poverty_pct": 21.5,
+      "change_pp": -12.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1992,
+      "absolute_poverty_pct": 8.1,
+      "previous_year": 1989,
+      "previous_poverty_pct": 9.5,
+      "change_pp": -1.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1995,
+      "absolute_poverty_pct": 4.9,
+      "previous_year": 1992,
+      "previous_poverty_pct": 8.1,
+      "change_pp": -3.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1997,
+      "absolute_poverty_pct": 4.5,
+      "previous_year": 1995,
+      "previous_poverty_pct": 4.9,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 1999,
+      "absolute_poverty_pct": 2.5,
+      "previous_year": 1997,
+      "previous_poverty_pct": 4.5,
+      "change_pp": -2.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2002,
+      "absolute_poverty_pct": 2.2,
+      "previous_year": 1999,
+      "previous_poverty_pct": 2.5,
+      "change_pp": -0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2004,
+      "absolute_poverty_pct": 1.4,
+      "previous_year": 2002,
+      "previous_poverty_pct": 2.2,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2007,
+      "absolute_poverty_pct": 1.3,
+      "previous_year": 2004,
+      "previous_poverty_pct": 1.4,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2009,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.3,
+      "change_pp": -0.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2012,
+      "absolute_poverty_pct": 0.5,
+      "previous_year": 2009,
+      "previous_poverty_pct": 0.7,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2014,
+      "absolute_poverty_pct": 0.4,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.5,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2016,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.4,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2019,
+      "absolute_poverty_pct": 4.3,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.2,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2022,
+      "absolute_poverty_pct": 4.4,
+      "previous_year": 2019,
+      "previous_poverty_pct": 4.3,
+      "change_pp": 0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "year": 2024,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 2022,
+      "previous_poverty_pct": 4.4,
+      "change_pp": -0.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Pahang",
+      "year": 1970,
+      "absolute_poverty_pct": 43.2,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Pahang",
+      "year": 1976,
+      "absolute_poverty_pct": 38.9,
+      "previous_year": 1970,
+      "previous_poverty_pct": 43.2,
+      "change_pp": -4.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1979,
+      "absolute_poverty_pct": 26.9,
+      "previous_year": 1976,
+      "previous_poverty_pct": 38.9,
+      "change_pp": -12.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1984,
+      "absolute_poverty_pct": 15.7,
+      "previous_year": 1979,
+      "previous_poverty_pct": 26.9,
+      "change_pp": -11.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1987,
+      "absolute_poverty_pct": 12.3,
+      "previous_year": 1984,
+      "previous_poverty_pct": 15.7,
+      "change_pp": -3.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1989,
+      "absolute_poverty_pct": 10.2,
+      "previous_year": 1987,
+      "previous_poverty_pct": 12.3,
+      "change_pp": -2.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1992,
+      "absolute_poverty_pct": 6.9,
+      "previous_year": 1989,
+      "previous_poverty_pct": 10.2,
+      "change_pp": -3.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1995,
+      "absolute_poverty_pct": 6.8,
+      "previous_year": 1992,
+      "previous_poverty_pct": 6.9,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1997,
+      "absolute_poverty_pct": 4.1,
+      "previous_year": 1995,
+      "previous_poverty_pct": 6.8,
+      "change_pp": -2.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 1999,
+      "absolute_poverty_pct": 5.5,
+      "previous_year": 1997,
+      "previous_poverty_pct": 4.1,
+      "change_pp": 1.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2002,
+      "absolute_poverty_pct": 3.8,
+      "previous_year": 1999,
+      "previous_poverty_pct": 5.5,
+      "change_pp": -1.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2004,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 2002,
+      "previous_poverty_pct": 3.8,
+      "change_pp": 0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2007,
+      "absolute_poverty_pct": 1.7,
+      "previous_year": 2004,
+      "previous_poverty_pct": 4.0,
+      "change_pp": -2.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2009,
+      "absolute_poverty_pct": 2.1,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.7,
+      "change_pp": 0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2012,
+      "absolute_poverty_pct": 1.3,
+      "previous_year": 2009,
+      "previous_poverty_pct": 2.1,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2014,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.3,
+      "change_pp": -0.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2016,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.7,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pahang",
+      "year": 2019,
+      "absolute_poverty_pct": 4.3,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.2,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Pahang",
+      "year": 2022,
+      "absolute_poverty_pct": 6.3,
+      "previous_year": 2019,
+      "previous_poverty_pct": 4.3,
+      "change_pp": 2.0,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Pahang",
+      "year": 2024,
+      "absolute_poverty_pct": 5.9,
+      "previous_year": 2022,
+      "previous_poverty_pct": 6.3,
+      "change_pp": -0.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Perak",
+      "year": 1970,
+      "absolute_poverty_pct": 48.6,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Perak",
+      "year": 1976,
+      "absolute_poverty_pct": 43.0,
+      "previous_year": 1970,
+      "previous_poverty_pct": 48.6,
+      "change_pp": -5.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1979,
+      "absolute_poverty_pct": 30.5,
+      "previous_year": 1976,
+      "previous_poverty_pct": 43.0,
+      "change_pp": -12.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1984,
+      "absolute_poverty_pct": 20.3,
+      "previous_year": 1979,
+      "previous_poverty_pct": 30.5,
+      "change_pp": -10.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1987,
+      "absolute_poverty_pct": 19.9,
+      "previous_year": 1984,
+      "previous_poverty_pct": 20.3,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1989,
+      "absolute_poverty_pct": 19.3,
+      "previous_year": 1987,
+      "previous_poverty_pct": 19.9,
+      "change_pp": -0.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1992,
+      "absolute_poverty_pct": 10.2,
+      "previous_year": 1989,
+      "previous_poverty_pct": 19.3,
+      "change_pp": -9.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1995,
+      "absolute_poverty_pct": 9.1,
+      "previous_year": 1992,
+      "previous_poverty_pct": 10.2,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1997,
+      "absolute_poverty_pct": 4.5,
+      "previous_year": 1995,
+      "previous_poverty_pct": 9.1,
+      "change_pp": -4.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 1999,
+      "absolute_poverty_pct": 9.5,
+      "previous_year": 1997,
+      "previous_poverty_pct": 4.5,
+      "change_pp": 5.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2002,
+      "absolute_poverty_pct": 7.9,
+      "previous_year": 1999,
+      "previous_poverty_pct": 9.5,
+      "change_pp": -1.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2004,
+      "absolute_poverty_pct": 4.9,
+      "previous_year": 2002,
+      "previous_poverty_pct": 7.9,
+      "change_pp": -3.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2007,
+      "absolute_poverty_pct": 3.4,
+      "previous_year": 2004,
+      "previous_poverty_pct": 4.9,
+      "change_pp": -1.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2009,
+      "absolute_poverty_pct": 3.5,
+      "previous_year": 2007,
+      "previous_poverty_pct": 3.4,
+      "change_pp": 0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2012,
+      "absolute_poverty_pct": 1.5,
+      "previous_year": 2009,
+      "previous_poverty_pct": 3.5,
+      "change_pp": -2.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2014,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.5,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2016,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.7,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perak",
+      "year": 2019,
+      "absolute_poverty_pct": 7.3,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.2,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Perak",
+      "year": 2022,
+      "absolute_poverty_pct": 7.5,
+      "previous_year": 2019,
+      "previous_poverty_pct": 7.3,
+      "change_pp": 0.2,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Perak",
+      "year": 2024,
+      "absolute_poverty_pct": 6.9,
+      "previous_year": 2022,
+      "previous_poverty_pct": 7.5,
+      "change_pp": -0.6,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Perlis",
+      "year": 1970,
+      "absolute_poverty_pct": 73.9,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Perlis",
+      "year": 1976,
+      "absolute_poverty_pct": 59.8,
+      "previous_year": 1970,
+      "previous_poverty_pct": 73.9,
+      "change_pp": -14.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1979,
+      "absolute_poverty_pct": 63.1,
+      "previous_year": 1976,
+      "previous_poverty_pct": 59.8,
+      "change_pp": 3.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1984,
+      "absolute_poverty_pct": 33.7,
+      "previous_year": 1979,
+      "previous_poverty_pct": 63.1,
+      "change_pp": -29.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1987,
+      "absolute_poverty_pct": 29.1,
+      "previous_year": 1984,
+      "previous_poverty_pct": 33.7,
+      "change_pp": -4.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1989,
+      "absolute_poverty_pct": 17.2,
+      "previous_year": 1987,
+      "previous_poverty_pct": 29.1,
+      "change_pp": -11.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1992,
+      "absolute_poverty_pct": 19.8,
+      "previous_year": 1989,
+      "previous_poverty_pct": 17.2,
+      "change_pp": 2.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1995,
+      "absolute_poverty_pct": 11.8,
+      "previous_year": 1992,
+      "previous_poverty_pct": 19.8,
+      "change_pp": -8.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1997,
+      "absolute_poverty_pct": 10.6,
+      "previous_year": 1995,
+      "previous_poverty_pct": 11.8,
+      "change_pp": -1.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 1999,
+      "absolute_poverty_pct": 13.3,
+      "previous_year": 1997,
+      "previous_poverty_pct": 10.6,
+      "change_pp": 2.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2002,
+      "absolute_poverty_pct": 10.1,
+      "previous_year": 1999,
+      "previous_poverty_pct": 13.3,
+      "change_pp": -3.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2004,
+      "absolute_poverty_pct": 6.3,
+      "previous_year": 2002,
+      "previous_poverty_pct": 10.1,
+      "change_pp": -3.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2007,
+      "absolute_poverty_pct": 6.8,
+      "previous_year": 2004,
+      "previous_poverty_pct": 6.3,
+      "change_pp": 0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2009,
+      "absolute_poverty_pct": 6.0,
+      "previous_year": 2007,
+      "previous_poverty_pct": 6.8,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2012,
+      "absolute_poverty_pct": 1.9,
+      "previous_year": 2009,
+      "previous_poverty_pct": 6.0,
+      "change_pp": -4.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2014,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.9,
+      "change_pp": -1.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2016,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.2,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Perlis",
+      "year": 2019,
+      "absolute_poverty_pct": 3.9,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.1,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Perlis",
+      "year": 2022,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 2019,
+      "previous_poverty_pct": 3.9,
+      "change_pp": 0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Perlis",
+      "year": 2024,
+      "absolute_poverty_pct": 3.6,
+      "previous_year": 2022,
+      "previous_poverty_pct": 4.0,
+      "change_pp": -0.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1970,
+      "absolute_poverty_pct": 43.7,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1976,
+      "absolute_poverty_pct": 32.4,
+      "previous_year": 1970,
+      "previous_poverty_pct": 43.7,
+      "change_pp": -11.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1979,
+      "absolute_poverty_pct": 19.7,
+      "previous_year": 1976,
+      "previous_poverty_pct": 32.4,
+      "change_pp": -12.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1984,
+      "absolute_poverty_pct": 13.4,
+      "previous_year": 1979,
+      "previous_poverty_pct": 19.7,
+      "change_pp": -6.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1987,
+      "absolute_poverty_pct": 12.9,
+      "previous_year": 1984,
+      "previous_poverty_pct": 13.4,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1989,
+      "absolute_poverty_pct": 8.9,
+      "previous_year": 1987,
+      "previous_poverty_pct": 12.9,
+      "change_pp": -4.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1992,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 1989,
+      "previous_poverty_pct": 8.9,
+      "change_pp": -4.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1995,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 1992,
+      "previous_poverty_pct": 4.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1997,
+      "absolute_poverty_pct": 1.6,
+      "previous_year": 1995,
+      "previous_poverty_pct": 4.0,
+      "change_pp": -2.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 1999,
+      "absolute_poverty_pct": 2.7,
+      "previous_year": 1997,
+      "previous_poverty_pct": 1.6,
+      "change_pp": 1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2002,
+      "absolute_poverty_pct": 1.4,
+      "previous_year": 1999,
+      "previous_poverty_pct": 2.7,
+      "change_pp": -1.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2004,
+      "absolute_poverty_pct": 0.3,
+      "previous_year": 2002,
+      "previous_poverty_pct": 1.4,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2007,
+      "absolute_poverty_pct": 1.4,
+      "previous_year": 2004,
+      "previous_poverty_pct": 0.3,
+      "change_pp": 1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2009,
+      "absolute_poverty_pct": 1.2,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.4,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2012,
+      "absolute_poverty_pct": 0.6,
+      "previous_year": 2009,
+      "previous_poverty_pct": 1.2,
+      "change_pp": -0.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2014,
+      "absolute_poverty_pct": 0.3,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.6,
+      "change_pp": -0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2016,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.3,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2019,
+      "absolute_poverty_pct": 1.9,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.1,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2022,
+      "absolute_poverty_pct": 2.0,
+      "previous_year": 2019,
+      "previous_poverty_pct": 1.9,
+      "change_pp": 0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Pulau Pinang",
+      "year": 2024,
+      "absolute_poverty_pct": 1.9,
+      "previous_year": 2022,
+      "previous_poverty_pct": 2.0,
+      "change_pp": -0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Sabah",
+      "year": 1976,
+      "absolute_poverty_pct": 58.3,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Sabah",
+      "year": 1979,
+      "absolute_poverty_pct": 40.7,
+      "previous_year": 1976,
+      "previous_poverty_pct": 58.3,
+      "change_pp": -17.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1984,
+      "absolute_poverty_pct": 33.1,
+      "previous_year": 1979,
+      "previous_poverty_pct": 40.7,
+      "change_pp": -7.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1987,
+      "absolute_poverty_pct": 35.3,
+      "previous_year": 1984,
+      "previous_poverty_pct": 33.1,
+      "change_pp": 2.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1989,
+      "absolute_poverty_pct": 29.7,
+      "previous_year": 1987,
+      "previous_poverty_pct": 35.3,
+      "change_pp": -5.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1992,
+      "absolute_poverty_pct": 27.8,
+      "previous_year": 1989,
+      "previous_poverty_pct": 29.7,
+      "change_pp": -1.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1995,
+      "absolute_poverty_pct": 22.6,
+      "previous_year": 1992,
+      "previous_poverty_pct": 27.8,
+      "change_pp": -5.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1997,
+      "absolute_poverty_pct": 22.1,
+      "previous_year": 1995,
+      "previous_poverty_pct": 22.6,
+      "change_pp": -0.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 1999,
+      "absolute_poverty_pct": 20.1,
+      "previous_year": 1997,
+      "previous_poverty_pct": 22.1,
+      "change_pp": -2.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2002,
+      "absolute_poverty_pct": 16.0,
+      "previous_year": 1999,
+      "previous_poverty_pct": 20.1,
+      "change_pp": -4.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2004,
+      "absolute_poverty_pct": 24.2,
+      "previous_year": 2002,
+      "previous_poverty_pct": 16.0,
+      "change_pp": 8.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2007,
+      "absolute_poverty_pct": 16.4,
+      "previous_year": 2004,
+      "previous_poverty_pct": 24.2,
+      "change_pp": -7.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2009,
+      "absolute_poverty_pct": 19.7,
+      "previous_year": 2007,
+      "previous_poverty_pct": 16.4,
+      "change_pp": 3.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2012,
+      "absolute_poverty_pct": 8.1,
+      "previous_year": 2009,
+      "previous_poverty_pct": 19.7,
+      "change_pp": -11.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2014,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 2012,
+      "previous_poverty_pct": 8.1,
+      "change_pp": -4.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2016,
+      "absolute_poverty_pct": 2.9,
+      "previous_year": 2014,
+      "previous_poverty_pct": 4.0,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sabah",
+      "year": 2019,
+      "absolute_poverty_pct": 19.5,
+      "previous_year": 2016,
+      "previous_poverty_pct": 2.9,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Sabah",
+      "year": 2022,
+      "absolute_poverty_pct": 19.7,
+      "previous_year": 2019,
+      "previous_poverty_pct": 19.5,
+      "change_pp": 0.2,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Sabah",
+      "year": 2024,
+      "absolute_poverty_pct": 17.7,
+      "previous_year": 2022,
+      "previous_poverty_pct": 19.7,
+      "change_pp": -2.0,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1976,
+      "absolute_poverty_pct": 56.5,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1979,
+      "absolute_poverty_pct": 47.8,
+      "previous_year": 1976,
+      "previous_poverty_pct": 56.5,
+      "change_pp": -8.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1984,
+      "absolute_poverty_pct": 31.9,
+      "previous_year": 1979,
+      "previous_poverty_pct": 47.8,
+      "change_pp": -15.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1987,
+      "absolute_poverty_pct": 24.7,
+      "previous_year": 1984,
+      "previous_poverty_pct": 31.9,
+      "change_pp": -7.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1989,
+      "absolute_poverty_pct": 21.0,
+      "previous_year": 1987,
+      "previous_poverty_pct": 24.7,
+      "change_pp": -3.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1992,
+      "absolute_poverty_pct": 19.2,
+      "previous_year": 1989,
+      "previous_poverty_pct": 21.0,
+      "change_pp": -1.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1995,
+      "absolute_poverty_pct": 10.0,
+      "previous_year": 1992,
+      "previous_poverty_pct": 19.2,
+      "change_pp": -9.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1997,
+      "absolute_poverty_pct": 7.5,
+      "previous_year": 1995,
+      "previous_poverty_pct": 10.0,
+      "change_pp": -2.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 1999,
+      "absolute_poverty_pct": 6.7,
+      "previous_year": 1997,
+      "previous_poverty_pct": 7.5,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2002,
+      "absolute_poverty_pct": 5.8,
+      "previous_year": 1999,
+      "previous_poverty_pct": 6.7,
+      "change_pp": -0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2004,
+      "absolute_poverty_pct": 7.5,
+      "previous_year": 2002,
+      "previous_poverty_pct": 5.8,
+      "change_pp": 1.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2007,
+      "absolute_poverty_pct": 4.2,
+      "previous_year": 2004,
+      "previous_poverty_pct": 7.5,
+      "change_pp": -3.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2009,
+      "absolute_poverty_pct": 5.3,
+      "previous_year": 2007,
+      "previous_poverty_pct": 4.2,
+      "change_pp": 1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2012,
+      "absolute_poverty_pct": 2.4,
+      "previous_year": 2009,
+      "previous_poverty_pct": 5.3,
+      "change_pp": -2.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2014,
+      "absolute_poverty_pct": 0.9,
+      "previous_year": 2012,
+      "previous_poverty_pct": 2.4,
+      "change_pp": -1.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2016,
+      "absolute_poverty_pct": 0.6,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.9,
+      "change_pp": -0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2019,
+      "absolute_poverty_pct": 9.0,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.6,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2022,
+      "absolute_poverty_pct": 10.8,
+      "previous_year": 2019,
+      "previous_poverty_pct": 9.0,
+      "change_pp": 1.8,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Sarawak",
+      "year": 2024,
+      "absolute_poverty_pct": 8.4,
+      "previous_year": 2022,
+      "previous_poverty_pct": 10.8,
+      "change_pp": -2.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Selangor",
+      "year": 1970,
+      "absolute_poverty_pct": 29.2,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Selangor",
+      "year": 1976,
+      "absolute_poverty_pct": 22.9,
+      "previous_year": 1970,
+      "previous_poverty_pct": 29.2,
+      "change_pp": -6.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1979,
+      "absolute_poverty_pct": 14.5,
+      "previous_year": 1976,
+      "previous_poverty_pct": 22.9,
+      "change_pp": -8.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1984,
+      "absolute_poverty_pct": 8.6,
+      "previous_year": 1979,
+      "previous_poverty_pct": 14.5,
+      "change_pp": -5.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1987,
+      "absolute_poverty_pct": 8.9,
+      "previous_year": 1984,
+      "previous_poverty_pct": 8.6,
+      "change_pp": 0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1989,
+      "absolute_poverty_pct": 7.8,
+      "previous_year": 1987,
+      "previous_poverty_pct": 8.9,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1992,
+      "absolute_poverty_pct": 4.3,
+      "previous_year": 1989,
+      "previous_poverty_pct": 7.8,
+      "change_pp": -3.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1995,
+      "absolute_poverty_pct": 2.2,
+      "previous_year": 1992,
+      "previous_poverty_pct": 4.3,
+      "change_pp": -2.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1997,
+      "absolute_poverty_pct": 1.3,
+      "previous_year": 1995,
+      "previous_poverty_pct": 2.2,
+      "change_pp": -0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 1999,
+      "absolute_poverty_pct": 2.0,
+      "previous_year": 1997,
+      "previous_poverty_pct": 1.3,
+      "change_pp": 0.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2002,
+      "absolute_poverty_pct": 1.1,
+      "previous_year": 1999,
+      "previous_poverty_pct": 2.0,
+      "change_pp": -0.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2004,
+      "absolute_poverty_pct": 1.0,
+      "previous_year": 2002,
+      "previous_poverty_pct": 1.1,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2007,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2004,
+      "previous_poverty_pct": 1.0,
+      "change_pp": -0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2009,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2007,
+      "previous_poverty_pct": 0.7,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2012,
+      "absolute_poverty_pct": 0.4,
+      "previous_year": 2009,
+      "previous_poverty_pct": 0.7,
+      "change_pp": -0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2014,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.4,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.2,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Selangor",
+      "year": 2019,
+      "absolute_poverty_pct": 1.2,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Selangor",
+      "year": 2022,
+      "absolute_poverty_pct": 1.5,
+      "previous_year": 2019,
+      "previous_poverty_pct": 1.2,
+      "change_pp": 0.3,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Selangor",
+      "year": 2024,
+      "absolute_poverty_pct": 0.9,
+      "previous_year": 2022,
+      "previous_poverty_pct": 1.5,
+      "change_pp": -0.6,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1970,
+      "absolute_poverty_pct": 68.9,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1976,
+      "absolute_poverty_pct": 60.3,
+      "previous_year": 1970,
+      "previous_poverty_pct": 68.9,
+      "change_pp": -8.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1979,
+      "absolute_poverty_pct": 53.1,
+      "previous_year": 1976,
+      "previous_poverty_pct": 60.3,
+      "change_pp": -7.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1984,
+      "absolute_poverty_pct": 28.9,
+      "previous_year": 1979,
+      "previous_poverty_pct": 53.1,
+      "change_pp": -24.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1987,
+      "absolute_poverty_pct": 36.1,
+      "previous_year": 1984,
+      "previous_poverty_pct": 28.9,
+      "change_pp": 7.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1989,
+      "absolute_poverty_pct": 31.2,
+      "previous_year": 1987,
+      "previous_poverty_pct": 36.1,
+      "change_pp": -4.9,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1992,
+      "absolute_poverty_pct": 25.6,
+      "previous_year": 1989,
+      "previous_poverty_pct": 31.2,
+      "change_pp": -5.6,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1995,
+      "absolute_poverty_pct": 23.4,
+      "previous_year": 1992,
+      "previous_poverty_pct": 25.6,
+      "change_pp": -2.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1997,
+      "absolute_poverty_pct": 17.3,
+      "previous_year": 1995,
+      "previous_poverty_pct": 23.4,
+      "change_pp": -6.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 1999,
+      "absolute_poverty_pct": 14.9,
+      "previous_year": 1997,
+      "previous_poverty_pct": 17.3,
+      "change_pp": -2.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2002,
+      "absolute_poverty_pct": 10.7,
+      "previous_year": 1999,
+      "previous_poverty_pct": 14.9,
+      "change_pp": -4.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2004,
+      "absolute_poverty_pct": 15.4,
+      "previous_year": 2002,
+      "previous_poverty_pct": 10.7,
+      "change_pp": 4.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2007,
+      "absolute_poverty_pct": 6.4,
+      "previous_year": 2004,
+      "previous_poverty_pct": 15.4,
+      "change_pp": -9.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2009,
+      "absolute_poverty_pct": 4.0,
+      "previous_year": 2007,
+      "previous_poverty_pct": 6.4,
+      "change_pp": -2.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2012,
+      "absolute_poverty_pct": 1.7,
+      "previous_year": 2009,
+      "previous_poverty_pct": 4.0,
+      "change_pp": -2.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2014,
+      "absolute_poverty_pct": 0.6,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.7,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2016,
+      "absolute_poverty_pct": 0.4,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.6,
+      "change_pp": -0.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2019,
+      "absolute_poverty_pct": 6.1,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.4,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2022,
+      "absolute_poverty_pct": 6.2,
+      "previous_year": 2019,
+      "previous_poverty_pct": 6.1,
+      "change_pp": 0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "Terengganu",
+      "year": 2024,
+      "absolute_poverty_pct": 5.8,
+      "previous_year": 2022,
+      "previous_poverty_pct": 6.2,
+      "change_pp": -0.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1984,
+      "absolute_poverty_pct": 4.9,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1987,
+      "absolute_poverty_pct": 5.2,
+      "previous_year": 1984,
+      "previous_poverty_pct": 4.9,
+      "change_pp": 0.3,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1989,
+      "absolute_poverty_pct": 3.8,
+      "previous_year": 1987,
+      "previous_poverty_pct": 5.2,
+      "change_pp": -1.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1992,
+      "absolute_poverty_pct": 1.7,
+      "previous_year": 1989,
+      "previous_poverty_pct": 3.8,
+      "change_pp": -2.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1995,
+      "absolute_poverty_pct": 0.5,
+      "previous_year": 1992,
+      "previous_poverty_pct": 1.7,
+      "change_pp": -1.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1997,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 1995,
+      "previous_poverty_pct": 0.5,
+      "change_pp": -0.4,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 1999,
+      "absolute_poverty_pct": 2.3,
+      "previous_year": 1997,
+      "previous_poverty_pct": 0.1,
+      "change_pp": 2.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2002,
+      "absolute_poverty_pct": 0.5,
+      "previous_year": 1999,
+      "previous_poverty_pct": 2.3,
+      "change_pp": -1.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2004,
+      "absolute_poverty_pct": 1.5,
+      "previous_year": 2002,
+      "previous_poverty_pct": 0.5,
+      "change_pp": 1.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2007,
+      "absolute_poverty_pct": 1.5,
+      "previous_year": 2004,
+      "previous_poverty_pct": 1.5,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2009,
+      "absolute_poverty_pct": 0.7,
+      "previous_year": 2007,
+      "previous_poverty_pct": 1.5,
+      "change_pp": -0.8,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2012,
+      "absolute_poverty_pct": 0.8,
+      "previous_year": 2009,
+      "previous_poverty_pct": 0.7,
+      "change_pp": 0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2014,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.8,
+      "change_pp": -0.7,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.1,
+      "change_pp": -0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2019,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2022,
+      "absolute_poverty_pct": 1.4,
+      "previous_year": 2019,
+      "previous_poverty_pct": 0.2,
+      "change_pp": 1.2,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "year": 2024,
+      "absolute_poverty_pct": 1.0,
+      "previous_year": 2022,
+      "previous_poverty_pct": 1.4,
+      "change_pp": -0.4,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2004,
+      "absolute_poverty_pct": 2.7,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2007,
+      "absolute_poverty_pct": 4.2,
+      "previous_year": 2004,
+      "previous_poverty_pct": 2.7,
+      "change_pp": 1.5,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2009,
+      "absolute_poverty_pct": 4.3,
+      "previous_year": 2007,
+      "previous_poverty_pct": 4.2,
+      "change_pp": 0.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2012,
+      "absolute_poverty_pct": 1.1,
+      "previous_year": 2009,
+      "previous_poverty_pct": 4.3,
+      "change_pp": -3.2,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2014,
+      "absolute_poverty_pct": 1.1,
+      "previous_year": 2012,
+      "previous_poverty_pct": 1.1,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 1.1,
+      "change_pp": -1.1,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2019,
+      "absolute_poverty_pct": 3.1,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2022,
+      "absolute_poverty_pct": 2.5,
+      "previous_year": 2019,
+      "previous_poverty_pct": 3.1,
+      "change_pp": -0.6,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Labuan",
+      "year": 2024,
+      "absolute_poverty_pct": 2.0,
+      "previous_year": 2022,
+      "previous_poverty_pct": 2.5,
+      "change_pp": -0.5,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2007,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": null,
+      "previous_poverty_pct": null,
+      "change_pp": null,
+      "comparability": "First available observation"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2009,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2007,
+      "previous_poverty_pct": 0.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2012,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2009,
+      "previous_poverty_pct": 0.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2014,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2012,
+      "previous_poverty_pct": 0.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2016,
+      "absolute_poverty_pct": 0.0,
+      "previous_year": 2014,
+      "previous_poverty_pct": 0.0,
+      "change_pp": 0.0,
+      "comparability": "Historical definitions: limited comparability"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2019,
+      "absolute_poverty_pct": 0.4,
+      "previous_year": 2016,
+      "previous_poverty_pct": 0.0,
+      "change_pp": null,
+      "comparability": "Definition break: change withheld"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2022,
+      "absolute_poverty_pct": 0.1,
+      "previous_year": 2019,
+      "previous_poverty_pct": 0.4,
+      "change_pp": -0.3,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "year": 2024,
+      "absolute_poverty_pct": 0.2,
+      "previous_year": 2022,
+      "previous_poverty_pct": 0.1,
+      "change_pp": 0.1,
+      "comparability": "2019 PLI methodology; thresholds updated"
+    }
+  ]
+}

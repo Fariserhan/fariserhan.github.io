@@ -1,0 +1,293 @@
+﻿state,year,absolute_poverty_pct,previous_year,previous_poverty_pct,change_pp,comparability
+Johor,1970,45.7,,,,First available observation
+Johor,1976,29.0,1970,45.7,-16.7,Historical definitions: limited comparability
+Johor,1979,18.2,1976,29.0,-10.8,Historical definitions: limited comparability
+Johor,1984,12.2,1979,18.2,-6.0,Historical definitions: limited comparability
+Johor,1987,11.1,1984,12.2,-1.1,Historical definitions: limited comparability
+Johor,1989,10.1,1987,11.1,-1.0,Historical definitions: limited comparability
+Johor,1992,5.6,1989,10.1,-4.5,Historical definitions: limited comparability
+Johor,1995,3.1,1992,5.6,-2.5,Historical definitions: limited comparability
+Johor,1997,1.6,1995,3.1,-1.5,Historical definitions: limited comparability
+Johor,1999,2.5,1997,1.6,0.9,Historical definitions: limited comparability
+Johor,2002,1.8,1999,2.5,-0.7,Historical definitions: limited comparability
+Johor,2004,2.0,2002,1.8,0.2,Historical definitions: limited comparability
+Johor,2007,1.5,2004,2.0,-0.5,Historical definitions: limited comparability
+Johor,2009,1.3,2007,1.5,-0.2,Historical definitions: limited comparability
+Johor,2012,0.9,2009,1.3,-0.4,Historical definitions: limited comparability
+Johor,2014,0.0,2012,0.9,-0.9,Historical definitions: limited comparability
+Johor,2016,0.0,2014,0.0,0.0,Historical definitions: limited comparability
+Johor,2019,3.9,2016,0.0,,Definition break: change withheld
+Johor,2022,4.6,2019,3.9,0.7,2019 PLI methodology; thresholds updated
+Johor,2024,2.5,2022,4.6,-2.1,2019 PLI methodology; thresholds updated
+Kedah,1970,63.2,,,,First available observation
+Kedah,1976,61.0,1970,63.2,-2.2,Historical definitions: limited comparability
+Kedah,1979,53.8,1976,61.0,-7.2,Historical definitions: limited comparability
+Kedah,1984,36.6,1979,53.8,-17.2,Historical definitions: limited comparability
+Kedah,1987,31.3,1984,36.6,-5.3,Historical definitions: limited comparability
+Kedah,1989,30.0,1987,31.3,-1.3,Historical definitions: limited comparability
+Kedah,1992,21.2,1989,30.0,-8.8,Historical definitions: limited comparability
+Kedah,1995,12.2,1992,21.2,-9.0,Historical definitions: limited comparability
+Kedah,1997,11.5,1995,12.2,-0.7,Historical definitions: limited comparability
+Kedah,1999,13.5,1997,11.5,2.0,Historical definitions: limited comparability
+Kedah,2002,10.7,1999,13.5,-2.8,Historical definitions: limited comparability
+Kedah,2004,7.0,2002,10.7,-3.7,Historical definitions: limited comparability
+Kedah,2007,3.1,2004,7.0,-3.9,Historical definitions: limited comparability
+Kedah,2009,5.3,2007,3.1,2.2,Historical definitions: limited comparability
+Kedah,2012,1.7,2009,5.3,-3.6,Historical definitions: limited comparability
+Kedah,2014,0.3,2012,1.7,-1.4,Historical definitions: limited comparability
+Kedah,2016,0.2,2014,0.3,-0.1,Historical definitions: limited comparability
+Kedah,2019,8.8,2016,0.2,,Definition break: change withheld
+Kedah,2022,9.0,2019,8.8,0.2,2019 PLI methodology; thresholds updated
+Kedah,2024,8.4,2022,9.0,-0.6,2019 PLI methodology; thresholds updated
+Kelantan,1970,76.1,,,,First available observation
+Kelantan,1976,67.1,1970,76.1,-9.0,Historical definitions: limited comparability
+Kelantan,1979,55.0,1976,67.1,-12.1,Historical definitions: limited comparability
+Kelantan,1984,39.2,1979,55.0,-15.8,Historical definitions: limited comparability
+Kelantan,1987,31.6,1984,39.2,-7.6,Historical definitions: limited comparability
+Kelantan,1989,29.9,1987,31.6,-1.7,Historical definitions: limited comparability
+Kelantan,1992,29.5,1989,29.9,-0.4,Historical definitions: limited comparability
+Kelantan,1995,22.9,1992,29.5,-6.6,Historical definitions: limited comparability
+Kelantan,1997,19.5,1995,22.9,-3.4,Historical definitions: limited comparability
+Kelantan,1999,18.7,1997,19.5,-0.8,Historical definitions: limited comparability
+Kelantan,2002,12.4,1999,18.7,-6.3,Historical definitions: limited comparability
+Kelantan,2004,10.6,2002,12.4,-1.8,Historical definitions: limited comparability
+Kelantan,2007,7.2,2004,10.6,-3.4,Historical definitions: limited comparability
+Kelantan,2009,4.8,2007,7.2,-2.4,Historical definitions: limited comparability
+Kelantan,2012,2.7,2009,4.8,-2.1,Historical definitions: limited comparability
+Kelantan,2014,0.9,2012,2.7,-1.8,Historical definitions: limited comparability
+Kelantan,2016,0.4,2014,0.9,-0.5,Historical definitions: limited comparability
+Kelantan,2019,12.4,2016,0.4,,Definition break: change withheld
+Kelantan,2022,13.2,2019,12.4,0.8,2019 PLI methodology; thresholds updated
+Kelantan,2024,11.5,2022,13.2,-1.7,2019 PLI methodology; thresholds updated
+Melaka,1970,44.9,,,,First available observation
+Melaka,1976,32.4,1970,44.9,-12.5,Historical definitions: limited comparability
+Melaka,1979,20.4,1976,32.4,-12.0,Historical definitions: limited comparability
+Melaka,1984,15.8,1979,20.4,-4.6,Historical definitions: limited comparability
+Melaka,1987,11.7,1984,15.8,-4.1,Historical definitions: limited comparability
+Melaka,1989,12.4,1987,11.7,0.7,Historical definitions: limited comparability
+Melaka,1992,8.5,1989,12.4,-3.9,Historical definitions: limited comparability
+Melaka,1995,5.3,1992,8.5,-3.2,Historical definitions: limited comparability
+Melaka,1997,3.6,1995,5.3,-1.7,Historical definitions: limited comparability
+Melaka,1999,5.7,1997,3.6,2.1,Historical definitions: limited comparability
+Melaka,2002,2.7,1999,5.7,-3.0,Historical definitions: limited comparability
+Melaka,2004,1.8,2002,2.7,-0.9,Historical definitions: limited comparability
+Melaka,2007,1.8,2004,1.8,0.0,Historical definitions: limited comparability
+Melaka,2009,0.5,2007,1.8,-1.3,Historical definitions: limited comparability
+Melaka,2012,0.1,2009,0.5,-0.4,Historical definitions: limited comparability
+Melaka,2014,0.1,2012,0.1,0.0,Historical definitions: limited comparability
+Melaka,2016,0.0,2014,0.1,-0.1,Historical definitions: limited comparability
+Melaka,2019,3.9,2016,0.0,,Definition break: change withheld
+Melaka,2022,4.2,2019,3.9,0.3,2019 PLI methodology; thresholds updated
+Melaka,2024,3.0,2022,4.2,-1.2,2019 PLI methodology; thresholds updated
+Negeri Sembilan,1970,44.8,,,,First available observation
+Negeri Sembilan,1976,33.0,1970,44.8,-11.8,Historical definitions: limited comparability
+Negeri Sembilan,1979,26.3,1976,33.0,-6.7,Historical definitions: limited comparability
+Negeri Sembilan,1984,13.0,1979,26.3,-13.3,Historical definitions: limited comparability
+Negeri Sembilan,1987,21.5,1984,13.0,8.5,Historical definitions: limited comparability
+Negeri Sembilan,1989,9.5,1987,21.5,-12.0,Historical definitions: limited comparability
+Negeri Sembilan,1992,8.1,1989,9.5,-1.4,Historical definitions: limited comparability
+Negeri Sembilan,1995,4.9,1992,8.1,-3.2,Historical definitions: limited comparability
+Negeri Sembilan,1997,4.5,1995,4.9,-0.4,Historical definitions: limited comparability
+Negeri Sembilan,1999,2.5,1997,4.5,-2.0,Historical definitions: limited comparability
+Negeri Sembilan,2002,2.2,1999,2.5,-0.3,Historical definitions: limited comparability
+Negeri Sembilan,2004,1.4,2002,2.2,-0.8,Historical definitions: limited comparability
+Negeri Sembilan,2007,1.3,2004,1.4,-0.1,Historical definitions: limited comparability
+Negeri Sembilan,2009,0.7,2007,1.3,-0.6,Historical definitions: limited comparability
+Negeri Sembilan,2012,0.5,2009,0.7,-0.2,Historical definitions: limited comparability
+Negeri Sembilan,2014,0.4,2012,0.5,-0.1,Historical definitions: limited comparability
+Negeri Sembilan,2016,0.2,2014,0.4,-0.2,Historical definitions: limited comparability
+Negeri Sembilan,2019,4.3,2016,0.2,,Definition break: change withheld
+Negeri Sembilan,2022,4.4,2019,4.3,0.1,2019 PLI methodology; thresholds updated
+Negeri Sembilan,2024,4.0,2022,4.4,-0.4,2019 PLI methodology; thresholds updated
+Pahang,1970,43.2,,,,First available observation
+Pahang,1976,38.9,1970,43.2,-4.3,Historical definitions: limited comparability
+Pahang,1979,26.9,1976,38.9,-12.0,Historical definitions: limited comparability
+Pahang,1984,15.7,1979,26.9,-11.2,Historical definitions: limited comparability
+Pahang,1987,12.3,1984,15.7,-3.4,Historical definitions: limited comparability
+Pahang,1989,10.2,1987,12.3,-2.1,Historical definitions: limited comparability
+Pahang,1992,6.9,1989,10.2,-3.3,Historical definitions: limited comparability
+Pahang,1995,6.8,1992,6.9,-0.1,Historical definitions: limited comparability
+Pahang,1997,4.1,1995,6.8,-2.7,Historical definitions: limited comparability
+Pahang,1999,5.5,1997,4.1,1.4,Historical definitions: limited comparability
+Pahang,2002,3.8,1999,5.5,-1.7,Historical definitions: limited comparability
+Pahang,2004,4.0,2002,3.8,0.2,Historical definitions: limited comparability
+Pahang,2007,1.7,2004,4.0,-2.3,Historical definitions: limited comparability
+Pahang,2009,2.1,2007,1.7,0.4,Historical definitions: limited comparability
+Pahang,2012,1.3,2009,2.1,-0.8,Historical definitions: limited comparability
+Pahang,2014,0.7,2012,1.3,-0.6,Historical definitions: limited comparability
+Pahang,2016,0.2,2014,0.7,-0.5,Historical definitions: limited comparability
+Pahang,2019,4.3,2016,0.2,,Definition break: change withheld
+Pahang,2022,6.3,2019,4.3,2.0,2019 PLI methodology; thresholds updated
+Pahang,2024,5.9,2022,6.3,-0.4,2019 PLI methodology; thresholds updated
+Perak,1970,48.6,,,,First available observation
+Perak,1976,43.0,1970,48.6,-5.6,Historical definitions: limited comparability
+Perak,1979,30.5,1976,43.0,-12.5,Historical definitions: limited comparability
+Perak,1984,20.3,1979,30.5,-10.2,Historical definitions: limited comparability
+Perak,1987,19.9,1984,20.3,-0.4,Historical definitions: limited comparability
+Perak,1989,19.3,1987,19.9,-0.6,Historical definitions: limited comparability
+Perak,1992,10.2,1989,19.3,-9.1,Historical definitions: limited comparability
+Perak,1995,9.1,1992,10.2,-1.1,Historical definitions: limited comparability
+Perak,1997,4.5,1995,9.1,-4.6,Historical definitions: limited comparability
+Perak,1999,9.5,1997,4.5,5.0,Historical definitions: limited comparability
+Perak,2002,7.9,1999,9.5,-1.6,Historical definitions: limited comparability
+Perak,2004,4.9,2002,7.9,-3.0,Historical definitions: limited comparability
+Perak,2007,3.4,2004,4.9,-1.5,Historical definitions: limited comparability
+Perak,2009,3.5,2007,3.4,0.1,Historical definitions: limited comparability
+Perak,2012,1.5,2009,3.5,-2.0,Historical definitions: limited comparability
+Perak,2014,0.7,2012,1.5,-0.8,Historical definitions: limited comparability
+Perak,2016,0.2,2014,0.7,-0.5,Historical definitions: limited comparability
+Perak,2019,7.3,2016,0.2,,Definition break: change withheld
+Perak,2022,7.5,2019,7.3,0.2,2019 PLI methodology; thresholds updated
+Perak,2024,6.9,2022,7.5,-0.6,2019 PLI methodology; thresholds updated
+Perlis,1970,73.9,,,,First available observation
+Perlis,1976,59.8,1970,73.9,-14.1,Historical definitions: limited comparability
+Perlis,1979,63.1,1976,59.8,3.3,Historical definitions: limited comparability
+Perlis,1984,33.7,1979,63.1,-29.4,Historical definitions: limited comparability
+Perlis,1987,29.1,1984,33.7,-4.6,Historical definitions: limited comparability
+Perlis,1989,17.2,1987,29.1,-11.9,Historical definitions: limited comparability
+Perlis,1992,19.8,1989,17.2,2.6,Historical definitions: limited comparability
+Perlis,1995,11.8,1992,19.8,-8.0,Historical definitions: limited comparability
+Perlis,1997,10.6,1995,11.8,-1.2,Historical definitions: limited comparability
+Perlis,1999,13.3,1997,10.6,2.7,Historical definitions: limited comparability
+Perlis,2002,10.1,1999,13.3,-3.2,Historical definitions: limited comparability
+Perlis,2004,6.3,2002,10.1,-3.8,Historical definitions: limited comparability
+Perlis,2007,6.8,2004,6.3,0.5,Historical definitions: limited comparability
+Perlis,2009,6.0,2007,6.8,-0.8,Historical definitions: limited comparability
+Perlis,2012,1.9,2009,6.0,-4.1,Historical definitions: limited comparability
+Perlis,2014,0.2,2012,1.9,-1.7,Historical definitions: limited comparability
+Perlis,2016,0.1,2014,0.2,-0.1,Historical definitions: limited comparability
+Perlis,2019,3.9,2016,0.1,,Definition break: change withheld
+Perlis,2022,4.0,2019,3.9,0.1,2019 PLI methodology; thresholds updated
+Perlis,2024,3.6,2022,4.0,-0.4,2019 PLI methodology; thresholds updated
+Pulau Pinang,1970,43.7,,,,First available observation
+Pulau Pinang,1976,32.4,1970,43.7,-11.3,Historical definitions: limited comparability
+Pulau Pinang,1979,19.7,1976,32.4,-12.7,Historical definitions: limited comparability
+Pulau Pinang,1984,13.4,1979,19.7,-6.3,Historical definitions: limited comparability
+Pulau Pinang,1987,12.9,1984,13.4,-0.5,Historical definitions: limited comparability
+Pulau Pinang,1989,8.9,1987,12.9,-4.0,Historical definitions: limited comparability
+Pulau Pinang,1992,4.0,1989,8.9,-4.9,Historical definitions: limited comparability
+Pulau Pinang,1995,4.0,1992,4.0,0.0,Historical definitions: limited comparability
+Pulau Pinang,1997,1.6,1995,4.0,-2.4,Historical definitions: limited comparability
+Pulau Pinang,1999,2.7,1997,1.6,1.1,Historical definitions: limited comparability
+Pulau Pinang,2002,1.4,1999,2.7,-1.3,Historical definitions: limited comparability
+Pulau Pinang,2004,0.3,2002,1.4,-1.1,Historical definitions: limited comparability
+Pulau Pinang,2007,1.4,2004,0.3,1.1,Historical definitions: limited comparability
+Pulau Pinang,2009,1.2,2007,1.4,-0.2,Historical definitions: limited comparability
+Pulau Pinang,2012,0.6,2009,1.2,-0.6,Historical definitions: limited comparability
+Pulau Pinang,2014,0.3,2012,0.6,-0.3,Historical definitions: limited comparability
+Pulau Pinang,2016,0.1,2014,0.3,-0.2,Historical definitions: limited comparability
+Pulau Pinang,2019,1.9,2016,0.1,,Definition break: change withheld
+Pulau Pinang,2022,2.0,2019,1.9,0.1,2019 PLI methodology; thresholds updated
+Pulau Pinang,2024,1.9,2022,2.0,-0.1,2019 PLI methodology; thresholds updated
+Sabah,1976,58.3,,,,First available observation
+Sabah,1979,40.7,1976,58.3,-17.6,Historical definitions: limited comparability
+Sabah,1984,33.1,1979,40.7,-7.6,Historical definitions: limited comparability
+Sabah,1987,35.3,1984,33.1,2.2,Historical definitions: limited comparability
+Sabah,1989,29.7,1987,35.3,-5.6,Historical definitions: limited comparability
+Sabah,1992,27.8,1989,29.7,-1.9,Historical definitions: limited comparability
+Sabah,1995,22.6,1992,27.8,-5.2,Historical definitions: limited comparability
+Sabah,1997,22.1,1995,22.6,-0.5,Historical definitions: limited comparability
+Sabah,1999,20.1,1997,22.1,-2.0,Historical definitions: limited comparability
+Sabah,2002,16.0,1999,20.1,-4.1,Historical definitions: limited comparability
+Sabah,2004,24.2,2002,16.0,8.2,Historical definitions: limited comparability
+Sabah,2007,16.4,2004,24.2,-7.8,Historical definitions: limited comparability
+Sabah,2009,19.7,2007,16.4,3.3,Historical definitions: limited comparability
+Sabah,2012,8.1,2009,19.7,-11.6,Historical definitions: limited comparability
+Sabah,2014,4.0,2012,8.1,-4.1,Historical definitions: limited comparability
+Sabah,2016,2.9,2014,4.0,-1.1,Historical definitions: limited comparability
+Sabah,2019,19.5,2016,2.9,,Definition break: change withheld
+Sabah,2022,19.7,2019,19.5,0.2,2019 PLI methodology; thresholds updated
+Sabah,2024,17.7,2022,19.7,-2.0,2019 PLI methodology; thresholds updated
+Sarawak,1976,56.5,,,,First available observation
+Sarawak,1979,47.8,1976,56.5,-8.7,Historical definitions: limited comparability
+Sarawak,1984,31.9,1979,47.8,-15.9,Historical definitions: limited comparability
+Sarawak,1987,24.7,1984,31.9,-7.2,Historical definitions: limited comparability
+Sarawak,1989,21.0,1987,24.7,-3.7,Historical definitions: limited comparability
+Sarawak,1992,19.2,1989,21.0,-1.8,Historical definitions: limited comparability
+Sarawak,1995,10.0,1992,19.2,-9.2,Historical definitions: limited comparability
+Sarawak,1997,7.5,1995,10.0,-2.5,Historical definitions: limited comparability
+Sarawak,1999,6.7,1997,7.5,-0.8,Historical definitions: limited comparability
+Sarawak,2002,5.8,1999,6.7,-0.9,Historical definitions: limited comparability
+Sarawak,2004,7.5,2002,5.8,1.7,Historical definitions: limited comparability
+Sarawak,2007,4.2,2004,7.5,-3.3,Historical definitions: limited comparability
+Sarawak,2009,5.3,2007,4.2,1.1,Historical definitions: limited comparability
+Sarawak,2012,2.4,2009,5.3,-2.9,Historical definitions: limited comparability
+Sarawak,2014,0.9,2012,2.4,-1.5,Historical definitions: limited comparability
+Sarawak,2016,0.6,2014,0.9,-0.3,Historical definitions: limited comparability
+Sarawak,2019,9.0,2016,0.6,,Definition break: change withheld
+Sarawak,2022,10.8,2019,9.0,1.8,2019 PLI methodology; thresholds updated
+Sarawak,2024,8.4,2022,10.8,-2.4,2019 PLI methodology; thresholds updated
+Selangor,1970,29.2,,,,First available observation
+Selangor,1976,22.9,1970,29.2,-6.3,Historical definitions: limited comparability
+Selangor,1979,14.5,1976,22.9,-8.4,Historical definitions: limited comparability
+Selangor,1984,8.6,1979,14.5,-5.9,Historical definitions: limited comparability
+Selangor,1987,8.9,1984,8.6,0.3,Historical definitions: limited comparability
+Selangor,1989,7.8,1987,8.9,-1.1,Historical definitions: limited comparability
+Selangor,1992,4.3,1989,7.8,-3.5,Historical definitions: limited comparability
+Selangor,1995,2.2,1992,4.3,-2.1,Historical definitions: limited comparability
+Selangor,1997,1.3,1995,2.2,-0.9,Historical definitions: limited comparability
+Selangor,1999,2.0,1997,1.3,0.7,Historical definitions: limited comparability
+Selangor,2002,1.1,1999,2.0,-0.9,Historical definitions: limited comparability
+Selangor,2004,1.0,2002,1.1,-0.1,Historical definitions: limited comparability
+Selangor,2007,0.7,2004,1.0,-0.3,Historical definitions: limited comparability
+Selangor,2009,0.7,2007,0.7,0.0,Historical definitions: limited comparability
+Selangor,2012,0.4,2009,0.7,-0.3,Historical definitions: limited comparability
+Selangor,2014,0.2,2012,0.4,-0.2,Historical definitions: limited comparability
+Selangor,2016,0.0,2014,0.2,-0.2,Historical definitions: limited comparability
+Selangor,2019,1.2,2016,0.0,,Definition break: change withheld
+Selangor,2022,1.5,2019,1.2,0.3,2019 PLI methodology; thresholds updated
+Selangor,2024,0.9,2022,1.5,-0.6,2019 PLI methodology; thresholds updated
+Terengganu,1970,68.9,,,,First available observation
+Terengganu,1976,60.3,1970,68.9,-8.6,Historical definitions: limited comparability
+Terengganu,1979,53.1,1976,60.3,-7.2,Historical definitions: limited comparability
+Terengganu,1984,28.9,1979,53.1,-24.2,Historical definitions: limited comparability
+Terengganu,1987,36.1,1984,28.9,7.2,Historical definitions: limited comparability
+Terengganu,1989,31.2,1987,36.1,-4.9,Historical definitions: limited comparability
+Terengganu,1992,25.6,1989,31.2,-5.6,Historical definitions: limited comparability
+Terengganu,1995,23.4,1992,25.6,-2.2,Historical definitions: limited comparability
+Terengganu,1997,17.3,1995,23.4,-6.1,Historical definitions: limited comparability
+Terengganu,1999,14.9,1997,17.3,-2.4,Historical definitions: limited comparability
+Terengganu,2002,10.7,1999,14.9,-4.2,Historical definitions: limited comparability
+Terengganu,2004,15.4,2002,10.7,4.7,Historical definitions: limited comparability
+Terengganu,2007,6.4,2004,15.4,-9.0,Historical definitions: limited comparability
+Terengganu,2009,4.0,2007,6.4,-2.4,Historical definitions: limited comparability
+Terengganu,2012,1.7,2009,4.0,-2.3,Historical definitions: limited comparability
+Terengganu,2014,0.6,2012,1.7,-1.1,Historical definitions: limited comparability
+Terengganu,2016,0.4,2014,0.6,-0.2,Historical definitions: limited comparability
+Terengganu,2019,6.1,2016,0.4,,Definition break: change withheld
+Terengganu,2022,6.2,2019,6.1,0.1,2019 PLI methodology; thresholds updated
+Terengganu,2024,5.8,2022,6.2,-0.4,2019 PLI methodology; thresholds updated
+W.P. Kuala Lumpur,1984,4.9,,,,First available observation
+W.P. Kuala Lumpur,1987,5.2,1984,4.9,0.3,Historical definitions: limited comparability
+W.P. Kuala Lumpur,1989,3.8,1987,5.2,-1.4,Historical definitions: limited comparability
+W.P. Kuala Lumpur,1992,1.7,1989,3.8,-2.1,Historical definitions: limited comparability
+W.P. Kuala Lumpur,1995,0.5,1992,1.7,-1.2,Historical definitions: limited comparability
+W.P. Kuala Lumpur,1997,0.1,1995,0.5,-0.4,Historical definitions: limited comparability
+W.P. Kuala Lumpur,1999,2.3,1997,0.1,2.2,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2002,0.5,1999,2.3,-1.8,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2004,1.5,2002,0.5,1.0,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2007,1.5,2004,1.5,0.0,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2009,0.7,2007,1.5,-0.8,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2012,0.8,2009,0.7,0.1,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2014,0.1,2012,0.8,-0.7,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2016,0.0,2014,0.1,-0.1,Historical definitions: limited comparability
+W.P. Kuala Lumpur,2019,0.2,2016,0.0,,Definition break: change withheld
+W.P. Kuala Lumpur,2022,1.4,2019,0.2,1.2,2019 PLI methodology; thresholds updated
+W.P. Kuala Lumpur,2024,1.0,2022,1.4,-0.4,2019 PLI methodology; thresholds updated
+W.P. Labuan,2004,2.7,,,,First available observation
+W.P. Labuan,2007,4.2,2004,2.7,1.5,Historical definitions: limited comparability
+W.P. Labuan,2009,4.3,2007,4.2,0.1,Historical definitions: limited comparability
+W.P. Labuan,2012,1.1,2009,4.3,-3.2,Historical definitions: limited comparability
+W.P. Labuan,2014,1.1,2012,1.1,0.0,Historical definitions: limited comparability
+W.P. Labuan,2016,0.0,2014,1.1,-1.1,Historical definitions: limited comparability
+W.P. Labuan,2019,3.1,2016,0.0,,Definition break: change withheld
+W.P. Labuan,2022,2.5,2019,3.1,-0.6,2019 PLI methodology; thresholds updated
+W.P. Labuan,2024,2.0,2022,2.5,-0.5,2019 PLI methodology; thresholds updated
+W.P. Putrajaya,2007,0.0,,,,First available observation
+W.P. Putrajaya,2009,0.0,2007,0.0,0.0,Historical definitions: limited comparability
+W.P. Putrajaya,2012,0.0,2009,0.0,0.0,Historical definitions: limited comparability
+W.P. Putrajaya,2014,0.0,2012,0.0,0.0,Historical definitions: limited comparability
+W.P. Putrajaya,2016,0.0,2014,0.0,0.0,Historical definitions: limited comparability
+W.P. Putrajaya,2019,0.4,2016,0.0,,Definition break: change withheld
+W.P. Putrajaya,2022,0.1,2019,0.4,-0.3,2019 PLI methodology; thresholds updated
+W.P. Putrajaya,2024,0.2,2022,0.1,0.1,2019 PLI methodology; thresholds updated

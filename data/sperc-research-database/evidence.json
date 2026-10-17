@@ -1,0 +1,167 @@
+{
+  "checked_on": "2026-10-17",
+  "workbook_source": "SPERC_Master_Database.xlsx",
+  "row_basis": "Nonempty data rows excluding the header; all members and include flags; not unique centre outputs",
+  "records": [
+    {
+      "label": "Publications",
+      "value": 3312,
+      "sheet": "Publications_All"
+    },
+    {
+      "label": "Awards",
+      "value": 316,
+      "sheet": "Awards_All"
+    },
+    {
+      "label": "Grants",
+      "value": 303,
+      "sheet": "Grants_All"
+    },
+    {
+      "label": "Consultancy",
+      "value": 114,
+      "sheet": "Consultancy_All"
+    },
+    {
+      "label": "Intellectual property",
+      "value": 80,
+      "sheet": "IP_All"
+    }
+  ],
+  "current_members": 20,
+  "strategy_source": "work/strategy/evidence.json (7 October 2026); current 20 members; unique Scopus EIDs; 2020–2026 to source cutoff",
+  "strategy_papers": 565,
+  "years": [
+    {
+      "label": "2020",
+      "value": 117
+    },
+    {
+      "label": "2021",
+      "value": 93
+    },
+    {
+      "label": "2022",
+      "value": 69
+    },
+    {
+      "label": "2023",
+      "value": 75
+    },
+    {
+      "label": "2024",
+      "value": 81
+    },
+    {
+      "label": "2025",
+      "value": 77
+    },
+    {
+      "label": "2026",
+      "value": 53
+    }
+  ],
+  "themes": [
+    {
+      "label": "Palm biomass / lignocellulose",
+      "papers": 77,
+      "fwci": 1.03
+    },
+    {
+      "label": "AI / machine learning / modelling",
+      "papers": 77,
+      "fwci": 1.0
+    },
+    {
+      "label": "Natural fibre / biocomposites",
+      "papers": 62,
+      "fwci": 1.18
+    },
+    {
+      "label": "Adsorption (dyes, metals)",
+      "papers": 59,
+      "fwci": 0.96
+    },
+    {
+      "label": "Biochar / pyrolysis / gasification",
+      "papers": 55,
+      "fwci": 1.52
+    },
+    {
+      "label": "Biofuels / biodiesel / bioethanol",
+      "papers": 54,
+      "fwci": 1.17
+    },
+    {
+      "label": "Wastewater / POME",
+      "papers": 52,
+      "fwci": 0.88
+    },
+    {
+      "label": "Bioprocess / enzymes / fermentation",
+      "papers": 45,
+      "fwci": 0.98
+    },
+    {
+      "label": "LCA / techno-economic / sustainability",
+      "papers": 42,
+      "fwci": 0.98
+    },
+    {
+      "label": "Nanomaterials / graphene / CNT",
+      "papers": 40,
+      "fwci": 0.96
+    },
+    {
+      "label": "Hydrogen (thermo/catalytic)",
+      "papers": 39,
+      "fwci": 0.97
+    },
+    {
+      "label": "Membranes / separation",
+      "papers": 36,
+      "fwci": 0.74
+    },
+    {
+      "label": "Microalgae",
+      "papers": 36,
+      "fwci": 1.02
+    },
+    {
+      "label": "Solid waste / plastics / circular",
+      "papers": 29,
+      "fwci": 1.22
+    },
+    {
+      "label": "Safety / risk",
+      "papers": 16,
+      "fwci": 0.53
+    },
+    {
+      "label": "Air pollution / emissions",
+      "papers": 15,
+      "fwci": 0.57
+    },
+    {
+      "label": "Biohydrogen / dark fermentation",
+      "papers": 14,
+      "fwci": 1.29
+    },
+    {
+      "label": "CO2 capture / utilisation",
+      "papers": 13,
+      "fwci": 1.1
+    },
+    {
+      "label": "Energy storage / electrochemistry",
+      "papers": 11,
+      "fwci": 0.93
+    }
+  ],
+  "limitations": [
+    "Theme labels overlap; selected themes are illustrative, not a ranking.",
+    "The strategy snapshot has 565 papers, including 69 in 2022; the website publication extract has 564, including 68 in 2022.",
+    "No individual-level records are published."
+  ]
+}

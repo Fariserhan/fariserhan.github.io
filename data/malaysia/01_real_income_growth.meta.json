@@ -1,0 +1,25 @@
+{
+  "title": "Terengganu led real median income growth in 2016–2024 at 25.4%.",
+  "subtitle": "Median gross monthly household income; RM at 2010 prices; cumulative change (%) over 2016–2024 and 2019–2024",
+  "source": "CC BY 4.0, DOSM; hh_income_state: https://open.dosm.gov.my/data-catalogue/hh_income_state (https://storage.dosm.gov.my/hies/hh_income_state.csv); cpi_state: https://open.dosm.gov.my/data-catalogue/cpi_state (https://storage.dosm.gov.my/cpi/cpi_2d_state.csv)",
+  "sources": [
+    {
+      "id": "hh_income_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_income_state",
+      "csv_url": "https://storage.dosm.gov.my/hies/hh_income_state.csv"
+    },
+    {
+      "id": "cpi_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/cpi_state",
+      "csv_url": "https://storage.dosm.gov.my/cpi/cpi_2d_state.csv"
+    }
+  ],
+  "notes": [
+    "Each state uses its own annual average overall CPI (12 months); original CPI base 2010 = 100.",
+    "Real-income levels are for change over time within a state; CPI is not a comparison of price levels across states.",
+    "Ranks use unrounded growth. Growth is cumulative, not annualised."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 32,
+  "headline": "Terengganu led real median income growth in 2016–2024 at 25.4%. For 2019–2024, Selangor led at 16.9%."
+}

@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "The published median rose from RM166 in 1970 to RM7,017 in 2024; in constant 2010 RM the endpoints are RM706 and RM5,284.",
+    "subtitle": "National median gross monthly household income; current-year RM and constant 2010 RM; available observations 1970–2024",
+    "source": "CC BY 4.0, DOSM; hh_income: https://open.dosm.gov.my/data-catalogue/hh_income (https://storage.dosm.gov.my/hies/hh_income.csv); cpi_annual: https://open.dosm.gov.my/data-catalogue/cpi_annual (https://storage.dosm.gov.my/cpi/cpi_2d_annual.csv)",
+    "sources": [
+      {
+        "id": "hh_income",
+        "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_income",
+        "csv_url": "https://storage.dosm.gov.my/hies/hh_income.csv"
+      },
+      {
+        "id": "cpi_annual",
+        "catalogue_url": "https://open.dosm.gov.my/data-catalogue/cpi_annual",
+        "csv_url": "https://storage.dosm.gov.my/cpi/cpi_2d_annual.csv"
+      }
+    ],
+    "notes": [
+      "1970 and 1974 cover Peninsular Malaysia only; citizens-only coverage starts in 1989.",
+      "2020 is an estimate based on the 2019 survey, not a fresh survey observation.",
+      "Use official annual overall CPI from 1960; no extrapolated CPI or invented income years.",
+      "For predict-then-reveal: use year on the x-axis, hide later actuals in the interface and reveal on request; no forecast is produced."
+    ],
+    "snapshot_date": "2026-10-17",
+    "row_count": 22,
+    "headline": "The published median rose from RM166 in 1970 to RM7,017 in 2024; in constant 2010 RM the endpoints are RM706 and RM5,284. Coverage changes mean this is a descriptive historical series, not a like-for-like growth estimate."
+  },
+  "data": [
+    {
+      "state": "Malaysia",
+      "year": 1970,
+      "median_nominal_rm": 166,
+      "annual_cpi": 23.5,
+      "median_real_2010_rm": 706,
+      "observation_type": "Survey observation",
+      "geography": "Peninsular Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1974,
+      "median_nominal_rm": 227,
+      "annual_cpi": 31.6,
+      "median_real_2010_rm": 718,
+      "observation_type": "Survey observation",
+      "geography": "Peninsular Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1976,
+      "median_nominal_rm": 308,
+      "annual_cpi": 34.0,
+      "median_real_2010_rm": 906,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1979,
+      "median_nominal_rm": 429,
+      "annual_cpi": 38.5,
+      "median_real_2010_rm": 1114,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1984,
+      "median_nominal_rm": 719,
+      "annual_cpi": 51.3,
+      "median_real_2010_rm": 1402,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1987,
+      "median_nominal_rm": 738,
+      "annual_cpi": 52.2,
+      "median_real_2010_rm": 1414,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Earlier survey population"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1989,
+      "median_nominal_rm": 816,
+      "annual_cpi": 55.1,
+      "median_real_2010_rm": 1481,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1992,
+      "median_nominal_rm": 1077,
+      "annual_cpi": 62.0,
+      "median_real_2010_rm": 1737,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1995,
+      "median_nominal_rm": 1377,
+      "annual_cpi": 68.9,
+      "median_real_2010_rm": 1999,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1997,
+      "median_nominal_rm": 1724,
+      "annual_cpi": 73.2,
+      "median_real_2010_rm": 2355,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 1999,
+      "median_nominal_rm": 1704,
+      "annual_cpi": 79.2,
+      "median_real_2010_rm": 2152,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2002,
+      "median_nominal_rm": 2049,
+      "annual_cpi": 83.0,
+      "median_real_2010_rm": 2469,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2004,
+      "median_nominal_rm": 2211,
+      "annual_cpi": 85.1,
+      "median_real_2010_rm": 2598,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2007,
+      "median_nominal_rm": 2552,
+      "annual_cpi": 92.7,
+      "median_real_2010_rm": 2753,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2009,
+      "median_nominal_rm": 2841,
+      "annual_cpi": 98.3,
+      "median_real_2010_rm": 2890,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2012,
+      "median_nominal_rm": 3626,
+      "annual_cpi": 104.9,
+      "median_real_2010_rm": 3457,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2014,
+      "median_nominal_rm": 4585,
+      "annual_cpi": 110.5,
+      "median_real_2010_rm": 4149,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2016,
+      "median_nominal_rm": 5228,
+      "annual_cpi": 115.2,
+      "median_real_2010_rm": 4538,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2019,
+      "median_nominal_rm": 5873,
+      "annual_cpi": 121.5,
+      "median_real_2010_rm": 4834,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2020,
+      "median_nominal_rm": 5209,
+      "annual_cpi": 120.1,
+      "median_real_2010_rm": 4337,
+      "observation_type": "Estimate based on 2019 survey",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2022,
+      "median_nominal_rm": 6338,
+      "annual_cpi": 127.2,
+      "median_real_2010_rm": 4983,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    },
+    {
+      "state": "Malaysia",
+      "year": 2024,
+      "median_nominal_rm": 7017,
+      "annual_cpi": 132.8,
+      "median_real_2010_rm": 5284,
+      "observation_type": "Survey observation",
+      "geography": "Malaysia",
+      "population_scope": "Citizens only"
+    }
+  ]
+}

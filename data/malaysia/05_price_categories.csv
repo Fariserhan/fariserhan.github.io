@@ -1,0 +1,222 @@
+﻿state,division,division_name,start_year,end_year,cpi_start,cpi_end,price_growth_pct,category_rank
+Johor,01,Food & Beverages,2019,2024,139.075,161.933,16.4,1
+Johor,11,Restaurant & Accommodation Services,2019,2024,133.025,152.367,14.5,2
+Johor,10,Education,2019,2024,126.158,139.658,10.7,3
+Johor,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,121.6,133.042,9.4,4
+Johor,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,115.958,126.725,9.3,5
+Johor,06,Health,2019,2024,128.183,136.908,6.8,6
+Johor,09,"Recreation, Sport & Culture",2019,2024,114.875,122.308,6.5,7
+Johor,07,Transport,2019,2024,115.358,122.608,6.3,8
+Johor,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,122.683,130.05,6.0,9
+Johor,02,Alcoholic Beverages & Tobacco,2019,2024,171.167,175.742,2.7,10
+Johor,03,Clothing & Footwear,2019,2024,96.5,97.717,1.3,11
+Johor,12,Insurance & Financial Services,2019,2024,118.1,119.3,1.0,12
+Johor,08,Information & Communication,2019,2024,97.0,93.775,-3.3,13
+Kedah,11,Restaurant & Accommodation Services,2019,2024,128.208,144.675,12.8,1
+Kedah,01,Food & Beverages,2019,2024,128.783,140.95,9.4,2
+Kedah,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,116.792,126.508,8.3,3
+Kedah,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,123.825,131.775,6.4,4
+Kedah,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,114.125,120.758,5.8,5
+Kedah,07,Transport,2019,2024,109.825,115.792,5.4,6
+Kedah,06,Health,2019,2024,117.683,123.717,5.1,7
+Kedah,09,"Recreation, Sport & Culture",2019,2024,112.833,118.092,4.7,8
+Kedah,10,Education,2019,2024,107.483,112.05,4.2,9
+Kedah,02,Alcoholic Beverages & Tobacco,2019,2024,173.433,176.533,1.8,10
+Kedah,12,Insurance & Financial Services,2019,2024,117.8,119.2,1.2,11
+Kedah,03,Clothing & Footwear,2019,2024,88.025,85.133,-3.3,12
+Kedah,08,Information & Communication,2019,2024,98.175,93.833,-4.4,13
+Kelantan,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,113.325,128.308,13.2,1
+Kelantan,01,Food & Beverages,2019,2024,130.642,146.283,12.0,2
+Kelantan,11,Restaurant & Accommodation Services,2019,2024,118.683,131.058,10.4,3
+Kelantan,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,110.758,118.308,6.8,4
+Kelantan,06,Health,2019,2024,124.217,131.383,5.8,5
+Kelantan,07,Transport,2019,2024,111.833,117.533,5.1,6
+Kelantan,09,"Recreation, Sport & Culture",2019,2024,106.883,109.792,2.7,7
+Kelantan,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,116.892,119.942,2.6,8
+Kelantan,10,Education,2019,2024,129.425,132.6,2.5,9
+Kelantan,02,Alcoholic Beverages & Tobacco,2019,2024,183.333,184.617,0.7,10
+Kelantan,03,Clothing & Footwear,2019,2024,98.142,98.608,0.5,11
+Kelantan,12,Insurance & Financial Services,2019,2024,117.0,117.0,0.0,12
+Kelantan,08,Information & Communication,2019,2024,98.458,96.325,-2.2,13
+Malaysia,01,Food & Beverages,2019,2024,133.058,155.025,16.5,1
+Malaysia,11,Restaurant & Accommodation Services,2019,2024,131.783,151.858,15.2,2
+Malaysia,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,113.0,125.467,11.0,3
+Malaysia,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,116.442,126.542,8.7,4
+Malaysia,07,Transport,2019,2024,114.0,121.675,6.7,5
+Malaysia,09,"Recreation, Sport & Culture",2019,2024,111.758,119.175,6.6,6
+Malaysia,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,121.25,129.025,6.4,7
+Malaysia,06,Health,2019,2024,122.658,130.483,6.4,8
+Malaysia,10,Education,2019,2024,119.692,126.592,5.8,9
+Malaysia,02,Alcoholic Beverages & Tobacco,2019,2024,167.775,172.4,2.8,10
+Malaysia,12,Insurance & Financial Services,2019,2024,109.892,110.5,0.6,11
+Malaysia,03,Clothing & Footwear,2019,2024,94.325,93.217,-1.2,12
+Malaysia,08,Information & Communication,2019,2024,96.4,93.167,-3.4,13
+Melaka,01,Food & Beverages,2019,2024,135.7,153.417,13.1,1
+Melaka,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,112.758,123.475,9.5,2
+Melaka,11,Restaurant & Accommodation Services,2019,2024,126.6,138.4,9.3,3
+Melaka,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,118.225,127.117,7.5,4
+Melaka,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,124.608,131.417,5.5,5
+Melaka,06,Health,2019,2024,119.592,124.975,4.5,6
+Melaka,07,Transport,2019,2024,107.992,112.417,4.1,7
+Melaka,10,Education,2019,2024,129.8,134.467,3.6,8
+Melaka,09,"Recreation, Sport & Culture",2019,2024,112.858,116.842,3.5,9
+Melaka,12,Insurance & Financial Services,2019,2024,110.0,112.6,2.4,10
+Melaka,02,Alcoholic Beverages & Tobacco,2019,2024,169.6,171.525,1.1,11
+Melaka,08,Information & Communication,2019,2024,95.992,95.267,-0.8,12
+Melaka,03,Clothing & Footwear,2019,2024,79.225,74.692,-5.7,13
+Negeri Sembilan,01,Food & Beverages,2019,2024,132.508,150.958,13.9,1
+Negeri Sembilan,11,Restaurant & Accommodation Services,2019,2024,125.425,136.85,9.1,2
+Negeri Sembilan,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,109.358,115.608,5.7,3
+Negeri Sembilan,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,115.0,121.333,5.5,4
+Negeri Sembilan,09,"Recreation, Sport & Culture",2019,2024,114.775,120.842,5.3,5
+Negeri Sembilan,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,120.283,126.275,5.0,6
+Negeri Sembilan,06,Health,2019,2024,125.05,129.492,3.6,7
+Negeri Sembilan,10,Education,2019,2024,114.4,117.575,2.8,8
+Negeri Sembilan,07,Transport,2019,2024,116.05,119.092,2.6,9
+Negeri Sembilan,02,Alcoholic Beverages & Tobacco,2019,2024,170.3,172.858,1.5,10
+Negeri Sembilan,03,Clothing & Footwear,2019,2024,100.058,100.175,0.1,11
+Negeri Sembilan,12,Insurance & Financial Services,2019,2024,101.6,101.6,0.0,12
+Negeri Sembilan,08,Information & Communication,2019,2024,100.05,97.617,-2.4,13
+Pahang,01,Food & Beverages,2019,2024,131.542,153.0,16.3,1
+Pahang,11,Restaurant & Accommodation Services,2019,2024,120.708,138.567,14.8,2
+Pahang,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,116.4,130.183,11.8,3
+Pahang,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,111.55,122.667,10.0,4
+Pahang,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,117.167,128.183,9.4,5
+Pahang,07,Transport,2019,2024,110.45,118.108,6.9,6
+Pahang,06,Health,2019,2024,119.6,126.233,5.5,7
+Pahang,10,Education,2019,2024,117.992,123.692,4.8,8
+Pahang,09,"Recreation, Sport & Culture",2019,2024,106.717,110.775,3.8,9
+Pahang,08,Information & Communication,2019,2024,98.575,100.85,2.3,10
+Pahang,02,Alcoholic Beverages & Tobacco,2019,2024,175.658,178.092,1.4,11
+Pahang,12,Insurance & Financial Services,2019,2024,107.6,107.9,0.3,12
+Pahang,03,Clothing & Footwear,2019,2024,95.175,94.117,-1.1,13
+Perak,11,Restaurant & Accommodation Services,2019,2024,126.175,146.792,16.3,1
+Perak,01,Food & Beverages,2019,2024,126.208,144.958,14.9,2
+Perak,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,115.625,126.6,9.5,3
+Perak,09,"Recreation, Sport & Culture",2019,2024,108.542,117.45,8.2,4
+Perak,06,Health,2019,2024,118.017,127.692,8.2,5
+Perak,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,114.667,123.942,8.1,6
+Perak,07,Transport,2019,2024,111.275,118.042,6.1,7
+Perak,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,114.817,120.217,4.7,8
+Perak,10,Education,2019,2024,113.708,118.367,4.1,9
+Perak,02,Alcoholic Beverages & Tobacco,2019,2024,165.658,170.708,3.0,10
+Perak,12,Insurance & Financial Services,2019,2024,116.5,116.5,0.0,11
+Perak,03,Clothing & Footwear,2019,2024,92.375,90.758,-1.8,12
+Perak,08,Information & Communication,2019,2024,99.975,98.183,-1.8,13
+Perlis,11,Restaurant & Accommodation Services,2019,2024,125.383,147.083,17.3,1
+Perlis,09,"Recreation, Sport & Culture",2019,2024,112.408,127.167,13.1,2
+Perlis,01,Food & Beverages,2019,2024,122.208,137.65,12.6,3
+Perlis,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,107.017,116.392,8.8,4
+Perlis,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,106.342,115.317,8.4,5
+Perlis,06,Health,2019,2024,114.25,120.775,5.7,6
+Perlis,12,Insurance & Financial Services,2019,2024,115.2,121.7,5.6,7
+Perlis,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,113.95,119.683,5.0,8
+Perlis,07,Transport,2019,2024,110.975,114.183,2.9,9
+Perlis,02,Alcoholic Beverages & Tobacco,2019,2024,183.9,184.7,0.4,10
+Perlis,10,Education,2019,2024,125.667,126.0,0.3,11
+Perlis,08,Information & Communication,2019,2024,99.625,98.425,-1.2,12
+Perlis,03,Clothing & Footwear,2019,2024,90.725,88.508,-2.4,13
+Pulau Pinang,01,Food & Beverages,2019,2024,137.958,161.558,17.1,1
+Pulau Pinang,11,Restaurant & Accommodation Services,2019,2024,132.917,155.008,16.6,2
+Pulau Pinang,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,122.583,135.858,10.8,3
+Pulau Pinang,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,120.125,131.542,9.5,4
+Pulau Pinang,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,115.383,125.017,8.3,5
+Pulau Pinang,09,"Recreation, Sport & Culture",2019,2024,110.642,118.058,6.7,6
+Pulau Pinang,07,Transport,2019,2024,113.158,120.108,6.1,7
+Pulau Pinang,06,Health,2019,2024,128.333,135.317,5.4,8
+Pulau Pinang,10,Education,2019,2024,118.742,123.933,4.4,9
+Pulau Pinang,02,Alcoholic Beverages & Tobacco,2019,2024,164.908,169.583,2.8,10
+Pulau Pinang,12,Insurance & Financial Services,2019,2024,115.7,115.7,0.0,11
+Pulau Pinang,08,Information & Communication,2019,2024,95.3,91.3,-4.2,12
+Pulau Pinang,03,Clothing & Footwear,2019,2024,93.708,88.9,-5.1,13
+Sabah,11,Restaurant & Accommodation Services,2019,2024,134.442,158.258,17.7,1
+Sabah,01,Food & Beverages,2019,2024,122.967,137.683,12.0,2
+Sabah,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,111.692,122.167,9.4,3
+Sabah,10,Education,2019,2024,112.325,118.7,5.7,4
+Sabah,06,Health,2019,2024,126.875,133.867,5.5,5
+Sabah,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,112.617,118.4,5.1,6
+Sabah,07,Transport,2019,2024,109.817,114.475,4.2,7
+Sabah,09,"Recreation, Sport & Culture",2019,2024,116.45,120.575,3.5,8
+Sabah,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,110.425,113.408,2.7,9
+Sabah,02,Alcoholic Beverages & Tobacco,2019,2024,172.058,174.583,1.5,10
+Sabah,12,Insurance & Financial Services,2019,2024,110.492,111.092,0.5,11
+Sabah,08,Information & Communication,2019,2024,98.733,97.392,-1.4,12
+Sabah,03,Clothing & Footwear,2019,2024,92.192,90.7,-1.6,13
+Sarawak,01,Food & Beverages,2019,2024,127.708,148.2,16.0,1
+Sarawak,11,Restaurant & Accommodation Services,2019,2024,126.675,146.625,15.7,2
+Sarawak,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,111.433,121.875,9.4,3
+Sarawak,10,Education,2019,2024,111.258,119.375,7.3,4
+Sarawak,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,108.058,114.958,6.4,5
+Sarawak,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,111.217,118.008,6.1,6
+Sarawak,07,Transport,2019,2024,117.55,124.15,5.6,7
+Sarawak,09,"Recreation, Sport & Culture",2019,2024,104.892,110.725,5.6,8
+Sarawak,06,Health,2019,2024,127.075,132.217,4.0,9
+Sarawak,02,Alcoholic Beverages & Tobacco,2019,2024,146.633,150.275,2.5,10
+Sarawak,12,Insurance & Financial Services,2019,2024,103.0,103.0,0.0,11
+Sarawak,03,Clothing & Footwear,2019,2024,90.958,90.042,-1.0,12
+Sarawak,08,Information & Communication,2019,2024,95.292,93.308,-2.1,13
+Selangor,01,Food & Beverages,2019,2024,136.642,167.942,22.9,1
+Selangor,11,Restaurant & Accommodation Services,2019,2024,139.217,162.808,16.9,2
+Selangor,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,108.292,124.217,14.7,3
+Selangor,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,121.592,134.517,10.6,4
+Selangor,07,Transport,2019,2024,115.592,127.45,10.3,5
+Selangor,09,"Recreation, Sport & Culture",2019,2024,113.867,123.892,8.8,6
+Selangor,06,Health,2019,2024,122.758,133.4,8.7,7
+Selangor,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,126.333,134.167,6.2,8
+Selangor,10,Education,2019,2024,120.758,128.092,6.1,9
+Selangor,02,Alcoholic Beverages & Tobacco,2019,2024,167.0,171.383,2.6,10
+Selangor,03,Clothing & Footwear,2019,2024,99.742,100.625,0.9,11
+Selangor,12,Insurance & Financial Services,2019,2024,102.758,102.2,-0.5,12
+Selangor,08,Information & Communication,2019,2024,95.65,92.158,-3.7,13
+Terengganu,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,116.075,134.933,16.2,1
+Terengganu,01,Food & Beverages,2019,2024,125.85,144.358,14.7,2
+Terengganu,11,Restaurant & Accommodation Services,2019,2024,117.817,134.517,14.2,3
+Terengganu,07,Transport,2019,2024,110.625,118.808,7.4,4
+Terengganu,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,110.525,118.4,7.1,5
+Terengganu,10,Education,2019,2024,125.133,132.675,6.0,6
+Terengganu,06,Health,2019,2024,121.4,127.542,5.1,7
+Terengganu,09,"Recreation, Sport & Culture",2019,2024,106.267,110.767,4.2,8
+Terengganu,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,114.942,117.683,2.4,9
+Terengganu,02,Alcoholic Beverages & Tobacco,2019,2024,182.383,184.558,1.2,10
+Terengganu,03,Clothing & Footwear,2019,2024,93.833,94.25,0.4,11
+Terengganu,12,Insurance & Financial Services,2019,2024,122.2,122.2,0.0,12
+Terengganu,08,Information & Communication,2019,2024,96.7,93.742,-3.1,13
+W.P. Kuala Lumpur,11,Restaurant & Accommodation Services,2019,2024,132.417,152.633,15.3,1
+W.P. Kuala Lumpur,01,Food & Beverages,2019,2024,136.783,154.75,13.1,2
+W.P. Kuala Lumpur,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,110.45,122.267,10.7,3
+W.P. Kuala Lumpur,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,125.742,136.467,8.5,4
+W.P. Kuala Lumpur,02,Alcoholic Beverages & Tobacco,2019,2024,161.308,174.3,8.1,5
+W.P. Kuala Lumpur,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,117.492,126.95,8.1,6
+W.P. Kuala Lumpur,09,"Recreation, Sport & Culture",2019,2024,111.483,118.967,6.7,7
+W.P. Kuala Lumpur,10,Education,2019,2024,126.325,131.525,4.1,8
+W.P. Kuala Lumpur,07,Transport,2019,2024,119.717,123.533,3.2,9
+W.P. Kuala Lumpur,12,Insurance & Financial Services,2019,2024,105.5,108.0,2.4,10
+W.P. Kuala Lumpur,06,Health,2019,2024,115.767,118.2,2.1,11
+W.P. Kuala Lumpur,08,Information & Communication,2019,2024,91.375,84.608,-7.4,12
+W.P. Kuala Lumpur,03,Clothing & Footwear,2019,2024,86.833,78.842,-9.2,13
+W.P. Labuan,11,Restaurant & Accommodation Services,2019,2024,129.025,145.325,12.6,1
+W.P. Labuan,01,Food & Beverages,2019,2024,122.275,135.708,11.0,2
+W.P. Labuan,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,109.333,118.833,8.7,3
+W.P. Labuan,06,Health,2019,2024,128.3,139.433,8.7,4
+W.P. Labuan,09,"Recreation, Sport & Culture",2019,2024,118.167,124.6,5.4,5
+W.P. Labuan,07,Transport,2019,2024,111.908,116.242,3.9,6
+W.P. Labuan,10,Education,2019,2024,130.0,133.2,2.5,7
+W.P. Labuan,02,Alcoholic Beverages & Tobacco,2019,2024,132.7,133.3,0.5,8
+W.P. Labuan,12,Insurance & Financial Services,2019,2024,105.5,105.5,0.0,9
+W.P. Labuan,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,123.767,122.783,-0.8,10
+W.P. Labuan,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,107.542,105.6,-1.8,11
+W.P. Labuan,08,Information & Communication,2019,2024,99.625,95.65,-4.0,12
+W.P. Labuan,03,Clothing & Footwear,2019,2024,91.558,87.0,-5.0,13
+W.P. Putrajaya,11,Restaurant & Accommodation Services,2019,2024,134.492,175.275,30.3,1
+W.P. Putrajaya,01,Food & Beverages,2019,2024,139.025,173.283,24.6,2
+W.P. Putrajaya,04,"Housing, Water, Electricity, Gas & Other Fuels",2019,2024,115.75,138.075,19.3,3
+W.P. Putrajaya,13,"Personal Care, Social Protection & Miscellaneous Goods & Services",2019,2024,107.45,127.642,18.8,4
+W.P. Putrajaya,07,Transport,2019,2024,116.258,135.917,16.9,5
+W.P. Putrajaya,05,"Furnishings, Household Equipment & Routine Household Maintenance",2019,2024,125.6,137.542,9.5,6
+W.P. Putrajaya,06,Health,2019,2024,109.092,117.192,7.4,7
+W.P. Putrajaya,12,Insurance & Financial Services,2019,2024,103.6,109.6,5.8,8
+W.P. Putrajaya,09,"Recreation, Sport & Culture",2019,2024,106.308,112.308,5.6,9
+W.P. Putrajaya,10,Education,2019,2024,125.792,130.5,3.7,10
+W.P. Putrajaya,02,Alcoholic Beverages & Tobacco,2019,2024,182.75,187.3,2.5,11
+W.P. Putrajaya,03,Clothing & Footwear,2019,2024,87.367,89.0,1.9,12
+W.P. Putrajaya,08,Information & Communication,2019,2024,96.6,88.625,-8.3,13

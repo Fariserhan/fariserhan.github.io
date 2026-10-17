@@ -1,0 +1,10 @@
+{
+  "source": "notes/cv-about.md; Denmark GLM section, summarised from Interview_Talking_Points.md",
+  "period":"1996-2015",
+  "grouped_cells":320,
+  "observed_deaths":1147700,
+  "age_deviance":{"numeric_age":16506,"age_group_factor":5562,"extra_parameters":18,"lr_p_less_than":"2.2e-16"},
+  "poisson_rate_ratios":{"women_vs_men":{"ratio":0.683,"ci95":[0.680,0.686]},"late_vs_early_period_approx":0.69},
+  "counterfactual":{"no_diabetes_predicted_deaths":1073637,"difference":74063,"share_percent":6.45},
+  "aic":{"preferred_from_talking_points":{"from":4193,"to":3814,"verified":false},"alternate_conflicting":{"from":4190,"to":3810,"verified":false}}
+}

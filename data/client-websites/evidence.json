@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-10-17",
+  "sites": [
+    {
+      "label": "UPM SPERC",
+      "source": "SPERC_Website/site/src/data/",
+      "counts": {
+        "publications": 1357,
+        "grants": 249,
+        "consultancy": 109,
+        "ip": 68,
+        "awards": 264,
+        "gallery": 208,
+        "news": 21
+      },
+      "metrics": {
+        "scopus_documents": 1357,
+        "documents_2020_2026": 564,
+        "as_of": "2026-09-29",
+        "db_as_of": "2026-10-07"
+      }
+    },
+    {
+      "label": "Personal academic website",
+      "source": "WanAzlina_Website/site/src/data/",
+      "counts": {
+        "publications": 239,
+        "grants": 45,
+        "consultancy": 31,
+        "ip": 11,
+        "awards": 33,
+        "gallery": 371,
+        "news": 153
+      },
+      "metrics": {
+        "scopus_documents": 150,
+        "quartiles": {
+          "Q1": 58,
+          "Q2": 39,
+          "Q3": 29,
+          "Q4": 10,
+          "n/a": 14
+        },
+        "as_of": "2026-10-11"
+      }
+    }
+  ],
+  "figure_sources": {
+    "biomass": "SPERC_Website/site/src/components/BiomassPathway.astro",
+    "gears": "WanAzlina_Website/site/src/components/GearFramework.astro"
+  },
+  "scope_note": "Counts of source JSON array entries, not website visits or measures of research quality.",
+  "schematics": {
+    "biomass": {
+      "kind": "Conceptual process diagram; no quantitative flows",
+      "input": "Biomass: crop residues, oil palm waste, wood or algae",
+      "preparation": "Pretreatment",
+      "routes": {
+        "heat": [
+          "Pyrolysis",
+          "Gasification",
+          "Combustion"
+        ],
+        "biological": [
+          "Sugars and intermediates",
+          "Fermentation or digestion"
+        ]
+      },
+      "outputs": [
+        "Biofuels",
+        "Bioproducts",
+        "Biopower"
+      ]
+    },
+    "research_framework": {
+      "kind": "Connected research areas; gear sizes and speeds are not data",
+      "areas": [
+        "Energy",
+        "Materials",
+        "Bio-Nexus"
+      ],
+      "connections": [
+        [
+          "Bio-Nexus",
+          "Energy"
+        ],
+        [
+          "Bio-Nexus",
+          "Materials"
+        ]
+      ]
+    }
+  }
+}

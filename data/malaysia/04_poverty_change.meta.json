@@ -1,0 +1,22 @@
+{
+  "title": "Sarawak recorded the largest 2022–2024 drop in reported absolute poverty: 10.8% to 8.4%, a 2.4 percentage-point decline.",
+  "subtitle": "Reported absolute household poverty (%); survey observations 1970–2024; changes in percentage points (pp); no price base",
+  "source": "CC BY 4.0, DOSM; hh_poverty_state: https://open.dosm.gov.my/data-catalogue/hh_poverty_state (https://storage.dosm.gov.my/hies/hh_poverty_state.csv)",
+  "sources": [
+    {
+      "id": "hh_poverty_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_poverty_state",
+      "csv_url": "https://storage.dosm.gov.my/hies/hh_poverty_state.csv"
+    }
+  ],
+  "notes": [
+    "2020 is an estimate and is excluded from survey-to-survey changes.",
+    "Early Labuan records without an absolute poverty rate are excluded before computing previous observations.",
+    "2016 in this raw file uses the old poverty definition; 2016–2019 change is deliberately null.",
+    "Historical definitions and survey coverage change; do not present the full series as one comparable trend.",
+    "Null previous values mean first observation; null change at 2019 means definition break."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 292,
+  "headline": "Sarawak recorded the largest 2022–2024 drop in reported absolute poverty: 10.8% to 8.4%, a 2.4 percentage-point decline. No change crossing the poverty-definition break is reported."
+}

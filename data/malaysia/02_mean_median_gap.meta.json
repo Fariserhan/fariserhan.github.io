@@ -1,0 +1,24 @@
+{
+  "title": "Sabah had the largest mean/median ratio in 2024: 1.329, a 32.9% gap (RM1,608); its Gini was 0.405.",
+  "subtitle": "Gross monthly household income; current-year RM, mean/median ratio and Gini (0–1); 2016, 2019, 2022, 2024",
+  "source": "CC BY 4.0, DOSM; hh_income_state: https://open.dosm.gov.my/data-catalogue/hh_income_state (https://storage.dosm.gov.my/hies/hh_income_state.csv); hh_inequality_state: https://open.dosm.gov.my/data-catalogue/hh_inequality_state (https://storage.dosm.gov.my/hies/hh_inequality_state.csv)",
+  "sources": [
+    {
+      "id": "hh_income_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_income_state",
+      "csv_url": "https://storage.dosm.gov.my/hies/hh_income_state.csv"
+    },
+    {
+      "id": "hh_inequality_state",
+      "catalogue_url": "https://open.dosm.gov.my/data-catalogue/hh_inequality_state",
+      "csv_url": "https://storage.dosm.gov.my/hies/hh_inequality_state.csv"
+    }
+  ],
+  "notes": [
+    "Gap % uses median as denominator; ratio and Gini describe different aspects of a distribution.",
+    "A larger mean/median ratio signals skew, not a measured causal relationship or a complete inequality ranking."
+  ],
+  "snapshot_date": "2026-10-17",
+  "row_count": 64,
+  "headline": "Sabah had the largest mean/median ratio in 2024: 1.329, a 32.9% gap (RM1,608); its Gini was 0.405. This indicates skew, not a complete inequality ranking."
+}
