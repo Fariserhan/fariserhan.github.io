@@ -11,16 +11,6 @@
   "href": "projects/sperc-research-database.html"
  },
  {
-  "title": "Strategic plan 2027-2030 with 20-slide deck",
-  "client": "UPM SPERC",
-  "month": "Oct 2026",
-  "tags": [
-   "data",
-   "design"
-  ],
-  "shots": "sperc-strategic-plan/"
- },
- {
   "title": "Research centre website with yearly member update form",
   "client": "UPM SPERC",
   "month": "Oct 2026",
@@ -55,16 +45,6 @@
   "cover": "03-wanazlina-home.webp"
  },
  {
-  "title": "Inaugural lecture planning pack (16-page plan + 36-slide starter deck)",
-  "client": "UPM dept",
-  "month": "Oct 2026",
-  "tags": [
-   "doc",
-   "design"
-  ],
-  "shots": "inaugural-lecture-pack/"
- },
- {
   "title": "WasteQuest teaching module: bilingual website and PDF booklet",
   "client": "UPM dept",
   "month": "Oct 2026",
@@ -86,45 +66,6 @@
   "href": "projects/swm-course.html"
  },
  {
-  "title": "Nomination video, 1:55, 16:9",
-  "client": "UPM dept",
-  "month": "Sep 2026",
-  "tags": [
-   "video"
-  ],
-  "shots": null
- },
- {
-  "title": "Five journal manuscripts from student thesis research",
-  "client": "UPM dept",
-  "month": "Oct 2026",
-  "tags": [
-   "research writing",
-   "data"
-  ],
-  "shots": null
- },
- {
-  "title": "Two journal manuscripts on bamboo torrefaction and co-pyrolysis",
-  "client": "UPM dept",
-  "month": "Sep-Oct 2026",
-  "tags": [
-   "research writing",
-   "data"
-  ],
-  "shots": null
- },
- {
-  "title": "Journal revision of an IOP EES manuscript (clean, tracked, response files)",
-  "client": "UPM dept",
-  "month": "Sep-Oct 2026",
-  "tags": [
-   "research writing",
-   "data"
-  ],
-  "shots": null
- },
- {
   "title": "Faculty research profile dashboard, 2020-2026",
   "client": "UiTM FKK",
   "month": "Oct 2026",
@@ -134,99 +75,5 @@
   ],
   "shots": "../fkk-research-profile/",
   "href": "projects/fkk-research-profile.html"
- },
- {
-  "title": "Faculty corporate video (2026 version and 2027 edition, 5:30)",
-  "client": "UiTM FKK",
-  "month": "Sep-Oct 2026",
-  "tags": [
-   "video"
-  ],
-  "shots": "fkk-corporate-video/"
- },
- {
-  "title": "Faculty visitor safety briefing video (4:08)",
-  "client": "UiTM FKK",
-  "month": "Sep-Oct 2026",
-  "tags": [
-   "video"
-  ],
-  "shots": "fkk-safety-video/"
- },
- {
-  "title": "Quality audit briefing deck, 40 slides with speaker notes",
-  "client": "UiTM FKK",
-  "month": "Oct 2026",
-  "tags": [
-   "design",
-   "data"
-  ],
-  "shots": "fkk-audit-deck/"
- },
- {
-  "title": "Faculty alignment deck with UiTM 2030 targets, 20 slides",
-  "client": "UiTM FKK",
-  "month": "Oct 2026",
-  "tags": [
-   "design",
-   "data"
-  ],
-  "shots": "fkk-uitm2030-deck/"
- },
- {
-  "title": "Chemical engineering lecture decks, 5 chapters (86-94 slides each)",
-  "client": "UiTM FKK",
-  "month": "Sep 2026",
-  "tags": [
-   "teaching"
-  ],
-  "shots": "chemical-engineering-lecture-decks/"
- },
- {
-  "title": "Mid-term assessment: 5 question papers with answer schemes",
-  "client": "UiTM FKK",
-  "month": "Oct 2026",
-  "tags": [
-   "teaching"
-  ],
-  "shots": null
- },
- {
-  "title": "Take-home tutorials, chapters 6-11, with answer schemes",
-  "client": "UiTM FKK",
-  "month": "Oct 2026",
-  "tags": [
-   "teaching"
-  ],
-  "shots": null
- },
- {
-  "title": "Course assignments 1-3 with rubrics and marking workbook",
-  "client": "UiTM FKK",
-  "month": "Oct 2026",
-  "tags": [
-   "teaching",
-   "data"
-  ],
-  "shots": null
- },
- {
-  "title": "Manuscript on EFB aerogel SO2 adsorption (journal format)",
-  "client": "UiTM FKK",
-  "month": "Sep 2026",
-  "tags": [
-   "research writing",
-   "data"
-  ],
-  "shots": null
- },
- {
-  "title": "Review of an accreditation-journal manuscript, with journal shortlist",
-  "client": "UiTM FKK",
-  "month": "Sep 2026",
-  "tags": [
-   "research writing"
-  ],
-  "shots": null
  }
 ]
