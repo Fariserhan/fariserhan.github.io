@@ -70,7 +70,7 @@
     "role": "inline",
     "near": "2025 has the most papers in the recent window",
     "title": "Faculty papers per year",
-    "caption": "Unique papers each year with a three-year moving average; 2026 is projected from a partial year.",
+    "caption": "Unique papers each year with a three-year moving average; the client report projects 2026 from a partial year; this page uses only the observed partial count.",
     "markers": [
       {
         "n": 1,
@@ -82,7 +82,7 @@
         "n": 2,
         "x": 0.89,
         "y": 0.448,
-        "text": "2026 projected from a partial year"
+        "text": "Client report projects 2026; this page does not"
       },
       {
         "n": 3,
@@ -150,7 +150,7 @@
         "n": 3,
         "x": 0.83,
         "y": 0.277,
-        "text": "89 found only in Web of Science"
+        "text": "89 not in the faculty’s Scopus set"
       }
     ]
   },

@@ -5,6 +5,9 @@ const root = document.documentElement;
 try { root.dataset.theme = localStorage.getItem('faris-edition') === 'dark' ? 'dark' : 'light'; } catch { root.dataset.theme = 'light'; }
 const themeButtons = [...document.querySelectorAll('[data-theme-toggle]')];
 function labelTheme() {
+  let meta = document.querySelector('meta[name="theme-color"]');
+  if (!meta) { meta = document.createElement('meta'); meta.name = 'theme-color'; document.head.append(meta); }
+  meta.content = root.dataset.theme === 'dark' ? '#191B1A' : '#F5F0E6';
   themeButtons.forEach(button => { const dark = root.dataset.theme === 'dark'; button.setAttribute('aria-pressed', String(dark)); button.textContent = dark ? '☀ Light edition' : '◐ Dark edition'; });
 }
 themeButtons.forEach(button => button.addEventListener('click', () => {

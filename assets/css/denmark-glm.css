@@ -13,11 +13,12 @@
 .ledger-figure { max-width:920px; }
 .ledger-controls { max-width:730px; margin:18px auto 10px; padding:16px 0; border-block:1px solid var(--rule); font:14px/21px var(--sans); }
 .ledger-controls p { margin:0 0 10px; }
-.ledger-controls button { min-height:42px; margin-bottom:14px; }
+.ledger-controls button { min-height:42px; margin-top:14px; }
 .ledger-controls label { display:block; font-weight:600; }
 .guess-line { display:flex; gap:14px; align-items:center; }
 .guess-line input { flex:1; accent-color:var(--teal); }
 .guess-line output { min-width:48px; font:14px var(--mono); }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
 .cf-reveal { opacity:0; transition:opacity 240ms ease; }
 .cf-reveal.is-shown { opacity:1; }
 .counterfactual-svg #cf-placeholder { transition:opacity 160ms ease; }

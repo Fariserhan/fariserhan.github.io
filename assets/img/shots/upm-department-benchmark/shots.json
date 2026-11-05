@@ -68,9 +68,9 @@
     "frame": "browser",
     "label": "Quality ranks",
     "role": "inline",
-    "near": "Size and journal mix point in different directions",
+    "near": "Output rate and journal mix point in different directions",
     "title": "Journal quality and top-cited share",
-    "caption": "Over the full 2006 to 2026 window UPM sits mid-table on upper-quartile share and lower on the share of highly cited papers.",
+    "caption": "Over the full 2006 to 2026 window UPM sits mid-table on Q1+Q2 share and lower on the share of highly cited papers.",
     "markers": [
       {
         "n": 1,
@@ -112,8 +112,8 @@
       },
       {
         "n": 2,
-        "x": 0.45,
-        "y": 0.059,
+        "x": 0.44,
+        "y": 0.02,
         "text": "Rate per academic per year"
       },
       {
@@ -126,7 +126,7 @@
         "n": 4,
         "x": 0.63,
         "y": 0.097,
-        "text": "Recent upper-quartile share: 78%"
+        "text": "Recent Q1+Q2 share: 78%"
       }
     ]
   },
@@ -140,7 +140,7 @@
     "role": "inline",
     "near": "The credited-paper series peaks in 2020",
     "title": "Department papers per year",
-    "caption": "Unique papers each year with a three-year moving average. The partial 2026 count is projected to a full year in a dashed box.",
+    "caption": "Unique papers each year with a three-year moving average. The client report projects the partial 2026 count to a full year in a dashed box; this page uses only the observed count.",
     "markers": [
       {
         "n": 1,
@@ -152,7 +152,7 @@
         "n": 2,
         "x": 0.895,
         "y": 0.48,
-        "text": "2026 projected from a partial year"
+        "text": "Client report projects 2026; this page does not"
       },
       {
         "n": 3,

@@ -75,6 +75,10 @@
     const b = el('button', 'ex-open', 'Enlarge'); b.type = 'button'; b.setAttribute('aria-label', 'Enlarge picture');
     b.addEventListener('click', e => { e.stopPropagation(); open(b); });
     stage.append(b); stage.addEventListener('click', () => open(b)); stage.classList.add('is-openable');
+    /* Touch screens: an overlay button would sit on top of numbered markers, so a text button goes under the picture instead. */
+    const t = el('button', 'ex-open-touch', 'Enlarge picture ↗'); t.type = 'button';
+    t.addEventListener('click', () => open(t));
+    return t;
   }
 
   /* Loupe: one native dialog per page, light-table styling. */
@@ -105,7 +109,7 @@
     const body = el('div', 'ex-loupe-body');
     const fig = el('figure', 'ex-loupe-fig'); fig.append(frame(s, folderNow, true));
     const side = el('div', 'ex-loupe-side'); const k = key(s);
-    side.append(caption(s, 'Frame ' + pad(at + 1))); if (k) side.append(k);
+    side.append(caption(s, 'Screenshot ' + pad(at + 1))); if (k) side.append(k);
     body.append(fig, side); dlg.append(top, body); link(dlg);
     if (keep) (dlg.querySelector('.' + keep) || dlg.querySelector('.ex-close')).focus();
   }
@@ -120,16 +124,16 @@
     const plate = el('figure', 'ex-plate');
     plate.append(el('p', 'kicker ex-kicker', 'What I built'));
     const grid = el('div', 'ex-plate-grid'); const f = frame(hero, folder, true);
-    openable(f.querySelector('.ex-stage'), b => open(hero, b));
+    const touch = openable(f.querySelector('.ex-stage'), b => open(hero, b));
     grid.append(f); const k = key(hero); if (k) grid.append(k); else grid.classList.add('no-key');
-    plate.append(grid, caption(hero)); link(plate); sec.append(plate);
+    plate.append(grid, touch, caption(hero)); link(plate); sec.append(plate);
     if (!strip.length) return;
     const sheet = el('div', 'ex-sheet');
-    const head = el('div', 'ex-sheet-head'); head.append(el('h3', 'ex-sheet-title', 'More from this project'), el('span', 'ex-sheet-count', `${strip.length} frame${strip.length > 1 ? 's' : ''}`));
+    const head = el('div', 'ex-sheet-head'); head.append(el('h3', 'ex-sheet-title', 'More from this project'), el('span', 'ex-sheet-count', `${strip.length} screenshot${strip.length > 1 ? 's' : ''}`));
     const ul = el('ul', 'ex-film');
     strip.forEach(s => {
       const li = el('li'); const b = el('button', 'ex-cell'); b.type = 'button';
-      b.setAttribute('aria-label', `Open frame ${pad(shots.indexOf(s) + 1)}: ${s.title || ''}`);
+      b.title = 'Open picture';
       const [w, h] = thumbSize(s); const pic = el('span', 'ex-cell-pic');
       pic.append(img(src(folder, s.thumb || s.file), w, h, ''), ring());
       b.append(pic, el('span', 'ex-cell-no', pad(shots.indexOf(s) + 1) + 'A'), el('span', 'ex-cell-title', s.title || ''));
@@ -160,8 +164,8 @@
     const folder = fig.dataset.shots, shots = await shotsOf(folder);
     const s = shots && shots.find(x => x.file === fig.dataset.file);
     if (!s) return;
-    const f = frame(s, folder); openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
-    fig.append(f); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
+    const f = frame(s, folder); const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
+    fig.append(f, touch); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
   }
 
   async function thumb(im) {
@@ -194,7 +198,7 @@
         if (it.href) { pic.href = it.href; pic.tabIndex = -1; pic.setAttribute('aria-hidden', 'true'); }
         else { pic.type = 'button'; pic.setAttribute('aria-label', `View pictures: ${it.title}`); pic.addEventListener('click', () => loupe(shots, folder, shots.indexOf(s), pic)); }
         const [w, h] = thumbSize(s); pic.append(img(src(folder, s.thumb || s.file), w, h, ''), ring());
-        if (shots.length > 1) pic.append(el('span', 'ex-card-n', shots.length + ' frames'));
+        if (shots.length > 1) pic.append(el('span', 'ex-card-n', shots.length + ' screenshots'));
         li.append(pic);
       }
       const t = el('h3', 'ex-card-title');
