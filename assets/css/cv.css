@@ -54,4 +54,9 @@
   .cv-item li { margin-bottom:2pt; line-height:1.35; }
   .cv-section p, .cv-item li, .cv-skills dd { font-size:9.5pt!important; line-height:1.4!important; }
   .cv-contact a { text-decoration:none; }
+  .cv-section p, .cv-section li, .cv-lede { max-width:none; }
+  .cv-section h2, .cv-item-head { break-after:avoid; }
+  .cv-contact li:nth-last-child(2)::after { content:none; }
+  .cv-contact li:last-child { flex-basis:100%; }
+  .cv-contact li:last-child::after { content:" · Portfolio: fariserhan.github.io"; margin:0; color:inherit; }
 }

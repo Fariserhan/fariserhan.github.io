@@ -30,7 +30,7 @@ Plain HTML, CSS and JavaScript, with no framework and no bundler.
 - **Data** – the figures behind the charts are in [`data/`](data/) as JSON (and CSV for the Malaysia project).
 - **Maps** – the Malaysia state maps are drawn by [`assets/js/malaysia-income.js`](assets/js/malaysia-income.js) from `data/malaysia/states.geojson`, with a small built-in Mercator projection (it replaced a 270&nbsp;KB copy of D3 and draws the same shapes), so nothing loads from a CDN.
 
-To add screenshots to a page, drop the images into its `assets/img/shots/<project>/` folder and list them in that folder’s `shots.json`; no HTML changes are needed.
+To add screenshots to a page, drop the images into its `assets/img/shots/<project>/` folder and list them in that folder’s `shots.json`; no HTML changes are needed. Then run `python3 scripts/make_image_sizes.py` (needs Pillow) to make each picture’s 480&nbsp;px `thumb` and 960&nbsp;px `mid` copies and record them in the manifest: `exhibits.js` offers them through `srcset`, so phones and standard screens download a picture near the size it is shown, and the viewer still opens the full file. Pages work without the copies, just with heavier downloads.
 
 ## Preview locally
 
@@ -48,7 +48,7 @@ Then open http://localhost:8000/. Opening the files directly (`file://`) will no
 
 | Job | What it checks | Run it locally |
 | --- | --- | --- |
-| Links, assets and JSON | Every local `href`, `src`, `srcset` and CSS `url()` points to a file in the repository; every `#fragment` link matches an `id` on its page; every `data-shots` folder has a `shots.json` whose files exist; every JSON file and `ld+json` block parses. | `python3 scripts/check_site.py` (standard library only) |
+| Links, assets and JSON | Every local `href`, `src`, `srcset` and CSS `url()` points to a file in the repository; every `#fragment` link matches an `id` on its page; every `data-shots` folder has a `shots.json` whose files (and `thumb`/`mid` copies) exist; every JSON file and `ld+json` block parses. | `python3 scripts/check_site.py` (standard library only) |
 | HTML validation | All pages pass the [Nu HTML Checker](https://validator.github.io/validator/). Warnings are allowed; errors fail the job. | `npx vnu-jar@26.10.12 --errors-only *.html projects/*.html` (uses Java if installed, otherwise downloads it) |
 | Accessibility | [axe-core](https://github.com/dequelabs/axe-core) finds no violations on any page, at desktop width and at 390&nbsp;px, and no page throws a script error or requests a missing file. | `npm i --no-save playwright@1.63.0 axe-core@4.14.0 && npx playwright install chromium && node scripts/a11y.mjs` |
 
