@@ -230,7 +230,7 @@
     "w": 1800,
     "h": 1125,
     "frame": "browser",
-    "label": "wastequest.github.io · eBook",
+    "label": "WasteQuest preview · eBook",
     "role": "strip",
     "near": "",
     "title": "Flip-page eBook",
@@ -339,7 +339,7 @@
     "role": "strip",
     "near": "",
     "title": "WasteQuest on a phone",
-    "caption": "Built for phones first, since most pupils play on one.",
+    "caption": "Built for phones first, since many pupils use one.",
     "markers": []
   },
   {

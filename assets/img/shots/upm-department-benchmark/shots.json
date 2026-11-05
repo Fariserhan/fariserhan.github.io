@@ -140,7 +140,7 @@
     "role": "inline",
     "near": "The credited-paper series peaks in 2020",
     "title": "Department papers per year",
-    "caption": "Unique papers each year with a three-year moving average. The partial 2026 count is projected to a full year in a dashed box.",
+    "caption": "Unique papers each year with a three-year moving average. The client report projects the partial 2026 count to a full year in a dashed box; this page uses only the observed count.",
     "markers": [
       {
         "n": 1,
@@ -152,7 +152,7 @@
         "n": 2,
         "x": 0.895,
         "y": 0.48,
-        "text": "2026 projected from a partial year"
+        "text": "Client report projects 2026; this page does not"
       },
       {
         "n": 3,

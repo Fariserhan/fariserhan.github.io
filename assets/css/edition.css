@@ -123,7 +123,7 @@ body button { font-size:15px!important; }
 body .site-feature p:not(.caption), body .site-feature h3 + p { font-size:18px; }
 body .tray-readout p, body .tray-top span, body .tray-margin p+p, body .monitor-top span, body .ledger-row span { font-size:13px; }
 body .site-feature .caption { font-size:13px; }
-body .ai-switchboard .ink-node small, body .glm-route .ink-node small { font-size:13px; }
+body .glm-route .ink-node small { font-size:13px; }
 @media(max-width:767px) {
  .section-nav { justify-content:space-between; flex-wrap:nowrap; gap:6px; font-size:13px; }
  .section-nav a { white-space:nowrap; }
