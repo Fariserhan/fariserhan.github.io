@@ -20,3 +20,5 @@
 @media(max-width:600px){.geographic-map{grid-template-columns:1fr;gap:0}.geographic-map svg+svg{border-left:0;border-top:1px dashed var(--rule)}.atlas-steps button{flex-basis:100%}}
 @media(prefers-reduced-motion:reduce){.map-canvas .map-state{transition:none}}
 @media(min-width:900px){.atlas-story .map-canvas,.atlas-story .map-legend{max-width:960px;margin-inline:auto}}
+
+.keyboard-guess .guess-field{display:flex;flex-direction:column;gap:8px;font:13px var(--sans);flex:1;min-width:180px;margin:16px 0}

@@ -1,7 +1,7 @@
 // Accessibility smoke test: axe-core on every page, at desktop and phone width.
 // Fails (exit 1) on any axe violation, uncaught page error or failed local request.
 //
-//   npm i --no-save playwright@1.64.1 axe-core@4.14.0
+//   npm i --no-save playwright@1.63.0 axe-core@4.14.0
 //   npx playwright install chromium
 //   node scripts/a11y.mjs              # serves the repo itself on a free port
 //   BASE_URL=http://localhost:8000/ node scripts/a11y.mjs   # or test a running server
@@ -74,7 +74,7 @@ try {
       await page.addScriptTag({ path: axePath });
       const violations = await page.evaluate(async () => (await axe.run(document, { resultTypes: ['violations'] })).violations.map(v => ({
         id: v.id, impact: v.impact, help: v.help,
-        nodes: v.nodes.map(n => `${n.target.join(' ')}${n.failureSummary ? ' — ' + n.failureSummary.split('\n').slice(1).join(' ').trim() : ''}`),
+        nodes: v.nodes.map(n => `${n.target.join(' ')}${n.failureSummary ? ' — ' + (n.failureSummary.split('\n')[1] || '').trim() : ''}`),
       })));
 
       const bad = violations.length + problems.length;
