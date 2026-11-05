@@ -174,7 +174,7 @@ export function drawChart(host, config) {
         mark.append(svgElement('rect', { x:x(0),y:y-7,width:x(row.value)-x(0),height:14,class:'data-bar' }));
       }
       mark.append(svgElement('rect', { x:margin.left,y:y-14,width:plotWidth,height:28,fill:'transparent' }));
-      svg.append(mark,svgElement('text',{x:width-margin.right+8,y:y+4,class:'direct-label'},`${row.value}${config.unit || ''}`));
+      svg.append(mark,svgElement('text',{x:width-margin.right+(config.kind === 'interval' ? 14 : 8),y:y+4,class:'direct-label'},`${row.value}${config.unit || ''}`));
     });
   } else {
     const y = scale(0,max,height-margin.bottom,margin.top);
