@@ -75,6 +75,10 @@
     const b = el('button', 'ex-open', 'Enlarge'); b.type = 'button'; b.setAttribute('aria-label', 'Enlarge picture');
     b.addEventListener('click', e => { e.stopPropagation(); open(b); });
     stage.append(b); stage.addEventListener('click', () => open(b)); stage.classList.add('is-openable');
+    /* Touch screens: an overlay button would sit on top of numbered markers, so a text button goes under the picture instead. */
+    const t = el('button', 'ex-open-touch', 'Enlarge picture ↗'); t.type = 'button';
+    t.addEventListener('click', () => open(t));
+    return t;
   }
 
   /* Loupe: one native dialog per page, light-table styling. */
@@ -120,9 +124,9 @@
     const plate = el('figure', 'ex-plate');
     plate.append(el('p', 'kicker ex-kicker', 'What I built'));
     const grid = el('div', 'ex-plate-grid'); const f = frame(hero, folder, true);
-    openable(f.querySelector('.ex-stage'), b => open(hero, b));
+    const touch = openable(f.querySelector('.ex-stage'), b => open(hero, b));
     grid.append(f); const k = key(hero); if (k) grid.append(k); else grid.classList.add('no-key');
-    plate.append(grid, caption(hero)); link(plate); sec.append(plate);
+    plate.append(grid, touch, caption(hero)); link(plate); sec.append(plate);
     if (!strip.length) return;
     const sheet = el('div', 'ex-sheet');
     const head = el('div', 'ex-sheet-head'); head.append(el('h3', 'ex-sheet-title', 'More from this project'), el('span', 'ex-sheet-count', `${strip.length} frame${strip.length > 1 ? 's' : ''}`));
@@ -160,8 +164,8 @@
     const folder = fig.dataset.shots, shots = await shotsOf(folder);
     const s = shots && shots.find(x => x.file === fig.dataset.file);
     if (!s) return;
-    const f = frame(s, folder); openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
-    fig.append(f); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
+    const f = frame(s, folder); const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
+    fig.append(f, touch); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
   }
 
   async function thumb(im) {
