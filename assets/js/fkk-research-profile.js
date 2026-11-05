@@ -17,14 +17,14 @@ export function render(c,width=900,regional=true){
   }
   a+=txt(52,h-7,'One mark = one credited paper','axis-label');
  }else if(c.kind==='coverage'){
-  h=small?430:330; const r=small?76:110,cx=small?w/2:w*.29,cy=small?110:147,total=c.data.reduce((s,r)=>s+r.value,0);let at=-90;
+  h=small?385:330; const r=small?76:110,cx=small?w/2:w*.29,cy=small?110:147,total=c.data.reduce((s,r)=>s+r.value,0);let at=-90;
   for(const d of c.data){const end=at+d.value/total*360;const p=t=>[cx+r*Math.cos(t*Math.PI/180),cy+r*Math.sin(t*Math.PI/180)];const s=p(at),e=p(end);a+=`<path d="M${s} A${r},${r} 0 ${end-at>180?1:0} 1 ${e}" fill="none" stroke="var(--${d.label==='-'?'axis':d.label==='Q1'?'teal':'rule'})" stroke-width="28"/>`;at=end;}
   a+=txt(cx,cy, total,'aperture-number','text-anchor="middle"')+txt(cx,cy+24,'papers','axis-label','text-anchor="middle"');
   let y=small?242:55,x=small?15:w*.57;
   for(const d of c.data){a+=line(x,y-4,x+15,y-4,d.label==='Q1'?'data-line':'context-line')+txt(x+26,y,`${d.label==='-'?'No quartile':d.label}: ${d.value}`);y+=30;}
   a+=line(small?218:w*.55,small?208:h-47,cx+r*.7,cy+r*.7,'pencil draw-line')+txt(small?12:w*.55,small?214:h-28,'397 / 671 = 59.2% Q1+Q2','pencil-note');
  }else if(c.kind==='wos'){
-  h=310;const labels=['Matched to FKK Scopus','Not in FKK Scopus','Scopus; profile mismatch'];
+  h=310;const labels=['Matched to FKK Scopus','Not in FKK Scopus','In Scopus, not on an FKK profile'];
   c.data.forEach((d,i)=>{const y=45+i*79;a+=txt(0,y,labels[i])+rect(0,y+12,(w-68)*d.value/886,18,i===0?'focus-mark':'muted-mark')+txt((w-68)*d.value/886+8,y+26,d.value);});
   a+=txt(0,h-4,'886 records in this WoS extract','axis-label');
  }else if(c.kind==='sdg'){

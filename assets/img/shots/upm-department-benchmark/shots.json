@@ -68,9 +68,9 @@
     "frame": "browser",
     "label": "Quality ranks",
     "role": "inline",
-    "near": "Size and journal mix point in different directions",
+    "near": "Output rate and journal mix point in different directions",
     "title": "Journal quality and top-cited share",
-    "caption": "Over the full 2006 to 2026 window UPM sits mid-table on upper-quartile share and lower on the share of highly cited papers.",
+    "caption": "Over the full 2006 to 2026 window UPM sits mid-table on Q1+Q2 share and lower on the share of highly cited papers.",
     "markers": [
       {
         "n": 1,
@@ -126,7 +126,7 @@
         "n": 4,
         "x": 0.63,
         "y": 0.097,
-        "text": "Recent upper-quartile share: 78%"
+        "text": "Recent Q1+Q2 share: 78%"
       }
     ]
   },
