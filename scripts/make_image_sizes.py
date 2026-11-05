@@ -40,11 +40,17 @@ def main() -> int:
                     changed = True
                 for key, width in SIZES.items():
                     if key == "mid" and w < MID_MIN_WIDTH:
+                        if shot.pop("mid", None) is not None:   # the source shrank: drop the stale entry
+                            changed = True
                         continue
                     name = f"{src.stem}.{key}.webp"
                     out = manifest.parent / name
-                    if force or not out.exists():
-                        im.convert("RGB").resize((width, round(width * h / w)), Image.LANCZOS).save(
+                    # remake when missing or older than its source (a screenshot replaced under the same name)
+                    if force or not out.exists() or out.stat().st_mtime < src.stat().st_mtime:
+                        rgba = im.convert("RGBA")
+                        flat = Image.new("RGB", rgba.size, "white")   # transparent areas become white, not black
+                        flat.paste(rgba, mask=rgba.split()[3])
+                        flat.resize((width, round(width * h / w)), Image.LANCZOS).save(
                             out, "WEBP", quality=QUALITY, method=6)
                         made += 1
                     if shot.get(key) != name:

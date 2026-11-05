@@ -29,7 +29,7 @@
   const SIZES = {
     plate: 'auto, (max-width: 767px) calc(100vw - 40px), 820px',
     inline: 'auto, (max-width: 767px) calc(100vw - 40px), 680px',
-    card: 'auto, (max-width: 767px) calc(100vw - 32px), 600px',
+    card: 'auto, (max-width: 767px) calc(100vw - 32px), min(600px, 33vw)',
     gallery: 'auto, (max-width: 767px) calc(100vw - 32px), 300px',
   };
   const sources = (folder, s, sizes, withFull = true) => {
@@ -197,7 +197,7 @@
     const folder = fig.dataset.shots, shots = await shotsOf(folder);
     const s = shots && shots.find(x => x.file === fig.dataset.file);
     if (!s) return;
-    const f = frame(s, folder, false, SIZES.inline); const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
+    const f = frame(s, folder, false, fig.dataset.sizes || SIZES.inline); /* a full-width figure sets data-sizes */ const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
     fig.append(f, touch); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
   }
 
