@@ -2,6 +2,7 @@
   {
     "file": "01-wte-calculator.webp",
     "thumb": "01-wte-calculator.thumb.webp",
+    "mid": "01-wte-calculator.mid.webp",
     "w": 1800,
     "h": 1640,
     "frame": "browser",
@@ -40,6 +41,7 @@
   {
     "file": "02-landfill-sizer.webp",
     "thumb": "02-landfill-sizer.thumb.webp",
+    "mid": "02-landfill-sizer.mid.webp",
     "w": 1800,
     "h": 1250,
     "frame": "browser",
@@ -60,6 +62,7 @@
   {
     "file": "03-self-check-quiz.webp",
     "thumb": "03-self-check-quiz.thumb.webp",
+    "mid": "03-self-check-quiz.mid.webp",
     "w": 1800,
     "h": 1100,
     "frame": "browser",
@@ -73,6 +76,7 @@
   {
     "file": "04-opening-question.webp",
     "thumb": "04-opening-question.thumb.webp",
+    "mid": "04-opening-question.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -86,6 +90,7 @@
   {
     "file": "05-waste-today.webp",
     "thumb": "05-waste-today.thumb.webp",
+    "mid": "05-waste-today.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -99,6 +104,7 @@
   {
     "file": "06-household-waste.webp",
     "thumb": "06-household-waste.thumb.webp",
+    "mid": "06-household-waste.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -112,6 +118,7 @@
   {
     "file": "07-heating-values.webp",
     "thumb": "07-heating-values.thumb.webp",
+    "mid": "07-heating-values.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -125,6 +132,7 @@
   {
     "file": "08-wte-plant.webp",
     "thumb": "08-wte-plant.thumb.webp",
+    "mid": "08-wte-plant.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -138,6 +146,7 @@
   {
     "file": "09-digestion.webp",
     "thumb": "09-digestion.thumb.webp",
+    "mid": "09-digestion.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -151,6 +160,7 @@
   {
     "file": "10-liner.webp",
     "thumb": "10-liner.thumb.webp",
+    "mid": "10-liner.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -164,6 +174,7 @@
   {
     "file": "11-lca.webp",
     "thumb": "11-lca.thumb.webp",
+    "mid": "11-lca.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -177,6 +188,7 @@
   {
     "file": "12-circular.webp",
     "thumb": "12-circular.thumb.webp",
+    "mid": "12-circular.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",

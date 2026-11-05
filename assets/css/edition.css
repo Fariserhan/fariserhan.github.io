@@ -412,3 +412,5 @@ body .lab-tail, body .network-readout p, body .proof-strip p, body .notebook p:n
 @media (max-width:400px) { .section-nav { font-size:12px; gap:4px; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:none; } .section-nav::-webkit-scrollbar { display:none; } .section-nav a { flex:0 0 auto; } }
 /* Source lines and data tables sit inside figcaption (valid HTML); keep them in body ink rather than the caption's grey. */
 figcaption > details, figcaption > p:not([class]), figcaption > div { color:var(--ink); }
+/* Without JavaScript the text, conclusions and data tables still read in full; hide the controls that would do nothing. */
+@media (scripting:none) { [data-theme-toggle], [data-print], .figure-toolbar, [data-pause-ink], [data-archive-expand], .archive-list .filters, [data-route-select], [data-turn-gears], [data-scope] { display:none!important; } }

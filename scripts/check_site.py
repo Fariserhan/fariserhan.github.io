@@ -9,8 +9,9 @@ Checks:
   * every #fragment link to a page in the repository (including the
     data-evidence links figures.js turns into <a href>) matches an id (or
     <a name>) on that page;
-  * data-shots folders have a shots.json manifest, every file and thumb it
-    lists exists, and every data-file names an entry in that manifest;
+  * data-shots folders have a shots.json manifest, every file, thumb and mid
+    (960 px copy) it lists exists, and every data-file names an entry in that
+    manifest;
   * data-items JSON exists, each item's shots folder/cover/href resolves;
   * url() references inside assets/css/*.css resolve;
   * relative ES-module imports inside assets/js/*.js resolve;
@@ -192,7 +193,7 @@ def main() -> int:
             if not isinstance(s, dict) or not s.get("file"):
                 err(rel(mf), f"entry {i} has no 'file'")
                 continue
-            for key in ("file", "thumb"):
+            for key in ("file", "thumb", "mid"):
                 if s.get(key) and not (folder / s[key]).is_file():
                     err(rel(mf), f"entry {i} {key} {s[key]!r} does not exist")
             for key in ("w", "h"):

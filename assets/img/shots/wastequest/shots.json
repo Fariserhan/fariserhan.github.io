@@ -2,6 +2,7 @@
   {
     "file": "01-town-home.webp",
     "thumb": "01-town-home.thumb.webp",
+    "mid": "01-town-home.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -46,6 +47,7 @@
   {
     "file": "02-quiz.webp",
     "thumb": "02-quiz.thumb.webp",
+    "mid": "02-quiz.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -78,6 +80,7 @@
   {
     "file": "03-lab-video.webp",
     "thumb": "03-lab-video.thumb.webp",
+    "mid": "03-lab-video.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -110,6 +113,7 @@
   {
     "file": "04-class-team-mode.webp",
     "thumb": "04-class-team-mode.thumb.webp",
+    "mid": "04-class-team-mode.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -142,6 +146,7 @@
   {
     "file": "05-labs-list.webp",
     "thumb": "05-labs-list.thumb.webp",
+    "mid": "05-labs-list.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -168,6 +173,7 @@
   {
     "file": "06-lab-page.webp",
     "thumb": "06-lab-page.thumb.webp",
+    "mid": "06-lab-page.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -188,6 +194,7 @@
   {
     "file": "07-badges.webp",
     "thumb": "07-badges.thumb.webp",
+    "mid": "07-badges.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -201,6 +208,7 @@
   {
     "file": "08-certificates.webp",
     "thumb": "08-certificates.thumb.webp",
+    "mid": "08-certificates.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -227,6 +235,7 @@
   {
     "file": "09-ebook.webp",
     "thumb": "09-ebook.thumb.webp",
+    "mid": "09-ebook.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -247,6 +256,7 @@
   {
     "file": "10-teacher-hub.webp",
     "thumb": "10-teacher-hub.thumb.webp",
+    "mid": "10-teacher-hub.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -260,6 +270,7 @@
   {
     "file": "11-games.webp",
     "thumb": "11-games.thumb.webp",
+    "mid": "11-games.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -273,6 +284,7 @@
   {
     "file": "12-compost-sim.webp",
     "thumb": "12-compost-sim.thumb.webp",
+    "mid": "12-compost-sim.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -286,6 +298,7 @@
   {
     "file": "13-event-town.webp",
     "thumb": "13-event-town.thumb.webp",
+    "mid": "13-event-town.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -299,6 +312,7 @@
   {
     "file": "14-missions.webp",
     "thumb": "14-missions.thumb.webp",
+    "mid": "14-missions.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -312,6 +326,7 @@
   {
     "file": "15-town-malay.webp",
     "thumb": "15-town-malay.thumb.webp",
+    "mid": "15-town-malay.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",

@@ -22,3 +22,5 @@
 @media(min-width:900px){.atlas-story .map-canvas,.atlas-story .map-legend{max-width:960px;margin-inline:auto}}
 
 .keyboard-guess .guess-field{display:flex;flex-direction:column;gap:8px;font:13px var(--sans);flex:1;min-width:180px;margin:16px 0}
+/* Without JavaScript: no sketching, maps or selectors; the figure captions and "Show the numbers" tables carry the results. */
+@media (scripting:none){.prediction-tools,.keyboard-guess,#draw-help,#prediction-readout,#prediction-plot,.explore-controls,.map-canvas,.map-legend,.state-slip{display:none}}

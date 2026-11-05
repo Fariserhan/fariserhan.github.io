@@ -2,6 +2,7 @@
   {
     "file": "powerbi-01-real-income.webp",
     "thumb": "powerbi-01-real-income.thumb.webp",
+    "mid": "powerbi-01-real-income.mid.webp",
     "w": 1800,
     "h": 1013,
     "frame": "laptop",
@@ -39,6 +40,7 @@
   {
     "file": "02-mean-median-sql.webp",
     "thumb": "02-mean-median-sql.thumb.webp",
+    "mid": "02-mean-median-sql.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "doc",
@@ -71,6 +73,7 @@
   {
     "file": "03-income-less-spending-sql.webp",
     "thumb": "03-income-less-spending-sql.thumb.webp",
+    "mid": "03-income-less-spending-sql.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "doc",
@@ -103,6 +106,7 @@
   {
     "file": "04-poverty-change-sql.webp",
     "thumb": "04-poverty-change-sql.thumb.webp",
+    "mid": "04-poverty-change-sql.mid.webp",
     "w": 1800,
     "h": 1390,
     "frame": "doc",
@@ -135,6 +139,7 @@
   {
     "file": "powerbi-02-gaps.webp",
     "thumb": "powerbi-02-gaps.thumb.webp",
+    "mid": "powerbi-02-gaps.mid.webp",
     "w": 1800,
     "h": 1013,
     "frame": "laptop",
@@ -160,6 +165,7 @@
   {
     "file": "powerbi-03-prices-poverty.webp",
     "thumb": "powerbi-03-prices-poverty.thumb.webp",
+    "mid": "powerbi-03-prices-poverty.mid.webp",
     "w": 1800,
     "h": 1013,
     "frame": "laptop",
@@ -172,6 +178,7 @@
   {
     "file": "01-real-income-sql.webp",
     "thumb": "01-real-income-sql.thumb.webp",
+    "mid": "01-real-income-sql.mid.webp",
     "w": 1800,
     "h": 2014,
     "frame": "doc",
@@ -209,6 +216,7 @@
   {
     "file": "05-price-categories-sql.webp",
     "thumb": "05-price-categories-sql.thumb.webp",
+    "mid": "05-price-categories-sql.mid.webp",
     "w": 1800,
     "h": 1449,
     "frame": "doc",
@@ -221,6 +229,7 @@
   {
     "file": "06-national-long-view-sql.webp",
     "thumb": "06-national-long-view-sql.thumb.webp",
+    "mid": "06-national-long-view-sql.mid.webp",
     "w": 1800,
     "h": 1129,
     "frame": "doc",
@@ -233,6 +242,7 @@
   {
     "file": "07-findings-notes.webp",
     "thumb": "07-findings-notes.thumb.webp",
+    "mid": "07-findings-notes.mid.webp",
     "w": 1800,
     "h": 1625,
     "frame": "doc",
@@ -245,6 +255,7 @@
   {
     "file": "powerbi-04-model.webp",
     "thumb": "powerbi-04-model.thumb.webp",
+    "mid": "powerbi-04-model.mid.webp",
     "w": 1800,
     "h": 596,
     "frame": "laptop",
@@ -257,6 +268,7 @@
   {
     "file": "powerbi-05-dax-measure.webp",
     "thumb": "powerbi-05-dax-measure.thumb.webp",
+    "mid": "powerbi-05-dax-measure.mid.webp",
     "w": 1800,
     "h": 1013,
     "frame": "laptop",

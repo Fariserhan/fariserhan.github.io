@@ -2,6 +2,7 @@
   {
     "file": "01-overview.webp",
     "thumb": "01-overview.thumb.webp",
+    "mid": "01-overview.mid.webp",
     "w": 1800,
     "h": 1300,
     "frame": "browser",
@@ -45,6 +46,7 @@
   {
     "file": "02-where-applications-go.webp",
     "thumb": "02-where-applications-go.thumb.webp",
+    "mid": "02-where-applications-go.mid.webp",
     "w": 1800,
     "h": 867,
     "frame": "browser",
@@ -77,6 +79,7 @@
   {
     "file": "03-channels.webp",
     "thumb": "03-channels.thumb.webp",
+    "mid": "03-channels.mid.webp",
     "w": 1800,
     "h": 750,
     "frame": "browser",
@@ -109,6 +112,7 @@
   {
     "file": "04-reply-timing.webp",
     "thumb": "04-reply-timing.thumb.webp",
+    "mid": "04-reply-timing.mid.webp",
     "w": 1800,
     "h": 1050,
     "frame": "browser",
@@ -121,6 +125,7 @@
   {
     "file": "05-pipeline-board.webp",
     "thumb": "05-pipeline-board.thumb.webp",
+    "mid": "05-pipeline-board.mid.webp",
     "w": 1800,
     "h": 1962,
     "frame": "browser",
@@ -133,6 +138,7 @@
   {
     "file": "06-analytics.webp",
     "thumb": "06-analytics.thumb.webp",
+    "mid": "06-analytics.mid.webp",
     "w": 1800,
     "h": 1583,
     "frame": "browser",
@@ -145,6 +151,7 @@
   {
     "file": "07-follow-ups.webp",
     "thumb": "07-follow-ups.thumb.webp",
+    "mid": "07-follow-ups.mid.webp",
     "w": 1800,
     "h": 1867,
     "frame": "browser",
@@ -157,6 +164,7 @@
   {
     "file": "08-lineage.webp",
     "thumb": "08-lineage.thumb.webp",
+    "mid": "08-lineage.mid.webp",
     "w": 1800,
     "h": 1000,
     "frame": "browser",
@@ -189,6 +197,7 @@
   {
     "file": "09-star-schema-tests.webp",
     "thumb": "09-star-schema-tests.thumb.webp",
+    "mid": "09-star-schema-tests.mid.webp",
     "w": 1800,
     "h": 1017,
     "frame": "browser",
@@ -201,6 +210,7 @@
   {
     "file": "10-metric-sql.webp",
     "thumb": "10-metric-sql.thumb.webp",
+    "mid": "10-metric-sql.mid.webp",
     "w": 1800,
     "h": 900,
     "frame": "browser",
@@ -213,6 +223,7 @@
   {
     "file": "11-settings.webp",
     "thumb": "11-settings.thumb.webp",
+    "mid": "11-settings.mid.webp",
     "w": 1800,
     "h": 1750,
     "frame": "browser",
@@ -225,6 +236,7 @@
   {
     "file": "12-excel-dashboard.webp",
     "thumb": "12-excel-dashboard.thumb.webp",
+    "mid": "12-excel-dashboard.mid.webp",
     "w": 1800,
     "h": 768,
     "frame": "sheet",
@@ -237,6 +249,7 @@
   {
     "file": "13-excel-platforms.webp",
     "thumb": "13-excel-platforms.thumb.webp",
+    "mid": "13-excel-platforms.mid.webp",
     "w": 1800,
     "h": 768,
     "frame": "sheet",
@@ -249,6 +262,7 @@
   {
     "file": "14-excel-applications.webp",
     "thumb": "14-excel-applications.thumb.webp",
+    "mid": "14-excel-applications.mid.webp",
     "w": 1800,
     "h": 768,
     "frame": "sheet",
@@ -261,6 +275,7 @@
   {
     "file": "15-excel-reply-time.webp",
     "thumb": "15-excel-reply-time.thumb.webp",
+    "mid": "15-excel-reply-time.mid.webp",
     "w": 1800,
     "h": 768,
     "frame": "sheet",
@@ -273,6 +288,7 @@
   {
     "file": "16-findings-report.webp",
     "thumb": "16-findings-report.thumb.webp",
+    "mid": "16-findings-report.mid.webp",
     "w": 1800,
     "h": 1875,
     "frame": "doc",
@@ -285,6 +301,7 @@
   {
     "file": "17-dbt-model.webp",
     "thumb": "17-dbt-model.thumb.webp",
+    "mid": "17-dbt-model.mid.webp",
     "w": 1800,
     "h": 1250,
     "frame": "doc",

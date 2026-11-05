@@ -31,3 +31,5 @@
  .guess-line { align-items:flex-start; }
 }
 @media(prefers-reduced-motion:reduce) { .cf-reveal,.counterfactual-svg #cf-placeholder { transition:none; } }
+/* Without JavaScript the reveal button cannot work, so show the model's answer straight away. */
+@media (scripting:none) { .ledger-controls { display:none; } .cf-reveal { opacity:1; } .counterfactual-svg #cf-placeholder { opacity:0; } .mobile-counterfactual { display:block; } }

@@ -76,24 +76,45 @@ function measures(data){const [growth,gap,,poverty]=data;return {
 function format(m,v){return m.unit==='RM'?money(v):`${m.unit===''?v.toFixed(3):v.toFixed(1)}${m.unit}`.replace(/^-/,'−');}
 function initStateSelector(data,onChange=()=>{}){const mm=measures(data),measure=document.querySelector('#map-measure'),state=document.querySelector('#state-select');mm.real16.rows.forEach(r=>state.add(new Option(r.state,r.state)));state.value='Terengganu';function update(){const m=mm[measure.value],r=m.rows.find(r=>r.state===state.value);document.querySelector('#state-name').textContent=r.state;document.querySelector('#state-value').textContent=format(m,r.value);document.querySelector('#state-description').textContent=`${r.state}: ${format(m,r.value)}. ${m.label}.`;document.querySelector('#explore-title').textContent=m.label;onChange(measure.value,state.value);}measure.addEventListener('change',update);state.addEventListener('change',update);return {update,select(name){state.value=name;update();}};}
 
-function maps(data,geo){if(!window.d3)return;const mm=measures(data);let stateUI;
- const d3=window.d3, east=['Sabah','Sarawak','W.P. Labuan'];
+/* Map helpers: a Mercator projection fitted to a box, polygon paths and centroids, and a
+   piecewise-linear colour scale. This is all the maps used from D3 (about 270 KB), and the
+   output matches D3's geoMercator().fitExtent() and geoPath() to within 0.01 px. */
+const rad=Math.PI/180;
+const rings=g=>g.type==='Polygon'?g.coordinates:g.type==='MultiPolygon'?g.coordinates.flat():[];
+function mercator([[x0,y0],[x1,y1]],features){
+ const raw=([lon,lat])=>[lon*rad,-Math.log(Math.tan(Math.PI/4+lat*rad/2))];
+ const lo=[Infinity,Infinity],hi=[-Infinity,-Infinity];
+ features.forEach(f=>rings(f.geometry).forEach(r=>r.forEach(p=>raw(p).forEach((v,i)=>{lo[i]=Math.min(lo[i],v);hi[i]=Math.max(hi[i],v);}))));
+ const w=x1-x0,h=y1-y0,k=Math.min(w/(hi[0]-lo[0]),h/(hi[1]-lo[1])),tx=x0+(w-k*(hi[0]+lo[0]))/2,ty=y0+(h-k*(hi[1]+lo[1]))/2;
+ const project=p=>{const [x,y]=raw(p);return [tx+k*x,ty+k*y];},round=n=>Math.round(n*100)/100;
+ return {
+  path:f=>rings(f.geometry).map(r=>'M'+r.map(p=>project(p).map(round).join(',')).join('L')+'Z').join(''),
+  centroid(f){let X=0,Y=0,Z=0;rings(f.geometry).forEach(r=>{const q=r.map(project);for(let i=1;i<q.length;i++){const [ax,ay]=q[i-1],[bx,by]=q[i],z=ax*by-bx*ay;X+=z*(ax+bx);Y+=z*(ay+by);Z+=z*3;}});return [X/Z,Y/Z];}
+ };
+}
+function colorScale(stops,colors){
+ const rgb=colors.map(c=>{const h=c.replace('#','');const x=h.length===3?[...h].map(d=>d+d).join(''):h;return [0,2,4].map(i=>parseInt(x.slice(i,i+2),16));});
+ return v=>{const t=Math.max(stops[0],Math.min(stops.at(-1),v));let i=1;while(i<stops.length-1&&t>stops[i])i++;
+  const f=(t-stops[i-1])/(stops[i]-stops[i-1]||1);return `rgb(${rgb[i].map((c,j)=>Math.round(rgb[i-1][j]+(c-rgb[i-1][j])*f)).join(', ')})`;};
+}
+function maps(data,geo){const mm=measures(data);let stateUI;
+ const east=['Sabah','Sarawak','W.P. Labuan'];
  function map(hostId,legendId,key,highlight=[]){const host=document.getElementById(hostId),m=mm[key];
   const colors=key.startsWith('real')?['--div-1','--div-2','--div-3','--div-4','--div-5']:['--seq-1','--seq-2','--seq-3','--seq-4','--seq-5'];
   const palette=colors.map(c=>getComputedStyle(document.documentElement).getPropertyValue(c).trim());
-  const color=d3.scaleLinear().domain(m.stops||palette.map((_,i)=>m.domain[0]+i*(m.domain[1]-m.domain[0])/4)).range(palette).clamp(true);
+  const color=colorScale(m.stops||palette.map((_,i)=>m.domain[0]+i*(m.domain[1]-m.domain[0])/4),palette);
   const spotlight=hostId==='story-map'&&highlight.length;
   if(!host.querySelector('svg')){
    host.classList.add('geographic-map');
    for(const isEast of [false,true]){
     const features=geo.features.filter(f=>east.includes(f.properties.state)===isEast);
-    const projection=d3.geoMercator().fitExtent(isEast?[[30,115],[470,405]]:[[96,48],[428,458]],{type:'FeatureCollection',features});
-    const path=d3.geoPath(projection),s=el('svg',{viewBox:'0 0 500 520',role:'group','aria-label':isEast?'Borneo inset: Sabah, Sarawak and Labuan':'Peninsular Malaysia'});
+    const projection=mercator(isEast?[[30,115],[470,405]]:[[96,48],[428,458]],features);
+    const s=el('svg',{viewBox:'0 0 500 520',role:'group','aria-label':isEast?'Borneo inset: Sabah, Sarawak and Labuan':'Peninsular Malaysia'});
     text(s,20,26,isEast?'BORNEO / OFFSET INSET':'PENINSULAR MALAYSIA','region-label');
     if(isEast)text(s,20,506,'Panels fitted separately; not to a common scale.','map-note');
     host.append(s);
     features.forEach(f=>{
-     const name=f.properties.state,centre=path.centroid(f),node=el('path',{d:path(f),class:'map-state state-boundary','data-state':name,tabindex:0,role:hostId==='explore-map'?'button':'img'});s.append(node);
+     const name=f.properties.state,centre=projection.centroid(f),node=el('path',{d:projection.path(f),class:'map-state state-boundary','data-state':name,tabindex:0,role:hostId==='explore-map'?'button':'img'});s.append(node);
      function activate(){if(hostId==='explore-map')stateUI?.select(name);}
      node.addEventListener('click',activate);node.addEventListener('focus',activate);node.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
      const tiny={'W.P. Kuala Lumpur':[70,350],'W.P. Putrajaya':[70,410],'W.P. Labuan':[220,72]}[name];
@@ -118,8 +139,7 @@ function maps(data,geo){if(!window.d3)return;const mm=measures(data);let stateUI
    const node=[...host.querySelectorAll('.state-boundary')].find(n=>n.dataset.state===name),s=node.ownerSVGElement;
    const f=geo.features.find(f=>f.properties.state===name),isEast=east.includes(name);
    const features=geo.features.filter(f=>east.includes(f.properties.state)===isEast);
-   const projection=d3.geoMercator().fitExtent(isEast?[[30,115],[470,405]]:[[96,48],[428,458]],{type:'FeatureCollection',features});
-   const [x,y]=d3.geoPath(projection).centroid(f),g=el('g',{class:'map-callout','aria-hidden':'true'});
+   const [x,y]=mercator(isEast?[[30,115],[470,405]]:[[96,48],[428,458]],features).centroid(f),g=el('g',{class:'map-callout','aria-hidden':'true'});
    const target=[...host.querySelectorAll('.territory-target')].find(n=>n.dataset.state===name);
    if(target){g.append(el('ellipse',{cx:target.getAttribute('cx'),cy:target.getAttribute('cy'),rx:20,ry:18,class:'pencil-ring'}));s.append(g);return;}
    const slots={'Terengganu':[330,83],'Selangor':[24,260],'Perlis':[25,65]};

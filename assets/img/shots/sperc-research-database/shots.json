@@ -2,6 +2,7 @@
   {
     "file": "01-groups.webp",
     "thumb": "01-groups.thumb.webp",
+    "mid": "01-groups.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -39,6 +40,7 @@
   {
     "file": "02-top.webp",
     "thumb": "02-top.thumb.webp",
+    "mid": "02-top.mid.webp",
     "w": 1800,
     "h": 358,
     "frame": "browser",
@@ -51,6 +53,7 @@
   {
     "file": "03-trend.webp",
     "thumb": "03-trend.thumb.webp",
+    "mid": "03-trend.mid.webp",
     "w": 1800,
     "h": 792,
     "frame": "browser",
@@ -63,6 +66,7 @@
   {
     "file": "04-bench.webp",
     "thumb": "04-bench.thumb.webp",
+    "mid": "04-bench.mid.webp",
     "w": 1800,
     "h": 875,
     "frame": "browser",
@@ -75,6 +79,7 @@
   {
     "file": "05-career.webp",
     "thumb": "05-career.thumb.webp",
+    "mid": "05-career.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -87,6 +92,7 @@
   {
     "file": "06-xl-pubs.webp",
     "thumb": "06-xl-pubs.thumb.webp",
+    "mid": "06-xl-pubs.mid.webp",
     "w": 1800,
     "h": 459,
     "frame": "sheet",
@@ -125,6 +131,7 @@
   {
     "file": "07-xl-myra.webp",
     "thumb": "07-xl-myra.thumb.webp",
+    "mid": "07-xl-myra.mid.webp",
     "w": 1800,
     "h": 458,
     "frame": "sheet",
@@ -137,6 +144,7 @@
   {
     "file": "08-plan-stands.webp",
     "thumb": "08-plan-stands.thumb.webp",
+    "mid": "08-plan-stands.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -169,6 +177,7 @@
   {
     "file": "09-plan-cited.webp",
     "thumb": "09-plan-cited.thumb.webp",
+    "mid": "09-plan-cited.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -207,6 +216,7 @@
   {
     "file": "10-deck-glance.webp",
     "thumb": "10-deck-glance.thumb.webp",
+    "mid": "10-deck-glance.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -219,6 +229,7 @@
   {
     "file": "11-deck-quality.webp",
     "thumb": "11-deck-quality.thumb.webp",
+    "mid": "11-deck-quality.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -231,6 +242,7 @@
   {
     "file": "12-deck-bench.webp",
     "thumb": "12-deck-bench.thumb.webp",
+    "mid": "12-deck-bench.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",
@@ -243,6 +255,7 @@
   {
     "file": "13-deck-trend.webp",
     "thumb": "13-deck-trend.thumb.webp",
+    "mid": "13-deck-trend.mid.webp",
     "w": 1800,
     "h": 1012,
     "frame": "slide",

@@ -2,6 +2,7 @@
   {
     "file": "01-bm.webp",
     "thumb": "01-bm.thumb.webp",
+    "mid": "01-bm.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -39,6 +40,7 @@
   {
     "file": "02-top.webp",
     "thumb": "02-top.thumb.webp",
+    "mid": "02-top.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -51,6 +53,7 @@
   {
     "file": "03-ov2.webp",
     "thumb": "03-ov2.thumb.webp",
+    "mid": "03-ov2.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -63,6 +66,7 @@
   {
     "file": "04-bm-q.webp",
     "thumb": "04-bm-q.thumb.webp",
+    "mid": "04-bm-q.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -95,6 +99,7 @@
   {
     "file": "05-xl-bench.webp",
     "thumb": "05-xl-bench.thumb.webp",
+    "mid": "05-xl-bench.mid.webp",
     "w": 1800,
     "h": 920,
     "frame": "sheet",
@@ -133,6 +138,7 @@
   {
     "file": "06-tr.webp",
     "thumb": "06-tr.thumb.webp",
+    "mid": "06-tr.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -171,6 +177,7 @@
   {
     "file": "07-map.webp",
     "thumb": "07-map.thumb.webp",
+    "mid": "07-map.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -183,6 +190,7 @@
   {
     "file": "08-net.webp",
     "thumb": "08-net.thumb.webp",
+    "mid": "08-net.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -195,6 +203,7 @@
   {
     "file": "09-rgc.webp",
     "thumb": "09-rgc.thumb.webp",
+    "mid": "09-rgc.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -207,6 +216,7 @@
   {
     "file": "10-pz.webp",
     "thumb": "10-pz.thumb.webp",
+    "mid": "10-pz.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -219,6 +229,7 @@
   {
     "file": "11-ql.webp",
     "thumb": "11-ql.thumb.webp",
+    "mid": "11-ql.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -231,6 +242,7 @@
   {
     "file": "12-sdg.webp",
     "thumb": "12-sdg.thumb.webp",
+    "mid": "12-sdg.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",
@@ -243,6 +255,7 @@
   {
     "file": "13-xl-sdg.webp",
     "thumb": "13-xl-sdg.thumb.webp",
+    "mid": "13-xl-sdg.mid.webp",
     "w": 1800,
     "h": 477,
     "frame": "sheet",
@@ -255,6 +268,7 @@
   {
     "file": "14-me.webp",
     "thumb": "14-me.thumb.webp",
+    "mid": "14-me.mid.webp",
     "w": 1800,
     "h": 1125,
     "frame": "browser",

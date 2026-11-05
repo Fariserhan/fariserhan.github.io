@@ -16,18 +16,42 @@
   const src = (folder, file) => new URL(file, new URL(folder, location.href)).href;
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   const pad = n => String(n).padStart(2, '0');
-  const img = (url, w, h, alt, eager) => {
-    const i = el('img'); i.src = url; i.alt = alt || ''; i.width = w; i.height = h; i.decoding = 'async';
-    if (!eager) i.loading = 'lazy'; return i;
+  const img = (url, w, h, alt, eager, set) => {
+    const i = el('img'); i.alt = alt || ''; i.width = w; i.height = h; i.decoding = 'async';
+    if (!eager) i.loading = 'lazy';
+    if (set) { i.sizes = set.sizes; i.srcset = set.srcset; }
+    i.src = url; return i;
   };
   const thumbSize = s => [480, Math.round(480 * s.h / s.w)];
+  /* Responsive sources: the 480 px thumb, the 960 px "mid" copy and the full file, so a phone or a
+     standard screen downloads a picture near its displayed size. "auto" lets browsers that support
+     it use the laid-out width of a lazy image; the rest fall through to the stated sizes. */
+  const SIZES = {
+    plate: 'auto, (max-width: 767px) calc(100vw - 40px), 820px',
+    inline: 'auto, (max-width: 767px) calc(100vw - 40px), 680px',
+    card: 'auto, (max-width: 767px) calc(100vw - 32px), 600px',
+    gallery: 'auto, (max-width: 767px) calc(100vw - 32px), 300px',
+  };
+  const sources = (folder, s, sizes, withFull = true) => {
+    const set = [];
+    if (s.thumb) set.push(`${src(folder, s.thumb)} 480w`);
+    if (s.mid) set.push(`${src(folder, s.mid)} 960w`);
+    if (withFull || !s.mid) set.push(`${src(folder, s.file)} ${s.w}w`);
+    return set.length > 1 ? { srcset: set.join(', '), sizes } : null;
+  };
+  /* Run fn once el is within a screen or two of the viewport (straight away without IntersectionObserver). */
+  const near = (target, fn) => {
+    if (!('IntersectionObserver' in window)) return fn();
+    const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); fn(); } }, { rootMargin: '1200px 0px' });
+    io.observe(target);
+  };
 
   /* Frame: device chrome by kind, with a stage sized to the image so markers stay put at any width. */
-  function frame(s, folder, eager) {
+  function frame(s, folder, eager, sizes) {
     const kind = ['browser', 'laptop', 'slide', 'sheet', 'doc', 'video', 'phone'].includes(s.frame) ? s.frame : 'browser';
     const f = el('div', 'ex-frame'); f.dataset.frame = kind; f.style.setProperty('--ar', (s.w / s.h).toFixed(4));
     const stage = el('div', 'ex-stage');
-    stage.append(img(src(folder, s.file), s.w, s.h, s.title || '', eager));
+    stage.append(img(src(folder, s.file), s.w, s.h, s.title || '', eager, sizes ? sources(folder, s, sizes) : null));
     (s.markers || []).forEach(m => {
       const b = el('button', 'ex-mark', m.n); b.type = 'button'; b.dataset.n = m.n;
       b.style.left = (m.x * 100) + '%'; b.style.top = (m.y * 100) + '%';
@@ -88,6 +112,15 @@
       dlg = el('dialog', 'ex-loupe'); dlg.setAttribute('aria-label', 'Picture viewer');
       dlg.addEventListener('keydown', e => { if (e.key === 'ArrowRight') show(at + 1); if (e.key === 'ArrowLeft') show(at - 1); });
       dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+      /* Phones: a horizontal swipe moves between pictures; vertical scrolling and pinch-zoom are left alone. */
+      let touch = null;
+      dlg.addEventListener('touchstart', e => { touch = e.touches.length === 1 ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null; }, { passive: true });
+      dlg.addEventListener('touchmove', e => { if (e.touches.length > 1) touch = null; }, { passive: true });
+      dlg.addEventListener('touchend', e => {
+        if (!touch || list.length < 2) return;
+        const dx = e.changedTouches[0].clientX - touch.x, dy = e.changedTouches[0].clientY - touch.y; touch = null;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > 1.5 * Math.abs(dy) && (!window.visualViewport || visualViewport.scale <= 1.01)) show(at + (dx < 0 ? 1 : -1));
+      }, { passive: true });
       dlg.addEventListener('close', () => { document.documentElement.classList.remove('ex-lock'); opener && opener.focus(); });
       document.body.append(dlg);
     }
@@ -123,7 +156,7 @@
     const open = (s, from) => loupe(shots, folder, shots.indexOf(s), from);
     const plate = el('figure', 'ex-plate');
     plate.append(el('p', 'kicker ex-kicker', 'What I built'));
-    const grid = el('div', 'ex-plate-grid'); const f = frame(hero, folder, true);
+    const grid = el('div', 'ex-plate-grid'); const f = frame(hero, folder, false, SIZES.plate);
     const touch = openable(f.querySelector('.ex-stage'), b => open(hero, b));
     grid.append(f); const k = key(hero); if (k) grid.append(k); else grid.classList.add('no-key');
     plate.append(grid, touch, caption(hero)); link(plate); sec.append(plate);
@@ -164,16 +197,22 @@
     const folder = fig.dataset.shots, shots = await shotsOf(folder);
     const s = shots && shots.find(x => x.file === fig.dataset.file);
     if (!s) return;
-    const f = frame(s, folder); const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
+    const f = frame(s, folder, false, SIZES.inline); const touch = openable(f.querySelector('.ex-stage'), b => loupe(shots, folder, shots.indexOf(s), b));
     fig.append(f, touch); const k = key(s); if (k) fig.append(k); fig.append(caption(s)); link(fig);
   }
 
+  /* The page's own src/srcset already shows the hero, so the manifest is only read as the picture
+     nears the screen, to follow a change of hero. Loading and fetchpriority set in the HTML are kept. */
   async function thumb(im) {
     const folder = im.dataset.shots, shots = await shotsOf(folder);
     const s = shots && (shots.find(x => x.role === 'hero') || shots[0]);
-    if (!s) { im.hidden = true; return; }
-    const [w, h] = thumbSize(s); im.width = w; im.height = h; im.loading = 'lazy'; im.decoding = 'async';
-    im.src = src(folder, s.thumb || s.file);
+    if (!s) { if (!im.getAttribute('src')) im.hidden = true; return; }
+    const url = src(folder, s.thumb || s.file);
+    if (im.src === url) return;
+    const [w, h] = thumbSize(s); im.width = w; im.height = h; im.decoding = 'async';
+    const set = sources(folder, s, SIZES.card, false);
+    if (set) { im.sizes = set.sizes; im.srcset = set.srcset; } else im.removeAttribute('srcset');
+    im.src = url;
   }
 
   async function gallery(box) {
@@ -197,7 +236,7 @@
         const pic = el(it.href ? 'a' : 'button', 'ex-card-pic');
         if (it.href) { pic.href = it.href; pic.tabIndex = -1; pic.setAttribute('aria-hidden', 'true'); }
         else { pic.type = 'button'; pic.setAttribute('aria-label', `View pictures: ${it.title}`); pic.addEventListener('click', () => loupe(shots, folder, shots.indexOf(s), pic)); }
-        const [w, h] = thumbSize(s); pic.append(img(src(folder, s.thumb || s.file), w, h, ''), ring());
+        const [w, h] = thumbSize(s); pic.append(img(src(folder, s.thumb || s.file), w, h, '', false, sources(folder, s, SIZES.gallery, false)), ring());
         if (shots.length > 1) pic.append(el('span', 'ex-card-n', shots.length + ' screenshots'));
         li.append(pic);
       }
@@ -215,8 +254,8 @@
   const run = () => {
     document.querySelectorAll('section.exhibits[data-shots]').forEach(exhibits);
     document.querySelectorAll('figure.exhibit-inline[data-shots]').forEach(inline);
-    document.querySelectorAll('img.exhibit-thumb[data-shots]').forEach(thumb);
-    document.querySelectorAll('.exhibit-gallery[data-items]').forEach(gallery);
+    document.querySelectorAll('img.exhibit-thumb[data-shots]').forEach(im => im.getAttribute('src') ? near(im, () => thumb(im)) : thumb(im));
+    document.querySelectorAll('.exhibit-gallery[data-items]').forEach(box => near(box, () => gallery(box)));
   };
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', run) : run();
 })();

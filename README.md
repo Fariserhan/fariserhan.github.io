@@ -28,7 +28,7 @@ Plain HTML, CSS and JavaScript, with no framework and no bundler.
 - **Scripts** – small ES modules in [`assets/js/`](assets/js/). `edition.js` handles shared behaviour such as the light/dark toggle; `figures.js` draws the charts from JSON embedded in each page.
 - **Screenshots** – each project has a folder under [`assets/img/shots/`](assets/img/shots/) with the images and a `shots.json` manifest (file, size, frame, caption and numbered notes). [`assets/js/exhibits.js`](assets/js/exhibits.js) reads the manifest named in an element’s `data-shots` attribute and builds the picture, contact sheet and viewer. The work gallery on the home page is driven the same way by `assets/img/shots/archive/items.json`.
 - **Data** – the figures behind the charts are in [`data/`](data/) as JSON (and CSV for the Malaysia project).
-- **Maps** – the Malaysia state maps use D3, vendored at [`assets/vendor/d3-7.9.0.min.js`](assets/vendor/) so nothing loads from a CDN.
+- **Maps** – the Malaysia state maps are drawn by [`assets/js/malaysia-income.js`](assets/js/malaysia-income.js) from `data/malaysia/states.geojson`, with a small built-in Mercator projection (it replaced a 270&nbsp;KB copy of D3 and draws the same shapes), so nothing loads from a CDN.
 
 To add screenshots to a page, drop the images into its `assets/img/shots/<project>/` folder and list them in that folder’s `shots.json`; no HTML changes are needed.
 
