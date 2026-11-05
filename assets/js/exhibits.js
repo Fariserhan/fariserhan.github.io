@@ -129,7 +129,7 @@
     const ul = el('ul', 'ex-film');
     strip.forEach(s => {
       const li = el('li'); const b = el('button', 'ex-cell'); b.type = 'button';
-      b.setAttribute('aria-label', `Open frame ${pad(shots.indexOf(s) + 1)}: ${s.title || ''}`);
+      b.title = 'Open picture';
       const [w, h] = thumbSize(s); const pic = el('span', 'ex-cell-pic');
       pic.append(img(src(folder, s.thumb || s.file), w, h, ''), ring());
       b.append(pic, el('span', 'ex-cell-no', pad(shots.indexOf(s) + 1) + 'A'), el('span', 'ex-cell-title', s.title || ''));
