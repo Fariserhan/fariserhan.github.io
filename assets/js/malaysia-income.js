@@ -76,7 +76,7 @@ function measures(data){const [growth,gap,,poverty]=data;return {
 function format(m,v){return m.unit==='RM'?money(v):`${m.unit===''?v.toFixed(3):v.toFixed(1)}${m.unit}`;}
 function initStateSelector(data,onChange=()=>{}){const mm=measures(data),measure=document.querySelector('#map-measure'),state=document.querySelector('#state-select');mm.real16.rows.forEach(r=>state.add(new Option(r.state,r.state)));state.value='Terengganu';function update(){const m=mm[measure.value],r=m.rows.find(r=>r.state===state.value);document.querySelector('#state-name').textContent=r.state;document.querySelector('#state-value').textContent=format(m,r.value);document.querySelector('#state-description').textContent=`${r.state}: ${format(m,r.value)}. ${m.label}.`;document.querySelector('#explore-title').textContent=m.label;document.querySelector('#explore-conclusion').textContent=`${r.state} records ${format(m,r.value)} for ${m.label.toLowerCase()}.`;onChange(measure.value,state.value);}measure.addEventListener('change',update);state.addEventListener('change',update);return {update,select(name){state.value=name;update();}};}
 
-function maps(data,geo){const mm=measures(data);let stateUI;
+function maps(data,geo){if(!window.d3)return;const mm=measures(data);let stateUI;
  const d3=window.d3, east=['Sabah','Sarawak','W.P. Labuan'];
  function map(hostId,legendId,key,highlight=[]){const host=document.getElementById(hostId),m=mm[key];
   const colors=key.startsWith('real')?['--div-1','--div-2','--div-3','--div-4','--div-5']:['--seq-1','--seq-2','--seq-3','--seq-4','--seq-5'];

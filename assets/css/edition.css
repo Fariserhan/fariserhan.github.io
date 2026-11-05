@@ -1,5 +1,5 @@
 /* 01 — Stock, ink, typography. Shared across the edition and every case study. */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+/* Fonts load from a <link> in each page head (with preconnect), not @import, so they start downloading sooner. */
 @view-transition { navigation: auto; }
 :root { color-scheme: light; --paper:#F5F0E6; --inset:#ECE5D8; --ink:#22201D; --secondary:#625C54; --rule:#B9B0A1; --axis:#777064; --red:#B62025; --teal:#006D77; --blue:#245A81; --salmon:#F1D7C6; --terracotta:#A34722; --plum:#6F4B7A; --olive:#4E6D37; --ochre:#906000; --display:'Newsreader',Georgia,serif; --body:'Source Serif 4',Georgia,serif; --sans:'Libre Franklin',Arial,sans-serif; --mono:'IBM Plex Mono',monospace; --ease:cubic-bezier(.22,1,.36,1); }
 :root[data-theme=dark] { color-scheme:dark; --paper:#191B1A; --inset:#242725; --ink:#EEE8DC; --secondary:#BDB7AB; --rule:#666B65; --axis:#92988F; --red:#FF8277; --teal:#65C6CB; --blue:#8FB9DF; --salmon:#49372F; --terracotta:#EDA77B; --plum:#C6A1D4; --olive:#B0CA88; --ochre:#E3C367; }

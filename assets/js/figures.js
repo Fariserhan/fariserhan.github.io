@@ -30,6 +30,10 @@ export function bindTips(scope = document) {
   scope.querySelectorAll('[data-tip]').forEach(node => {
     if (node.dataset.tipBound) return;
     node.dataset.tipBound = 'true';
+    if (node instanceof SVGElement && !node.hasAttribute('role')) {
+      node.setAttribute('role', 'img');
+      if (!node.hasAttribute('aria-label')) node.setAttribute('aria-label', node.dataset.tip);
+    }
     node.addEventListener('pointerenter', event => { if (event.pointerType !== 'touch') showTip(node); });
     node.addEventListener('pointerleave', hideTip);
     node.addEventListener('focus', () => showTip(node)); node.addEventListener('blur', hideTip);

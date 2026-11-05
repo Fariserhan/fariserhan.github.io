@@ -2,7 +2,7 @@ const esc = s => String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replac
 const txt=(x,y,s,c='direct-label',extra='')=>`<text x="${x}" y="${y}" class="${c}" ${extra}>${esc(s)}</text>`;
 const line=(x1,y1,x2,y2,c='chart-grid')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" class="${c}"/>`;
 const note=(x,y,s,x2,y2)=>`${line(x,y+8,x2,y2,'pencil draw-line')}${txt(x,y,s,'pencil-note')}`;
-const tip=(s,marks)=>`<g tabindex="0" data-tip="${esc(s)}" aria-label="${esc(s)}">${marks}</g>`;
+const tip=(s,marks)=>`<g tabindex="0" role="img" data-tip="${esc(s)}" aria-label="${esc(s)}">${marks}</g>`;
 const rect=(x,y,w,h,c='data-bar')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" class="${c}"/>`;
 export function render(c,width=900,regional=true){
  const w=Math.max(280,Math.round(width)), small=w<550;let h=360,a='';
