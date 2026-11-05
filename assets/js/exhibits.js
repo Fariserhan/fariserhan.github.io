@@ -109,7 +109,7 @@
     const body = el('div', 'ex-loupe-body');
     const fig = el('figure', 'ex-loupe-fig'); fig.append(frame(s, folderNow, true));
     const side = el('div', 'ex-loupe-side'); const k = key(s);
-    side.append(caption(s, 'Frame ' + pad(at + 1))); if (k) side.append(k);
+    side.append(caption(s, 'Screenshot ' + pad(at + 1))); if (k) side.append(k);
     body.append(fig, side); dlg.append(top, body); link(dlg);
     if (keep) (dlg.querySelector('.' + keep) || dlg.querySelector('.ex-close')).focus();
   }
@@ -129,7 +129,7 @@
     plate.append(grid, touch, caption(hero)); link(plate); sec.append(plate);
     if (!strip.length) return;
     const sheet = el('div', 'ex-sheet');
-    const head = el('div', 'ex-sheet-head'); head.append(el('h3', 'ex-sheet-title', 'More from this project'), el('span', 'ex-sheet-count', `${strip.length} frame${strip.length > 1 ? 's' : ''}`));
+    const head = el('div', 'ex-sheet-head'); head.append(el('h3', 'ex-sheet-title', 'More from this project'), el('span', 'ex-sheet-count', `${strip.length} screenshot${strip.length > 1 ? 's' : ''}`));
     const ul = el('ul', 'ex-film');
     strip.forEach(s => {
       const li = el('li'); const b = el('button', 'ex-cell'); b.type = 'button';
@@ -198,7 +198,7 @@
         if (it.href) { pic.href = it.href; pic.tabIndex = -1; pic.setAttribute('aria-hidden', 'true'); }
         else { pic.type = 'button'; pic.setAttribute('aria-label', `View pictures: ${it.title}`); pic.addEventListener('click', () => loupe(shots, folder, shots.indexOf(s), pic)); }
         const [w, h] = thumbSize(s); pic.append(img(src(folder, s.thumb || s.file), w, h, ''), ring());
-        if (shots.length > 1) pic.append(el('span', 'ex-card-n', shots.length + ' frames'));
+        if (shots.length > 1) pic.append(el('span', 'ex-card-n', shots.length + ' screenshots'));
         li.append(pic);
       }
       const t = el('h3', 'ex-card-title');

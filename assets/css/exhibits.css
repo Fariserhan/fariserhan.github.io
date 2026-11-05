@@ -172,3 +172,5 @@ html.ex-lock { overflow:hidden; }
   .ex-open-touch { display:inline-flex; align-items:center; min-height:44px; margin:6px 0 0; padding:0 2px; border:0; background:none; color:var(--ink); font:600 13px/1 var(--sans); text-decoration:underline; text-underline-offset:4px; cursor:zoom-in; }
 }
 @media print { .ex-open-touch { display:none!important; } }
+/* Dark edition: bright white screenshots glare on the dark page, so tone them down slightly. */
+:root[data-theme="dark"] .exhibit-thumb, :root[data-theme="dark"] .ex-stage > img, :root[data-theme="dark"] .ex-cell-pic img { filter:brightness(.88); }
