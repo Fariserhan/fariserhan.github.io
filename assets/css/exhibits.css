@@ -165,3 +165,5 @@ html.ex-lock { overflow:hidden; }
 @media print { .ex-open,.ex-more,.ex-ring { display:none; } .ex-film li[hidden] { display:block; } }
 .ex-cell,.ex-card-pic,.ex-open { min-height:0; }
 .ex-cell:hover,.ex-cell:focus { background:none; color:#D8D2C6; } .ex-card-pic:hover,.ex-card-pic:focus { background:none; }
+/* Touch screens: keep the Enlarge button off the top-right corner, where numbered markers and site navigation usually sit. */
+@media (hover:none) { .ex-open { top:auto; bottom:10px; } }
