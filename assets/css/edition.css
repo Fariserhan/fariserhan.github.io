@@ -138,3 +138,5 @@ body .glm-route .ink-node small { font-size:13px; }
 body .about-grid>div:nth-child(2) p { font-size:18px; line-height:1.6; }
 body .lab-tail, body .network-readout p, body .proof-strip p, body .notebook p:not(.meta), body .reconciliation p { font-size:18px; line-height:1.6; font-family:var(--body); }
 @media(max-width:767px) { .compact-head .meta { display:none; } }
+/* Small phones: six nav links can exceed the width. Tighten first, then let the row scroll sideways rather than clip. */
+@media (max-width:400px) { .section-nav { font-size:12px; gap:4px; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:none; } .section-nav::-webkit-scrollbar { display:none; } .section-nav a { flex:0 0 auto; } }
